@@ -25,7 +25,7 @@
 </item>
 
 <item>
-<title>[COLOR green][/COLOR]</title>
+<title>[COLOR red]Autocad[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -33,7 +33,7 @@
 </item>
  
 <item>
-<title>[COLOR blue][/COLOR]</title>
+<title>[COLOR orange]HTML[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -41,7 +41,15 @@
 </item>
  
 <item>
-<title>[COLOR brown][/COLOR]</title>
+<title>[COLOR dodgerblue]Photoshop[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[COLOR gold][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
