@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft powerpoint</title>        
-<urlsolve></urlsolve>
+<title>Microsoft powerpoint 0 </title>        
+<urlsolve>https://www.youtube.com/watch?v=pDfZOFtdF-A</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
+<fanart>https://i.ytimg.com/vi/pDfZOFtdF-A/maxresdefault.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Microsoft powerpoint 1 </title>        
+<urlsolve>https://www.youtube.com/watch?v=zSlphB24lVU</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/zSlphB24lVU/maxresdefault.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Microsoft powerpoint 2 </title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=1&v=OVBpCNYyD5c</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/OVBpCNYyD5c/maxresdefault.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Microsoft powerpoint 3 </title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=1&v=PEyp3k8TM4s</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/PEyp3k8TM4s/maxresdefault.jpg</fanart>
 </item>
