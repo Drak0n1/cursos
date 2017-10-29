@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Autocad 0 </title>        
-<urlsolve></urlsolve>
-<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<item>
 <title>Autocad 1 </title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=1&v=cAsRFxYLx7Q</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
+<fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo1.jpg</fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Autocad 2 </title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=hqveu81BVJQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
+<fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo2.jpg</fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Autocad 3 </title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=2&v=C62dk2rtiXo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
+<fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo3.jpg</fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Autocad 4 </title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=5&v=7snJAy_zYvY</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart></fanart>
+<fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo4.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Autocad 5 </title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=1&v=f8wFLewhaYo</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo5.jpg</fanart>
 </item>
