@@ -49,7 +49,39 @@
 </item>
 
 <item>
-<title>[COLOR gold][/COLOR]</title>
+<title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+ <item>
+<title>[COLOR green]Projet[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+ <item>
+<title>[COLOR blue]Publisher[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+ <item>
+<title>[COLOR red]Access[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+ <item>
+<title>[COLOR violet][/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
