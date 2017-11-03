@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Publisher 0</title>        
-<urlsolve>https://www.dostinhurtado.com/main/images/capitulos/publisher/cap0.jpg</urlsolve>
+<title></title>        
+<urlsolve></urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart>https://www.youtube.com/watch?v=xU0F8uD66Iw</fanart>
+<fanart></fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Publisher 1</title>        
-<urlsolve>https://www.dostinhurtado.com/main/images/capitulos/publisher/cap1.jpg</urlsolve>
+<title>Microsoft word   </title>        
+<urlsolve></urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart>https://www.youtube.com/watch?time_continue=6&v=6Suj_J4OroE</fanart>
+<fanart></fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Publisher 2</title>        
-<urlsolve>https://i.ytimg.com/vi/BNZTrkG6X_Q/maxresdefault.jpg</urlsolve>
+<title></title>        
+<urlsolve></urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart>https://www.youtube.com/watch?v=BNZTrkG6X_Q</fanart>
+<fanart></fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Publisher 3</title>        
-<urlsolve>https://i.ytimg.com/vi/oAQnLEe-ySo/maxresdefault.jpg</urlsolve>
+<title></title>        
+<urlsolve></urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
-<fanart>https://www.youtube.com/watch?v=oAQnLEe-ySo</fanart>
+<fanart></fanart>
 </item>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title> </title>        
+<urlsolve></urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
