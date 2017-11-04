@@ -50,16 +50,16 @@
 
 <item>
 <title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</thumbnail>
+<fanart>http://www.pcactual.com/medio/2016/08/04/libreoffice-practico_960x486_86ef9624.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%207.xml</externallink>
 </item>
  
  <item>
-<title>[COLOR green]Projet[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR green]Project[/COLOR]</title>
+<thumbnail>http://download.seaicons.com/icons/iconstoc/ms-office-2013/512/project-icon.png</thumbnail>
+<fanart>http://facilities.usask.ca/images/FMD-Project_Planning_Process-full_size.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%208.xml</externallink>
 </item>
@@ -81,10 +81,34 @@
 </item>
  
  <item>
-<title>[COLOR violet][/COLOR]</title>
+<title>[COLOR violet]Cantasia[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2011.xml</externallink>
+</item>
+
+ <item>
+<title>[COLOR dark green]Illustrator[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
  
