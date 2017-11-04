@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>           [COLOR lima]EXCEL BASICO[/COLOR]</title>        
-<urlsolve></urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<item>
 <title>INTRODUCCIÓN PARA PRINCIPIANTES </title>        
 <urlsolve>https://www.youtube.com/watch?v=yKWFMgurUnU</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
@@ -19,7 +10,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 1 </title>        
+<title>FORMULAS Y AURORRELLENOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=47nJsZ97sz0</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/excel_basico/capitulo1.jpg</fanart>
@@ -28,7 +19,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 2 </title>        
+<title>GRAFICOS ESTADISTICOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=BER2KhixV0Y</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/excel_basico/capitulo2.jpg</fanart>
@@ -37,7 +28,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 3 </title>        
+<title>FUNCION SI</title>        
 <urlsolve>https://www.youtube.com/watch?v=GafEekpQu1M</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/excel_basico/capitulo3.jpg</fanart>
@@ -46,7 +37,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 4 </title>        
+<title>FUNCIÓN SI ANIDADA</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=2&v=78kuqNn2fzM</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/excel_basico/capitulo4.jpg</fanart>
@@ -55,7 +46,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 5 </title>        
+<title>FUNCIÓN SI (Y-O)</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=3&v=_Sl2QmSmvuk</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/_Sl2QmSmvuk/maxresdefault.jpg</fanart>
@@ -64,7 +55,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 6</title>        
+<title>FUNCIONES BASICAS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=lWS9fMw1KWQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -73,7 +64,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 7</title>        
+<title>LLAMADO DE DATOS (BUSCARV)</title>        
 <urlsolve>https://www.youtube.com/watch?v=09d5OQ9yDXw</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -82,7 +73,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 8</title>        
+<title>FORMATO CONDICIONAL</title>        
 <urlsolve>https://www.youtube.com/watch?v=_2Mg5vBSM4U</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -91,7 +82,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 9</title>        
+<title>VALIDACION DE DATOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=I0kYLaPNgRo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -100,7 +91,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 10</title>        
+<title>FILTROS Y TABLAS DINAMICAS</title>        
 <urlsolve>https://www.youtube.com/watch?v=AIipB0FFw7Y</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -109,7 +100,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 11</title>        
+<title>SEGURIDAD EN EXCEL</title>        
 <urlsolve>https://www.youtube.com/watch?v=GmjJB8rOGsc</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -118,7 +109,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft excel basico 12</title>        
+<title>SUMAS Y PROMEDIOS CONDICIONALES</title>        
 <urlsolve>https://www.youtube.com/watch?v=Wi86aPrar1Y</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
@@ -146,7 +137,7 @@
 
 <item>
 <title>FILTRO AVANZADO</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=djY65FogQ4U</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -155,7 +146,7 @@
 
 <item>
 <title>ELIMINAR FILAS O CELDAS VACIAS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=3&v=gX-_6LLW9tg</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -164,7 +155,7 @@
 
 <item>
 <title>CONVERTIR A MAYÚSCULAS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=6&v=frCPrSDz-nI</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -173,7 +164,7 @@
 
 <item>
 <title>INMOVILIZAR PANELES</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=3&v=UIv72nR2K6E</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -181,8 +172,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CONTROL DE ERRORES</title>        
+<urlsolve>https://www.youtube.com/watch?v=zcw1jHh3lyI</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -190,8 +181,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>OCULTAR FUNCIONES (POR SEGURIDAD)</title>        
+<urlsolve>https://www.youtube.com/watch?v=MoFiHRrNmQY</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>

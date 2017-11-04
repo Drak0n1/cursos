@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR green]Excel[/COLOR]</title>
+<title>[COLOR green]Excel basico[/COLOR]</title>
 <thumbnail>http://yofxtrader.com/wp-content/uploads/2016/01/Blog-013-Imagen-05-Logo-Excel.png</thumbnail>
 <fanart>https://files.encuentra24.com/large/pa/96/00/77/9600779_3cb124.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/test1.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+<item>
+<title>[COLOR green]Excel avanzado[/COLOR]</title>
+<thumbnail>http://yofxtrader.com/wp-content/uploads/2016/01/Blog-013-Imagen-05-Logo-Excel.png</thumbnail>
+<fanart>https://files.encuentra24.com/large/pa/96/00/77/9600779_3cb124.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
  
 <item>
