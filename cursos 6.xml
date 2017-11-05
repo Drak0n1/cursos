@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Photoshop 0 </title>        
+<title>INTRODUCCIÓN PARA PRINCIPIANTES</title>        
 <urlsolve>https://www.youtube.com/watch?v=4-VMuLs99Ss</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/4-VMuLs99Ss/maxresdefault.jpg</fanart>
@@ -10,7 +10,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Photoshop 1 </title>        
+<title>TAPON DE CLONAR Y PARCHE</title>        
 <urlsolve>https://www.youtube.com/watch?v=Y9yKFzACEHg</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/Y9yKFzACEHg/maxresdefault.jpg</fanart>
@@ -19,7 +19,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Photoshop 2 </title>        
+<title>TONO - SATURACIÓN Y LAZOS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=2&v=HVBg6Fn2Rc0</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/HVBg6Fn2Rc0/hq720.jpg</fanart>
@@ -28,7 +28,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Photoshop 3 </title>        
+<title>PINCEL Y MANEJO DE CAPAS</title>        
 <urlsolve>https://www.youtube.com/watch?v=sAbERrDojDg</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/sAbERrDojDg/maxresdefault.jpg</fanart>
@@ -37,8 +37,125 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Photoshop 4 </title>        
+<title>HERRAMIENTA LICUAR</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=us1lxLrI3T8</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/us1lxLrI3T8/maxresdefault.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>EFECTO DE ESTRELLAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=-YyNVv4n99E</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>EFECTO BABOSO</title>        
+<urlsolve>https://www.youtube.com/watch?v=cuovazDv9Vs</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>EFECTO ECLIPSE</title>        
+<urlsolve>https://www.youtube.com/watch?v=3fMU7zlNmM8</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>LAZOS POLIGONAL Y MAGNETICO</title>        
+<urlsolve>https://www.youtube.com/watch?v=8xgfhw1VDxc</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>PERFECCIONAR BORDE</title>        
+<urlsolve>https://www.youtube.com/watch?v=5ZFcOZdXEcU</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>EDITAR IMÁGENES AL MISMO TIEMPO</title>        
+<urlsolve>https://www.youtube.com/watch?v=B3QWy0q2CI8</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>MOCKUPS</title>        
+<urlsolve>https://www.youtube.com/watch?v=TgOawoDO_jc</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>HERRAMIENTA PLUMA</title>        
+<urlsolve>https://www.youtube.com/watch?v=GzQBJVi1_9E</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>PINCELES</title>        
+<urlsolve>https://www.youtube.com/watch?v=JM_uHY9vg3Q</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>TIPOS DE MASCARAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=0-kqpGMPiHM</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>TEXTO DE FUEGO</title>        
+<urlsolve>https://www.youtube.com/watch?v=XmQ3LAIssLA</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>http://3.bp.blogspot.com/-S5ym883qDUo/Va2y1uzWo_I/AAAAAAAAe-4/BFKWUiiJieQ/s1600/texto-fuego.mp4_20150719_130410.743.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>TEXTO PERSONALIZADO</title>        
+<urlsolve>https://www.youtube.com/watch?v=55THEdi4z2w</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/55THEdi4z2w/maxresdefault.jpg</fanart>
 </item>
