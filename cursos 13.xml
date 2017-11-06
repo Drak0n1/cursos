@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>INTRODUCCIÓN</title>        
+<urlsolve>https://www.youtube.com/watch?v=6uHRKhSa6Cw</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -10,8 +10,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft word   </title>        
-<urlsolve></urlsolve>
+<title>CIRCULOS Y CONTORNOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=jTUGHG7gTyc</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -19,8 +19,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>BEZIER Y FORMA</title>        
+<urlsolve>https://www.youtube.com/watch?v=rQ9Oey5zjmM</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -28,8 +28,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>SOLDAR, RECORTAR E INTERSECCIÓN</title>        
+<urlsolve>https://www.youtube.com/watch?v=by09mpXB5zY</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -37,8 +37,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title> </title>        
-<urlsolve></urlsolve>
+<title>TRANSPARENCIAS Y DEGRADADOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=c-FRaP12jHk</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>POWERCLIP O MASCARAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=rkJT8jjPZo8</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>EJERCICIO PRACTICO (Rompecabezas (PoweClip))</title>        
+<urlsolve>https://www.youtube.com/watch?v=tn2Yb94kKaM</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>FUSIÓN DE IMPRESIÓN</title>        
+<urlsolve>https://www.youtube.com/watch?v=r3rGkRrjnTU</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft word 0  </title>        
+<title>INTRODUCCIÓN PARA PRINCIPIANTES</title>        
 <urlsolve>https://www.youtube.com/watch?v=pbvwCTld8BA</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/pbvwCTld8BA/maxresdefault.jpg</fanart>
@@ -10,7 +10,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft word 1  </title>        
+<title>CARTAS FORMALES</title>        
 <urlsolve>https://www.youtube.com/watch?v=EdoQhbRWCbo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/EdoQhbRWCbo/maxresdefault.jpg</fanart>
@@ -19,7 +19,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft word 2  </title>        
+<title>VIÑETAS Y SANGRIAS Y TABULACIÓN DE DATOS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=3&v=_WyWbh5wQDo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/_WyWbh5wQDo/maxresdefault.jpg</fanart>
@@ -28,8 +28,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft word   </title>        
-<urlsolve></urlsolve>
+<title>INSERTAR IMAGENES</title>        
+<urlsolve>https://www.youtube.com/watch?v=furLE2g8jZc</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>COLUMNAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=DB1CzpT4Qtg</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>TABLAS Y ESTILOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=Qngv4AOAjS0</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>CUADROS DE TEXTO Y WORDART</title>        
+<urlsolve>https://www.youtube.com/watch?v=VPyAxNgCF3Y</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>COMBINAR CORRESPONDENCIA</title>        
+<urlsolve>https://www.youtube.com/watch?v=B1vfwuQdqGo</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>NUMERACIÓN DE PAGINAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=2wNnB3SndW0</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>TABLAS DE CONTENIDO</title>        
+<urlsolve>https://www.youtube.com/watch?v=g6zaadbD-0M</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>MAPAS CONECPTUALES (SMARTART)</title>        
+<urlsolve>https://www.youtube.com/watch?v=ff2OebYLm00</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>GENERAR TEXTO AUTOMATICAMENTE</title>        
+<urlsolve>https://www.youtube.com/watch?v=vsDopFpEYPI</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>SEPARAR CORRESPONDENCIA</title>        
+<urlsolve>https://www.youtube.com/watch?v=7Tj-BoKLPTY</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>

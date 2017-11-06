@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft powerpoint 0 </title>        
+<title>INTRODUCCIÓN PARA PRINCIPIANTES</title>        
 <urlsolve>https://www.youtube.com/watch?v=pDfZOFtdF-A</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/pDfZOFtdF-A/maxresdefault.jpg</fanart>
@@ -10,7 +10,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft powerpoint 1 </title>        
+<title>DIAPOSITIVA SENCILLA</title>        
 <urlsolve>https://www.youtube.com/watch?v=zSlphB24lVU</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/zSlphB24lVU/maxresdefault.jpg</fanart>
@@ -19,7 +19,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft powerpoint 2 </title>        
+<title>ALBUM E HIPERVINCULOS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=OVBpCNYyD5c</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/OVBpCNYyD5c/maxresdefault.jpg</fanart>
@@ -28,8 +28,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Microsoft powerpoint 3 </title>        
+<title>INSERTAR VIDEOS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=PEyp3k8TM4s</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/PEyp3k8TM4s/maxresdefault.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>CREANDO ANIMACIONES</title>        
+<urlsolve>https://www.youtube.com/watch?v=dYYFOifmcSo</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>IMPORTAR GRAFICOS DE EXCEL</title>        
+<urlsolve>https://www.youtube.com/watch?v=802Ozxa9vRc</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
 </item>
