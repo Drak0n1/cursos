@@ -17,6 +17,18 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2014.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR green]Tutoriales excel[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR blue]Word[/COLOR]</title>
@@ -25,6 +37,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%202.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR brown]Powerpoint[/COLOR]</title>
@@ -34,6 +48,8 @@
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%203.xml</externallink>
 </item>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <item>
 <title>[COLOR red]Autocad[/COLOR]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2016/05/Autodesk-AutoCAD-icon.png</thumbnail>
@@ -41,6 +57,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%204.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR orange]HTML[/COLOR]</title>
@@ -49,6 +67,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%205.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR dodgerblue]Photoshop[/COLOR]</title>
@@ -58,6 +78,8 @@
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%206.xml</externallink>
 </item>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <item>
 <title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
 <thumbnail>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</thumbnail>
@@ -65,6 +87,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%207.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
 <title>[COLOR green]Project[/COLOR]</title>
@@ -73,6 +97,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%208.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
 <title>[COLOR blue]Publisher[/COLOR]</title>
@@ -81,6 +107,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%209.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
 <title>[COLOR red]Access[/COLOR]</title>
@@ -89,6 +117,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2010.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
 <title>[COLOR violet]Cantasia[/COLOR]</title>
@@ -98,6 +128,8 @@
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2011.xml</externallink>
 </item>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
  <item>
 <title>[COLOR green]Illustrator[/COLOR]</title>
 <thumbnail></thumbnail>
@@ -105,6 +137,8 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2012.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
 <title>[COLOR lime]Coreldraw[/COLOR]</title>
@@ -114,6 +148,8 @@
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2013.xml</externallink>
 </item>
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
  <item>
 <title>[COLOR ][/COLOR]</title>
 <thumbnail></thumbnail>
@@ -121,4 +157,43 @@
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
- 
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
