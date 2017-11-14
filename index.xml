@@ -59,6 +59,16 @@
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ]Autocad 2[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2016.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR orange]HTML[/COLOR]</title>
@@ -146,16 +156,6 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2013.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
- <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2016.xml</externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
