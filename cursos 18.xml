@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>EXTRUDE</title>        
-<urlsolve>https://www.youtube.com/watch?v=vof6yj8it9E</urlsolve>
+<title>INTRODUCCIÓN PARA PRINCIPIANTES</title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=4&v=Jro36Bp00IU</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -10,8 +10,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>MATRIZ POLAR</title>        
-<urlsolve>https://www.youtube.com/watch?v=WraEPu-fZJc</urlsolve>
+<title>MEDIDAS, NIVELES Y MUROS</title>        
+<urlsolve>https://www.youtube.com/watch?v=Bb7pgeoPjBw</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -19,8 +19,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>EMPALME 3D</title>        
-<urlsolve>https://www.youtube.com/watch?v=dp0_CAFXugw</urlsolve>
+<title>FAMILIAS, PUERTAS Y VENTANAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=DjZHz0aFed4</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -28,8 +28,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>REVOLUCIONES</title>        
-<urlsolve>https://www.youtube.com/watch?v=wHBbrwlZ55U</urlsolve>
+<title>CREAR ESCALERAS</title>        
+<urlsolve>https://www.youtube.com/watch?v=x-9a8BMmHcQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -37,8 +37,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>HELICE Y BARRER</title>        
-<urlsolve>https://www.youtube.com/watch?v=qeC19s_dcXM</urlsolve>
+<title>TECHOS Y PISOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=rI8nitadu04</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>CUBIERTAS Y OCULTAR OBJETOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=uqMJ0G-7dIw</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>

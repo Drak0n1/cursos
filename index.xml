@@ -51,7 +51,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR red]Autocad[/COLOR]</title>
+<title>[COLOR red]Autocad 2D[/COLOR]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2016/05/Autodesk-AutoCAD-icon.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/x41GLNgCG8Y/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
@@ -61,11 +61,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR ]Autocad 2[/COLOR]</title>
+<title>[COLOR red]Autocad 2D 2[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2016.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR red]Autocad 3D[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2017.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR blue]Revit[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2018.xml</externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -156,26 +176,6 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2013.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
- <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
- <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
