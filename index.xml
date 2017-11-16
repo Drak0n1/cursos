@@ -51,6 +51,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
+<thumbnail>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</thumbnail>
+<fanart>http://www.pcactual.com/medio/2016/08/04/libreoffice-practico_960x486_86ef9624.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%207.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ <item>
+<title>[COLOR green]Project[/COLOR]</title>
+<thumbnail>http://download.seaicons.com/icons/iconstoc/ms-office-2013/512/project-icon.png</thumbnail>
+<fanart>http://facilities.usask.ca/images/FMD-Project_Planning_Process-full_size.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%208.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ <item>
+<title>[COLOR blue]Publisher[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%209.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ 
+ <item>
+<title>[COLOR red]Access[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2010.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
 <title>[COLOR red]Autocad 2D[/COLOR]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2016/05/Autodesk-AutoCAD-icon.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/x41GLNgCG8Y/maxresdefault.jpg</fanart>
@@ -99,6 +139,16 @@
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR pink]Joomla[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2020.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR dodgerblue]Photoshop[/COLOR]</title>
@@ -106,46 +156,6 @@
 <fanart>https://i.ytimg.com/vi/WxPWiPa_Pd0/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%206.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-<item>
-<title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
-<thumbnail>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</thumbnail>
-<fanart>http://www.pcactual.com/medio/2016/08/04/libreoffice-practico_960x486_86ef9624.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%207.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
- <item>
-<title>[COLOR green]Project[/COLOR]</title>
-<thumbnail>http://download.seaicons.com/icons/iconstoc/ms-office-2013/512/project-icon.png</thumbnail>
-<fanart>http://facilities.usask.ca/images/FMD-Project_Planning_Process-full_size.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%208.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
- <item>
-<title>[COLOR blue]Publisher[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%209.xml</externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
- 
- <item>
-<title>[COLOR red]Access[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2010.xml</externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -181,19 +191,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR ][/COLOR]</title>
+<title>[COLOR orange]Movie maker[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
- <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2019.xml</externallink>
 </item>

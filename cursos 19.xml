@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>INTRODUCCIÓN Y DESCARGA</title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=1&v=YydFS20aI8U</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -10,8 +10,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CREAR VÍDEO A PARTIR DE FOTOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=dvHBu8vZSqo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
@@ -19,8 +19,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>AÑADIR TITULOS Y CREDITOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=jPFw9Ba_Qj4</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>AÑADIR AUDIOS Y VIDEOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=d3BAKweeuXU</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
