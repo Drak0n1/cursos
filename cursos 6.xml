@@ -168,3 +168,21 @@
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/VNPjGww567A/maxresdefault.jpg</fanart>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>QUITAR COLOR DE FONDO</title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=3&v=WOpKFFhiCKM</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>MONTAJE SIMPLE</title>        
+<urlsolve>https://www.youtube.com/watch?time_continue=5&v=xBC569MoYho</urlsolve>
+<thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
+<fanart></fanart>
+</item>
