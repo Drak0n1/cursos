@@ -149,6 +149,26 @@
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR dodgerblue]PHP[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2021.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR white]CREAR BLOG EN MINUTOS Y SIN CODIGOS[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://www.youtube.com/watch?v=5zSPHGtJPBc</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR dodgerblue]Photoshop[/COLOR]</title>
@@ -197,3 +217,44 @@
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2019.xml</externallink>
 </item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2022.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>[COLOR ][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
