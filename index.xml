@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>                 [COLOR blue]OFIMATICA[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
 <title>[COLOR green]Excel basico[/COLOR]</title>
@@ -90,6 +100,16 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+ <item>
+<title>                 [COLOR red]ARQUITETURA[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <item>
 <title>[COLOR red]Autocad 2D[/COLOR]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2016/05/Autodesk-AutoCAD-icon.png</thumbnail>
@@ -126,6 +146,16 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2018.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>               [COLOR yellow]DISEÑO WEB[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -166,6 +196,16 @@
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2023.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
+<title>           [COLOR orange]IMAGEN Y VIDEO[/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -221,7 +261,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR yellow]                            PARA[/COLOR][COLOR orange] RELAJARSE[/COLOR][COLOR green] UN POCO DESPUES[/COLOR][COLOR white] DE ESTUDIAR[/COLOR]</title>
+<title>                       [COLOR yellow]PARA[/COLOR][COLOR orange] RELAJARSE[/COLOR][COLOR green] UN POCO, DESPUES[/COLOR][COLOR white] DE ESTUDIAR[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
