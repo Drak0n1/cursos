@@ -262,8 +262,8 @@
 
  <item>
 <title>                       [COLOR yellow]PARA[/COLOR][COLOR orange] RELAJARSE[/COLOR][COLOR green] UN POCO, DESPUES[/COLOR][COLOR white] DE ESTUDIAR[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -272,7 +272,7 @@
 
  <item>
 <title>[B][COLOR dodgerblue]Peliculas[/COLOR][COLOR lime] en vivo[/COLOR][/B]</title>
-<thumbnail></thumbnail>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2022.xml</externallink>
