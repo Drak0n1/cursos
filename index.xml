@@ -2,8 +2,8 @@
 
  <item>
 <title>                 [COLOR blue]OFIMATICA[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -102,8 +102,8 @@
 
  <item>
 <title>                 [COLOR red]ARQUITETURA[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -152,8 +152,8 @@
 
  <item>
 <title>               [COLOR yellow]DISEÑO WEB[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -202,8 +202,8 @@
 
  <item>
 <title>           [COLOR orange]IMAGEN Y VIDEO[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -281,9 +281,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR yellow]Series en vivo[/COLOR]</title>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
@@ -291,9 +291,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR ][/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]Anime en vivo[/COLOR]</title>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
