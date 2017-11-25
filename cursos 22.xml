@@ -10,26 +10,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Wonderwoman</title>        
-<urlsolve>https://www.youtube.com/watch?v=3VaSuJzPxxw</urlsolve>
+<title>Boy 7</title>        
+<urlsolve>https://www.youtube.com/watch?v=-Gb0QQSvZdg</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart>http://s.libertaddigital.com/2017/06/08/wonder-woman.jpg</fanart>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Transformes 5</title>        
-<urlsolve>https://www.youtube.com/watch?v=T8jUaM_AjaM</urlsolve>
+<title>Virtual revolution</title>        
+<urlsolve>https://www.youtube.com/watch?v=G2YPYDKy8Mc</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart>https://i.ytimg.com/vi/D9IV1S69YCc/maxresdefault.jpg</fanart>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>Seventh Son</title>        
-<urlsolve>https://www.youtube.com/watch?v=iJItaHuM2QM</urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=q4w6WpNVZUQ</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://hcmoviereviews.files.wordpress.com/2015/03/ae72735f187fa6d3c2107394a757d027.jpg</fanart>
 </item>
@@ -82,8 +82,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>Guardianes de la galxia</title>        
-<urlsolve>https://www.youtube.com/watch?v=0iFzyuvon4A</urlsolve>
+<title>Ninjas</title>        
+<urlsolve>https://www.youtube.com/watch?v=pYvIAt0xh5o</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart>http://static.t13.cl/images/sizes/1200x675/1415906063_1440guardianesgalaxia.jpg</fanart>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Tormentas</title>        
+<urlsolve>https://www.youtube.com/watch?v=UcuJ4tgNzgQ</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Acción</title>        
+<urlsolve>https://www.youtube.com/watch?v=ieQw1Wq_EDQ&index=7&list=RDknW59w2nPqg</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>Liga de la justicia 2017</title>        
+<urlsolve>http://pepecine.net/plugins/streaming/plugin/online.php?https://openload.co/f/4O70DkkVQ70/just1c3.l34gu3.2017.tshq.latino.mp4</urlsolve>
+<thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/cinefilia/anatomia-de-un-trailer-la-liga-de-la-justicia/111750532-1-esl-ES/Anatomia-de-un-trailer-La-Liga-de-la-Justicia_reference.png</thumbnail>
+<fanart>http://www.elmulticine.com/imagenes/noticias/15/liga-justicia-logos-protagonistas.jpg</fanart>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title></title>        
+<urlsolve></urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>
