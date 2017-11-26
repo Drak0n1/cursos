@@ -183,29 +183,71 @@
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>Decoradores</title>        
+<urlsolve>https://www.youtube.com/watch?v=TaIWx9paNIA</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>Clases Decoradoras</title>        
+<urlsolve>https://www.youtube.com/watch?v=2ejJj6_PNtA</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>Excepciones</title>        
+<urlsolve>https://www.youtube.com/watch?v=Rybw_FzUtps</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>Entrada Estandar rawInput</title>        
+<urlsolve>https://www.youtube.com/watch?v=AzeUCuMvW6I</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Salida Estandar rawInput</title>        
+<urlsolve>https://www.youtube.com/watch?v=B-JPXgxK3Oc</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Modulos (Modules)</title>        
+<urlsolve>https://www.youtube.com/watch?v=xNhF17scwlU</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Paquetes (Packages)</title>        
+<urlsolve>https://www.youtube.com/watch?v=ziUBqGQjZxU</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Archivos</title>        
+<urlsolve>https://www.youtube.com/watch?v=DPp8JMXgGZY</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Lectura de Archivos</title>        
+<urlsolve>https://www.youtube.com/watch?v=L-meKDgQ6jU</urlsolve>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Escritura de Archivos</title>        
+<urlsolve>https://www.youtube.com/watch?v=mvSw5JI6HnU</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
