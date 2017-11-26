@@ -191,6 +191,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
+<title>[COLOR orange]Py[/C0LOR][COLOR dodgerblue]thon[/COLOR]</title>
+<thumbnail>http://valleyofthetetonslibrary.org/wp-content/uploads/sites/22/2017/01/SLPython.png</thumbnail>
+<fanart>https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-python-t1.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2026.xml</externallink>
+</item>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+ <item>
 <title>[COLOR white]Crear blog en minutos y sin codigos[/COLOR]</title>
 <thumbnail>http://www.solucionesim.net/blog/wp-content/uploads/2013/08/escribir_blog.png</thumbnail>
 <fanart>http://3.bp.blogspot.com/-KFZA3IcKmsI/Tt5zwd1jX-I/AAAAAAAAEys/5a2exsojEik/s1600/foto%20blog.jpg</fanart>
