@@ -109,6 +109,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[COLOR deepskyblue] [�REC] 4: Apocalipsis[/COLOR]</title>
+<link>$doregex[GetPageUrl]</link>
+<regex>
+<name>GetPageUrl</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/11hmumy09xsl'):
+    import urlresolver
+    u = urlresolver.resolve(url)
+    return u
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/orec_4_apocalipsis-951656357-large.jpg</thumbnail>
+<fanart>http://pics.filmaffinity.com/orec_4_apocalipsis-951656357-large.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR deepskyblue] 1984[/COLOR]</title>
+<link>$doregex[getUrl]|Referer=http://diskokosmiko.mx/Jeviathan/-23350/p,336419,list,1,3.avi</link>
+<regex><name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re , requests 
+def GetLSProData(page_data,Cookie_Jar,m):
+ url='http://diskokosmiko.mx/Jeviathan/-23350/p,336419,list,1,3.avi'
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ''}
+ r = requests.get(url, headers=headers).text
+ vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r)[0]
+ #print data_a
+ ref = url
+ headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref,'X-Requested-With': 'XMLHttpRequest'}
+ data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
+ nr = requests.post('http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=336419', headers=headers, data=data_a).text
+ movie = re.findall('DownloadUrl":"(.*?)"', nr)[0]
+ print movie 
+ return movie 
+]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://pics.filmaffinity.com/1984_nineteen_eighty_four-928296340-large.jpg</thumbnail>
+<fanart>http://pics.filmaffinity.com/1984_nineteen_eighty_four-928296340-large.jpg</fanart>
+</item>
+
+<item>
 <title></title>        
 <urlsolve></urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
@@ -119,14 +164,14 @@
 <title></title>        
 <urlsolve></urlsolve>
 <urlsolve></urlsolve>
-<urlsolve>https://openload.co/f/nCSVjh5FIBs/Liga_De_La_Justicia_%5BHDTS_Screener%5D%5Bwww.newpct1.com%5D.avi</urlsolve>
+<urlsolve></urlsolve>
 <thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/cinefilia/anatomia-de-un-trailer-la-liga-de-la-justicia/111750532-1-esl-ES/Anatomia-de-un-trailer-La-Liga-de-la-Justicia_reference.png</thumbnail>
 <fanart>http://www.elmulticine.com/imagenes/noticias/15/liga-justicia-logos-protagonistas.jpg</fanart>
 </item>
 
 <item>
 <title></title> 
-<link>https://openload.co/f/nCSVjh5FIBs/Liga_De_La_Justicia_%5BHDTS_Screener%5D%5Bwww.newpct1.com%5D.avi</link>       
+<link></link>       
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>
