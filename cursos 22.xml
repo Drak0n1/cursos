@@ -109,12 +109,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR deepskyblue] [�REC] 4: Apocalipsis[/COLOR]</title>
+<title>[COLOR deepskyblue]Liga de la justicia[/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
 <expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/11hmumy09xsl'):
+def GetLSProData(page_data,Cookie_Jar,m,url='https://openload.co/f/nCSVjh5FIBs/Liga_De_La_Justicia_%5BHDTS_Screener%5D%5Bwww.newpct1.com%5D.avi'):
     import urlresolver
     u = urlresolver.resolve(url)
     return u
@@ -122,8 +122,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url='http://streamcloud.eu/11hmumy09xsl'
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://pics.filmaffinity.com/orec_4_apocalipsis-951656357-large.jpg</thumbnail>
-<fanart>http://pics.filmaffinity.com/orec_4_apocalipsis-951656357-large.jpg</fanart>
+<thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/cinefilia/anatomia-de-un-trailer-la-liga-de-la-justicia/111750532-1-esl-ES/Anatomia-de-un-trailer-La-Liga-de-la-Justicia_reference.png</thumbnail>
+<fanart>http://www.elmulticine.com/imagenes/noticias/15/liga-justicia-logos-protagonistas.jpg</fanart>
 </item>
 
 <item>
@@ -165,8 +165,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <urlsolve></urlsolve>
 <urlsolve></urlsolve>
 <urlsolve></urlsolve>
-<thumbnail>http://www.fotogramas.es/var/ezflow_site/storage/images/cinefilia/anatomia-de-un-trailer-la-liga-de-la-justicia/111750532-1-esl-ES/Anatomia-de-un-trailer-La-Liga-de-la-Justicia_reference.png</thumbnail>
-<fanart>http://www.elmulticine.com/imagenes/noticias/15/liga-justicia-logos-protagonistas.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
 
 <item>
