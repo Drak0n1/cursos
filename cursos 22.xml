@@ -109,7 +109,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR deepskyblue]Liga de la justicia[/COLOR]</title>
+<title>[COLOR deepskyblue][/COLOR]</title>
 <link>$doregex[GetPageUrl]</link>
 <regex>
 <name>GetPageUrl</name>
@@ -127,7 +127,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='https://streamix.cloud/hzvwhlahvsal
 </item>
 
 <item>
-<title>[COLOR deepskyblue] 1984[/COLOR]</title>
+<title>[COLOR deepskyblue][/COLOR]</title>
 <link>$doregex[getUrl]|Referer=https://streamix.cloud/hzvwhlahvsal</link>
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
@@ -154,8 +154,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>La liga de la justicia</title>        
+<urlsolve>https://streamix.cloud/hzvwhlahvsal</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>

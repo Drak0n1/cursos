@@ -209,7 +209,7 @@
 </item>
 
 <item>
-<title>[COLOR white]Mi primera pagina web[/COLOR]</title>
+<title>[COLOR skyblue]Mi primera pagina web[/COLOR]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -317,9 +317,9 @@
 </item>
 
  <item>
-<title>[COLOR white]Como[/COLOR][COLOR green] resolver[/COLOR][COLOR yellow] el cubo[/COLOR][COLOR red] mágico [/COLOR][COLOR orange](Cubo Rubik)[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>[COLOR white]Como[/COLOR][COLOR green] resolver[/COLOR][COLOR yellow] el cubo[/COLOR][COLOR red] mágico [/COLOR][COLOR orange](Cubo[/COLOR][COLOR blue] Rubik)[/COLOR]</title>
+<thumbnail>http://minimalart.org/pics/2013-07-21/rubik_caras.png</thumbnail>
+<fanart>https://3dwarehouse.sketchup.com/warehouse/getpubliccontent?contentId=a67c490a-49e5-4c33-bafe-9d45169244de</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2028.xml</externallink>
 </item>
