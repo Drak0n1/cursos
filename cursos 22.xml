@@ -124,66 +124,12 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue] Thor Ragnarok [/COLOR][COLOR yellow][/COLOR]</title>
-<urlsolve>http://1fiag5m.oloadcdn.net/dl/l/ffbkQMswExddZNlm/Yp1SbgSQqwU/Thor.Ragnarok.TS.Castellano.avi.mp4</urlsolve>
-<thumbnail>http://www.cinema.com.hk/cmsimg/cinweb/movie/movie_1508737137.jpg</thumbnail>
-<fanart>http://www.cinema.com.hk/cmsimg/cinweb/movie/movie_1508737137.jpg</fanart>
-<info>Thor está preso al otro lado del universo y con su poderoso martillo destruido en mil pedazos, ahora se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y parar el Ragnarök (la batalla del fin del mundo), antes de que esto signifique la destrucción de su planeta natal y el fin de la civilización asgardiana a manos de una todopoderosa y nueva amenaza, la diosa asgardiana de la muerte, Hela. Pero, primero deberá sobrevivir a una competición de gladiadores, en el planeta Saakar, donde se enfrentará a su compañero de Los Vengadores, Hulk.</info>
-</item>
-
-<item>
 <title>[COLOR yellow][/COLOR][COLOR  skyblue] Cars 3 [/COLOR][COLOR yellow][/COLOR]</title>
 <urlsolve>http://streamcloud.eu/b133rerukvjm</urlsolve>
 <urlsolve>http://stor77.streamcloud.eu:8080/epv752uktooax3ptxyki7v5z6373vlfllhzqf6i2nt2z375gsr6fd6fbie/video.mp4</urlsolve>
 <thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/17/06/09/13/42/187933.jpg</thumbnail>
 <fanart>http://es.web.img3.acsta.net/c_215_290/pictures/17/06/09/13/42/187933.jpg</fanart>
 <info>Sorprendido por una nueva generación de corredores ultrarrápidos, el legendario Rayo McQueen queda relegado repentinamente del deporte que tanto ama. Para retomar su carrera, va a necesitar la ayuda de una joven mecánica de carreras, Cruz Ramírez, que tiene su propio plan para ganar, además de la inspiración del fallecido Fabuloso Hudson Hornet y un par de giros inesperados. ¡Y para probar que el nº95 no está ni mucho menos acabado, el campeón tendrá que poner a prueba su valía en el gran circuito de la Copa Piston! (FILMAFFINITY)</info>
-</item>
-
-<item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue] Barry Seal: El traficante [/COLOR][COLOR yellow][/COLOR]</title>
-<urlsolve>https://openload.co/f/2LvpoL3673Y</urlsolve>
-<thumbnail>http://es.web.img3.acsta.net/c_215_290/pictures/17/06/06/09/22/089813.jpg</thumbnail>
-<fanart>http://es.web.img3.acsta.net/c_215_290/pictures/17/06/06/09/22/089813.jpg</fanart>
-<info>Década de 1980. Después de haber trabajado como piloto de TWA, la mayor aerolínea estadounidense, Barry Seal (Tom Cruise) se convierte en narcotraficante, y posteriormente es reclutado por la CIA para realizar labores de inteligencia. La película cuenta la historia de este ex piloto que se puso al cargo de una de las más importantes operaciones encubiertas de la CIA en la historia de los Estados Unidos. Esta hazaña, con la que se logró apresar a varios miembros del cartel de Medellín, estuvo cerca de provocar la caída del gobierno de la Casa Blanca durante la presidencia de Ronald Reagan, a causa del escándalo Irangate. </info>
-</item>
-
-<item>
-<title>[COLOR yellow][/COLOR][COLOR  gold] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/trivianita/estrenos-de-cine-2017-65743/list,1,7</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/estrenos-de-cine-2017-65743/list,1,7</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
 </item>
 
 <item>
