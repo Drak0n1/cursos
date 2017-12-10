@@ -496,13 +496,13 @@
 <thumbnail></thumbnail>
 </item>
 
- <channel>
-    <name>          <<<<<<<<<THE FLASH>>>>>>>></name>
-    <thumbnail>https://3.bp.blogspot.com/-2G_KoutkmKo/Whln3ezJleI/AAAAAAAAGTw/TMO5C1NpPXEoybn8uV489Y6DHq49QsyoACLcBGAs/s1600/b01bf7df210785fcd6b2dacc14fb8ef8.png</thumbnail>
-    <fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/09/flash.jpg</fanart>
+                       <item><title>                                                        [B][COLOR white]·[/COLOR][/B][B][COLOR red]SERIE THE FL[COLOR yellow]ASH[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link></link>
+<thumbnail>https://2.bp.blogspot.com/-PV0e9jzsXQE/Wic3gADrGMI/AAAAAAAAGdI/FOFjNCTdL2ITINv2MZL8t0Dxu61-mCIggCLcBGAs/s1600/serie-flash-1990-D_NQ_NP_558411-MEC20574502403_022016-F.png</thumbnail>
+<fanart>https://cdn.movieweb.com/img.news.tops/NEwUkZFOUKYABA_1_a/The-Flash-Original-Star-John-Wesley-Shipp-Joins.jpg</fanart>
+</item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
