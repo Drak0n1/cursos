@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR yellow]Rihanna [/COLOR][COLOR  skyblue]good [/COLOR][COLOR gold]girl[/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow]Rihanna [/COLOR][COLOR  skyblue]good [/COLOR][COLOR gold][/COLOR][COLOR red]girl[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -39,7 +39,7 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow]Britney[/COLOR][COLOR  skyblue][/COLOR][COLOR gold]Spears[/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow]Britney[/COLOR][COLOR  skyblue][/COLOR][COLOR gold] Spears[/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
