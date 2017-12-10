@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR yellow]Rihanna [/COLOR][COLOR  skyblue]good [/COLOR][COLOR gold]girl[/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]]</title>
-<link>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848/rihanna-concierto-good-girl-gone-bad-live-2008,608439,list,1,1.avi</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<info></info>
-</item>
-
-<item>
 <title>[B][COLOR yellow]Rihanna [/COLOR][COLOR  skyblue]good [/COLOR][COLOR gold]girl[/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -20,7 +12,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848/rihanna-concierto-good-girl-gone-bad-live-2008,608439,list,1,1.avi</page>
+<page>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -38,7 +30,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848/rihanna-concierto-good-girl-gone-bad-live-2008,608439,list,1,1.avi</referer>
+<referer>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
