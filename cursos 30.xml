@@ -496,10 +496,26 @@
 <thumbnail></thumbnail>
 </item>
 
-                       <item><title>                                                        [B][COLOR white]·[/COLOR][/B][B][COLOR red]SERIE THE FL[COLOR yellow]ASH[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link></link>
-<thumbnail>https://2.bp.blogspot.com/-PV0e9jzsXQE/Wic3gADrGMI/AAAAAAAAGdI/FOFjNCTdL2ITINv2MZL8t0Dxu61-mCIggCLcBGAs/s1600/serie-flash-1990-D_NQ_NP_558411-MEC20574502403_022016-F.png</thumbnail>
-<fanart>https://cdn.movieweb.com/img.news.tops/NEwUkZFOUKYABA_1_a/The-Flash-Original-Star-John-Wesley-Shipp-Joins.jpg</fanart>
+ <channel>
+    <name>          <<<<<<<<<CINE SERIES>>>>>>>></name>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+        <items>
+               
+                        <item><title>                                                        [B][COLOR white]·[/COLOR][/B][B][COLOR red]SERIE THE FL[COLOR yellow]ASH[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link></link>
+<thumbnail>https://4.bp.blogspot.com/-1NBBYsgm2OA/Wic55d6NskI/AAAAAAAAGdU/NU6jNd0q4o4suvnOlOfyarQaLS7JAqniACLcBGAs/s1600/flash.png</thumbnail>
+<fanart>http://s2.glbimg.com/IcJPYeI8cs0BHuCdh56wwK3e5uU=/s.glbimg.com/og/rg/f/original/2015/06/25/flash606.jpg</fanart>
 </item>
+         
+    <channel>
+    <name>[COLOR orange]•[/COLOR][COLOR aqua]►CINE SERIES[/COLOR]</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+	
+	
+	<items>
+
 
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR][/B]</title>

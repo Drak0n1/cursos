@@ -2482,13 +2482,34 @@
 <fanart>http://lareplica.es/wp-content/uploads/2016/08/cazafantasmas_2016_foto.jpg</fanart>
 <info>Manhattan, Nueva York. Después de casi treinta años sin saber de ellos, los fantasmas y demonios se han vuelto a escapar de los infiernos para destruir la ciudad.</info>
 </item>
+
+ <channel>
+    <name>          <<<<<<<<<ESTRENOS>>>>>>>></name>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+        <items>
 		
+		
+		
+		<item><title>                                                        [B][COLOR white][/COLOR][/B][B][COLOR red][/COLOR][/B][B][COLOR white][/COLOR][/B]</title>   <link></link>
+<thumbnail>https://1.bp.blogspot.com/-0JjLGwLIKaY/Wg_9e5WGh5I/AAAAAAAAGLA/jgWlBHtaE6gS4EeZbDshiSbq0zdlv-9QACLcBGAs/s1600/icon.png</thumbnail>
+<fanart>https://2.bp.blogspot.com/-C9GMCDShhYg/Wg_6EueNKSI/AAAAAAAAGK0/yUm6e9lTxCMHOeN_h0SDr-e4Zc92YF1swCLcBGAs/s1600/fanart.jpg</fanart>
+</item>
                
         <item><title>                                       [B][COLOR white]·[/COLOR][/B][B][COLOR red]CINE PELÍCULAS ESTRENOS[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link></link>
 <thumbnail>https://2.bp.blogspot.com/-7aBoyPS-WcA/WhAXo6nB0nI/AAAAAAAAGMk/NxGV0Zkk2M4U8aMB9amoO_PSzfDKWS4qACLcBGAs/s1600/ESTRENOS.png</thumbnail>
 <fanart>https://2.bp.blogspot.com/-C9GMCDShhYg/Wg_6EueNKSI/AAAAAAAAGK0/yUm6e9lTxCMHOeN_h0SDr-e4Zc92YF1swCLcBGAs/s1600/fanart.jpg</fanart>
 </item>
-       
+         
+    <channel>
+    <name>[COLOR orange]•[/COLOR][COLOR aqua]►ESTRENOS[/COLOR]</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+	
+	
+<items>
+ 
  
 <item>
 <title>[B][COLOR white] [COLOR red]LOGAN[/COLOR] (2017) (SD 480)[/B]</title>
