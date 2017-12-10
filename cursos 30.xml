@@ -39,6 +39,44 @@
 </item>
 
 <item>
+<title>[COLOR yellow][/COLOR][COLOR  skyblue]Agente [/COLOR][COLOR yellow]Carter[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MSRJ/agente-carter-69831</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MSRJ/agente-carter-69831</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+<item>
 <title>[COLOR yellow] [/COLOR][COLOR  skyblue]Arrow[/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -110,9 +148,11 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<thumbnail>https://www.justwatch.com/images/poster/2422750/s592</thumbnail>
+<fanart>https://www.thefandomentals.com/wp-content/uploads/2016/12/aos.png</fanart>
+<info>Marvel's Agents of S.H.I.E.L.D., ​ o simplemente Agents of S.H.I.E.L.D., es una serie de televisión estadounidense, basada en la organización del mismo nombre que aparece en Marvel Comics.</info>
 </item>
+</regex>
 
 <item>
 <title>[COLOR yellow][/COLOR][COLOR  skyblue]Bella y bestia[/COLOR][COLOR yellow][/COLOR]</title>
@@ -456,6 +496,11 @@
 <thumbnail></thumbnail>
 </item>
 
+ <channel>
+    <name>          <<<<<<<<<THE FLASH>>>>>>>></name>
+    <thumbnail>https://3.bp.blogspot.com/-2G_KoutkmKo/Whln3ezJleI/AAAAAAAAGTw/TMO5C1NpPXEoybn8uV489Y6DHq49QsyoACLcBGAs/s1600/b01bf7df210785fcd6b2dacc14fb8ef8.png</thumbnail>
+    <fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/09/flash.jpg</fanart>
+
 <item>
 <title>[COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -492,4 +537,242 @@
 </regex>
 <fanart></fanart>
 <thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+        <fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t1-2014-sd-96903</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t1-2014-sd-96903</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+<fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+<info>Después de que un acelerador de partículas cause una extraña tormenta, al investigador científico de la policía, Barry Allen, le cae un rayo y entra en coma. Meses después despierta con el poder de moverse a súper velocidad permitiéndole ser el ángel de la guardia de Central City.</info>
+</item>
+	
+
+	
+<item>
+<title>[B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+        <fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t1-2014-95097</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t1-2014-95097</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+<fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+<info>Después de que un acelerador de partículas cause una extraña tormenta, al investigador científico de la policía, Barry Allen, le cae un rayo y entra en coma. Meses después despierta con el poder de moverse a súper velocidad permitiéndole ser el ángel de la guardia de Central City.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]TEMPORADA 2[/COLOR] (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+        <fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t2-2014-95171</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t2-2014-95171</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+<fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+<info>Después de que un acelerador de partículas cause una extraña tormenta, al investigador científico de la policía, Barry Allen, le cae un rayo y entra en coma. Meses después despierta con el poder de moverse a súper velocidad permitiéndole ser el ángel de la guardia de Central City.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]TEMPORADA 3[/COLOR] (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+        <fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t3-2014-96826</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-flash-t3-2014-96826</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.gbposters.com/media/catalog/product/cache/1/image/737x938/17f82f742ffe127f42dca9de82fb58b1/t/h/the-flash-solo-maxi-poster-1.55.jpg</thumbnail>
+<fanart>http://nerdist.com/wp-content/uploads/2017/03/PnM2iU.jpg</fanart>
+<info>Después de que un acelerador de partículas cause una extraña tormenta, al investigador científico de la policía, Barry Allen, le cae un rayo y entra en coma. Meses después despierta con el poder de moverse a súper velocidad permitiéndole ser el ángel de la guardia de Central City.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]TEMPORADA UNICA[/COLOR] (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.scifi-movies.com/images/contenu/data/0000874/affiche.jpg</thumbnail>
+<fanart>https://cdn.movieweb.com/img.news.tops/NEwUkZFOUKYABA_1_a/The-Flash-Original-Star-John-Wesley-Shipp-Joins.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-flash-1990-temp-unica-96506</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-flash-1990-temp-unica-96506</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.scifi-movies.com/images/contenu/data/0000874/affiche.jpg</thumbnail>
+<fanart>https://cdn.movieweb.com/img.news.tops/NEwUkZFOUKYABA_1_a/The-Flash-Original-Star-John-Wesley-Shipp-Joins.jpg</fanart>
+<info>Serie de TV (1990-1991). 1 temporada. 22 episodios. John Wesley Shipp interpreta a Barry Allen, un tecnólogo criminalista, dotado de repentinos talentos tras un imprevisto accidente de laboratorio.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]The punisher[/COLOR] (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://dravenstales.ch/wp-content/uploads/2017/08/the_punisher_poster.jpg</thumbnail>
+        <fanart>https://capelesscrusader.org/wp-content/uploads/2017/09/Punisher_Netflix-e1506013890817.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-punisher-t1-2017-95042</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-punisher-t1-2017-95042</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://dravenstales.ch/wp-content/uploads/2017/08/the_punisher_poster.jpg</thumbnail>
+<fanart>https://capelesscrusader.org/wp-content/uploads/2017/09/Punisher_Netflix-e1506013890817.jpg</fanart>
+<info>Frank Castle es perseguido después del asesinato de su familia y se convierte en un vigilante conocido en el inframundo criminal como "The Punisher", que tiene como objetivo luchar contra el crimen por cualquier medio necesario.</info>
 </item>

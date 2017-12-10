@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  lime] Peliculas 2016 [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  gold] Peliculas 2016 [/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -39,7 +39,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  gold] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  lime] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -227,3 +227,2420 @@
 <fanart></fanart>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN[/COLOR] (2002) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/3Xu6Ol1W47g/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-1-96057</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-1-96057</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/3Xu6Ol1W47g/maxresdefault.jpg</fanart>
+<info>Peter Parker es un joven y tímido estudiante que vive con su tía May y su tío Ben desde la muerte de sus padres, siendo él muy pequeño. Peter está enamorado de su guapa vecina.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN[/COLOR] (2002) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/3Xu6Ol1W47g/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-1-hd-96059</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-1-hd-96059</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/f/f3/Spider-Man2002Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/3Xu6Ol1W47g/maxresdefault.jpg</fanart>
+<info>Peter Parker es un joven y tímido estudiante que vive con su tía May y su tío Ben desde la muerte de sus padres, siendo él muy pequeño. Peter está enamorado de su guapa vecina.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 2[/COLOR] (2004) (SD 480) [/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.sonypictures.com/movies/spider-man2/assets/images/onesheet.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BZjI1MWYyNTYtMWYxNy00MGNlLWI1NzAtZGQ3OWMzMzg0ZDhhXkEyXkFqcGdeQXVyNDUzNzIxMzk@._V1_.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-2-96372</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-2-96372</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.sonypictures.com/movies/spider-man2/assets/images/onesheet.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BZjI1MWYyNTYtMWYxNy00MGNlLWI1NzAtZGQ3OWMzMzg0ZDhhXkEyXkFqcGdeQXVyNDUzNzIxMzk@._V1_.jpg</fanart>
+<info>Han pasado dos años desde que el tranquilo Peter Parker dejó a Mary Jane Watson, su gran amor, y decidió seguir asumir sus responsabilidades como Spider-Man. Peter debe afrontar nuevos desafíos mientras lucha contra el don.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 2.1 (VERSIÓN EXTENDIDA DE LA 2 (2004))[/COLOR] (2007) (HD 720) [/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/51uRlrEtoIL.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BZjI1MWYyNTYtMWYxNy00MGNlLWI1NzAtZGQ3OWMzMzg0ZDhhXkEyXkFqcGdeQXVyNDUzNzIxMzk@._V1_.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-2-hd-96300</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-2-hd-96300</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51uRlrEtoIL.jpg</thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/M/MV5BZjI1MWYyNTYtMWYxNy00MGNlLWI1NzAtZGQ3OWMzMzg0ZDhhXkEyXkFqcGdeQXVyNDUzNzIxMzk@._V1_.jpg</fanart>
+<info>Han pasado dos años desde que el tranquilo Peter Parker dejó a Mary Jane Watson, su gran amor, y decidió seguir asumir sus responsabilidades como Spider-Man. Peter debe afrontar nuevos desafíos mientras lucha contra el don.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 3[/COLOR] (2007) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spiderman-3-96060</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spiderman-3-96060</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+<info>Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 3[/COLOR] (2007) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-3-hd-96301</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-3-hd-96301</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+<info>Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia.</info>
+</item>
+
+
+
+
+
+
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 3[/COLOR] (2007) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-3-95566</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-3-95566</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/_VA0wiiBnKE/maxresdefault.jpg</fanart>
+<info>Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]THE AMAZING SPIDER-MAN[/COLOR] (2012) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</thumbnail>
+        <fanart>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-mp4-96189</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-mp4-96189</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</thumbnail>
+<fanart>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</fanart>
+<info>Un estudiante de secundaria que fue abandonado por sus padres cuando era niño, dejándolo a cargo de su tío Ben (Martin Sheen) y su tía May (Sally Field). Como la mayoría de los adolescentes de su edad, Peter trata de averiguar.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]THE AMAZING SPIDER-MAN[/COLOR] (2012) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</thumbnail>
+        <fanart>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-94585</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-94585</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</thumbnail>
+<fanart>https://3.bp.blogspot.com/-ychWmBqDODo/WhAcJFHdnnI/AAAAAAAAGMw/rBcEJU5NntAf2oeBQQmVC3XW0Yw-IzJhQCLcBGAs/s1600/ktarsis.es-the-amazing-spiderman-imagen-poster-cartel-2012-1.jpg</fanart>
+<info>Un estudiante de secundaria que fue abandonado por sus padres cuando era niño, dejándolo a cargo de su tío Ben (Martin Sheen) y su tía May (Sally Field). Como la mayoría de los adolescentes de su edad, Peter trata de averiguar.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]THE AMAZING SPIDER-MAN 2: EL PODER DE ELECTRA[/COLOR] (2014) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-vDtkSM-MtXo/WhAc_lC2bQI/AAAAAAAAGM4/G1JWVdfiI9QoLeUC0ORLHl_H7ksqTUajACLcBGAs/s1600/the_amazing_spider_man_2_rise_of_electro-715327272-large.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2014/04/313560-amazing-spider-man-poder-electro-critica-doble.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-2-mp4-96323</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-2-mp4-96323</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-vDtkSM-MtXo/WhAc_lC2bQI/AAAAAAAAGM4/G1JWVdfiI9QoLeUC0ORLHl_H7ksqTUajACLcBGAs/s1600/the_amazing_spider_man_2_rise_of_electro-715327272-large.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2014/04/313560-amazing-spider-man-poder-electro-critica-doble.jpg</fanart>
+<info>Peter Parker lleva una vida muy ocupada, compaginando su tiempo entre su papel como Spider-Man, acabando con los malos, y en el instituto con la persona a la que quiere, Gwen. Peter no ve el momento de graduarse.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]THE AMAZING SPIDER-MAN 2: EL PODER DE ELECTRA[/COLOR] (2014) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-vDtkSM-MtXo/WhAc_lC2bQI/AAAAAAAAGM4/G1JWVdfiI9QoLeUC0ORLHl_H7ksqTUajACLcBGAs/s1600/the_amazing_spider_man_2_rise_of_electro-715327272-large.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2014/04/313560-amazing-spider-man-poder-electro-critica-doble.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-2-hd-96322</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/the-amazing-spider-man-2-hd-96322</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-vDtkSM-MtXo/WhAc_lC2bQI/AAAAAAAAGM4/G1JWVdfiI9QoLeUC0ORLHl_H7ksqTUajACLcBGAs/s1600/the_amazing_spider_man_2_rise_of_electro-715327272-large.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2014/04/313560-amazing-spider-man-poder-electro-critica-doble.jpg</fanart>
+<info>Peter Parker lleva una vida muy ocupada, compaginando su tiempo entre su papel como Spider-Man, acabando con los malos, y en el instituto con la persona a la que quiere, Gwen. Peter no ve el momento de graduarse.</info>
+</item>
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES[/COLOR] (1998) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://posteritati.com/posters/000/000/050/122/the-avengers-md-web.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-r6QvHlZpRS4/Vdr40TsaKDI/AAAAAAAAJH4/hU_C4x7rDnI/s1600/Los%2BVengadores%2B05.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-1998-96466</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-1998-96466</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://posteritati.com/posters/000/000/050/122/the-avengers-md-web.jpg</thumbnail>
+<fanart>https://1.bp.blogspot.com/-r6QvHlZpRS4/Vdr40TsaKDI/AAAAAAAAJH4/hU_C4x7rDnI/s1600/Los%2BVengadores%2B05.jpg</fanart>
+<info>El apuesto John Steed (Ralph Fiennes) y la sofisticada y astuta Emma Peel (Uma Thurman) son dos agentes secretos que despliegan estilo y elegancia en su lucha contra el crimen.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES[/COLOR] (2012) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://ugc.kn3.net/i/origin/http://victoria-caldas.gov.co/apc-aa-files/495052435f5052454445465f30303137/los-vengadores-1.jpg</thumbnail>
+<fanart>http://sona893.fm/wp-content/uploads/2015/05/los-vengadores-1-copia.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-mp4-96462</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-mp4-96462</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://ugc.kn3.net/i/origin/http://victoria-caldas.gov.co/apc-aa-files/495052435f5052454445465f30303137/los-vengadores-1.jpg</thumbnail>
+<fanart>http://sona893.fm/wp-content/uploads/2015/05/los-vengadores-1-copia.jpg</fanart>
+<info>Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES[/COLOR] (2012) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://ugc.kn3.net/i/origin/http://victoria-caldas.gov.co/apc-aa-files/495052435f5052454445465f30303137/los-vengadores-1.jpg</thumbnail>
+<fanart>http://sona893.fm/wp-content/uploads/2015/05/los-vengadores-1-copia.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-hd-96464</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-hd-96464</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://ugc.kn3.net/i/origin/http://victoria-caldas.gov.co/apc-aa-files/495052435f5052454445465f30303137/los-vengadores-1.jpg</thumbnail>
+<fanart>http://sona893.fm/wp-content/uploads/2015/05/los-vengadores-1-copia.jpg</fanart>
+<info>Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES: LA ERA DE ULTRÓN[/COLOR] (2015) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.adisney.com/sites/default/files/caratula-los-vengadores-2.jpg</thumbnail>
+        <fanart>http://www.mubis.es/media/users/3724/111122/wallpaper-los-vengadores-2-la-era-de-ultron-1-11-original.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-la-era-de-ultron-96469</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-la-era-de-ultron-96469</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.adisney.com/sites/default/files/caratula-los-vengadores-2.jpg</thumbnail>
+<fanart>http://www.mubis.es/media/users/3724/111122/wallpaper-los-vengadores-2-la-era-de-ultron-1-11-original.jpg</fanart>
+<info>Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES: LA ERA DE ULTRÓN[/COLOR] (2015) (HD)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.adisney.com/sites/default/files/caratula-los-vengadores-2.jpg</thumbnail>
+        <fanart>http://www.mubis.es/media/users/3724/111122/wallpaper-los-vengadores-2-la-era-de-ultron-1-11-original.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-la-era-de-ultron-hd-96505</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-vengadores-la-era-de-ultron-hd-96505</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.adisney.com/sites/default/files/caratula-los-vengadores-2.jpg</thumbnail>
+<fanart>http://www.mubis.es/media/users/3724/111122/wallpaper-los-vengadores-2-la-era-de-ultron-1-11-original.jpg</fanart>
+<info>Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]CAPITÁN AMÉRICA: EL PRIMER VENGADOR[/COLOR] (2011) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/kfi088mw9zao</link>
+<thumbnail>https://4.bp.blogspot.com/-1Y6ViM0k3rU/WhSj4pPs4RI/AAAAAAAAGOw/rtSd0aM3l9UYNK3LZ5ih1NyENAejBpilACLcBGAs/s1600/Cap_poster_grande.jpg</thumbnail>
+<fanart>http://www.desktopas.com/files/2013/06/Captain-America-Movie-1280x960.jpg</fanart>
+<info>Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]CAPITÁN AMÉRICA: EL PRIMER VENGADOR[/COLOR] (2011) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://4.bp.blogspot.com/-1Y6ViM0k3rU/WhSj4pPs4RI/AAAAAAAAGOw/rtSd0aM3l9UYNK3LZ5ih1NyENAejBpilACLcBGAs/s1600/Cap_poster_grande.jpg</thumbnail>
+        <fanart>http://www.desktopas.com/files/2013/06/Captain-America-Movie-1280x960.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/capitan-america-el-primer-vengador-94417</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/capitan-america-el-primer-vengador-94417</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/-1Y6ViM0k3rU/WhSj4pPs4RI/AAAAAAAAGOw/rtSd0aM3l9UYNK3LZ5ih1NyENAejBpilACLcBGAs/s1600/Cap_poster_grande.jpg</thumbnail>
+<fanart>http://www.desktopas.com/files/2013/06/Captain-America-Movie-1280x960.jpg</fanart>
+<info>Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]CAPITÁN AMÉRICA 2: EL SOLDADO DE INVIERNO[/COLOR] (2014) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/thl8jshafcgn</link>
+<thumbnail>http://allcalidad.com/wp-content/uploads/2016/04/21-1.jpg</thumbnail>
+<fanart>http://www.zonanegativa.com/imagenes/2014/02/Nuevo_trailer_Capitan_Am%C3%A9rica_El-soldado-de-invierno.jpg</fanart>
+<info>Mientras que Capitán America: El primer vengador nos sumergía en los primeros años del universo Marvel a través de la traslación del legendario cómic a la gran pantalla, ahora el héroe regresa con Capitán América: El soldado del invierno.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]CAPITÁN AMÉRICA 3: CIVIL WAR[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/thl8jshafcgn</link>
+<thumbnail>https://www.flickeringmyth.com//wp-content/uploads/2016/03/Civil-War-International-Poster.jpg</thumbnail>
+<fanart>https://www.cultture.com/pics/2015/05/jota01.jpg</fanart>
+<info>"Captain America: Civil War” continúa la historia de “Avengers: Age of Ultron”, con Steve Rogers liderando un nuevo equipo de Vengadores en su esfuerzo por proteger a la humanidad.</info>
+</item>
+
+<item>
+<title>[B][COLOR skyblue] [COLOR red]THOR[/COLOR] (2011) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/szr4h3zehtku</link>
+<thumbnail>http://ecx.images-amazon.com/images/I/91P1wWqX63L._SL1500_.jpg</thumbnail>
+<fanart>https://www.wired.com/images_blogs/underwire/2013/11/gallery3.jpg</fanart>
+<info>Thor es un arrogante y codicioso guerrero cuya imprudencia desata una antigua guerra. Por ese motivo, su padre Odín lo castiga desterrándolo a la Tierra para que viva entre los hombres y descubra así el verdadero sentido de la humildad.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR skyblue] [COLOR red]THOR: EL MUNDO OSCURO[/COLOR] (2013) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/5tdqafrpd39a</link>
+<thumbnail>http://estaticos3.nochedecine.com/wp-content/uploads/2013/09/nt_13_thor-el-mundo-oscuro1.jpg</thumbnail>
+<fanart>https://www.wired.com/images_blogs/underwire/2013/11/gallery3.jpg</fanart>
+<info>Thor lucha por restablecer el orden en el cosmos, pero una antigua raza liderada por el vengativo Malekith regresa con el propósito de volver a sumir el universo en la oscuridad.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]LOS 4 FANTÁSTICOS[/COLOR] (2005) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/0qg17m6rzfeo</link>
+<thumbnail>https://www.ecartelera.com/carteles/200/236/001_p.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-xvT5n8dftaw/VLZvxPN9mLI/AAAAAAABEj4/7Q21lw5L5eU/s1600/fantastic-four-2005.jpg</fanart>
+<info>Cuatro astronautas se convierten en superhéroes tras ser contaminados en el espacio exterior. En compañía del benefactor del proyecto, el ambicioso Von Doom (Julian McMahon), los cuatro parten para la exploración de sus vidas.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]LOS 4 FANTÁSTICOS Y SILVER SURFER[/COLOR] (2007) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/7c38e85h9elf</link>
+<thumbnail>http://2.bp.blogspot.com/-fEPGUGevMVE/VNDNlF76ywI/AAAAAAAAsVQ/2bSGN5sRtFs/s1600/4F%2By%2BSilver%2Bsurfer%2B(1).jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-xvT5n8dftaw/VLZvxPN9mLI/AAAAAAABEj4/7Q21lw5L5eU/s1600/fantastic-four-2005.jpg</fanart>
+<info>La primera familia de superhéroes de Marvel, los Cuatro Fantásticos, se enfrentan a su mayor reto hasta la fecha cuando un enigmático heraldo intergaláctico, Estela Plateada, llega a la Tierra para prepararla para su destrucción.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN[/COLOR] (2000) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/pcvhjfduo245</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/81/X-MenfilmPoster.jpg</thumbnail>
+<fanart>https://lavozenoffdotnet.files.wordpress.com/2016/05/0-0.jpg</fanart>
+<info>En un futuro cercano, la humanidad comienza a ver aparecer una nueva raza; los mutantes.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN 2[/COLOR] (2003) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/ti6ch4or6n88</link>
+<thumbnail>http://collarcitybrownstone.com/wp-content/uploads/2013/04/529-X-men-2-2003-_2.jpg</thumbnail>
+<fanart>http://theactionelite.com/site/wp-content/uploads/2013/03/wallpaper-di-x-men-2-113232-600x450.jpg</fanart>
+<info>Los mutantes son seres humanos con alguna variación genética que les dota de características especiales. También son la más moderna minoría perseguida del mundo.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN: LA DECISIÓN FINAL[/COLOR] (2006) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/gftddnzyjgxa</link>
+<thumbnail>https://www.cinemascomics.com/wp-content/uploads/2017/04/dk2SBBLjplqkFinjGowhidAKJq7.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/UNKzWwCCotk/maxresdefault.jpg</fanart>
+<info>En X-Men: La decisión final, el último capítulo de la trilogía cinematográfica de los "X-Men", hay una "cura" para los mutantes que amenaza con alterar el curso de la historia.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN ORÍGENES: LOBEZNO[/COLOR] (2009) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/lv6b0xip4q5y</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/51JonECd6UL._SY445_.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/U1yAPo-OCEU/maxresdefault.jpg</fanart>
+<info>Precuela de la película X-Men. Situada 17 años antes, narra los inicios del arma X y la forma en la que Lobezno se convirtió en mutante.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN: PRIMERA GENERACIÓN[/COLOR] (2011) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/ypqmlybdjc2x</link>
+<thumbnail>http://intlportal2.s3.foxfilm.com/intlportal2/dev-temp/es-ES/__553717d1c052a-a8ed0d83f00079420c471394ed840787-0edcf07078f8d84c.jpg</thumbnail>
+<fanart>https://creativekatarsis.com/wp-content/uploads/2016/04/xmen-first-class-cast-group1.png</fanart>
+<info>Comienzo de la saga de los X-Men, esta es una historia secreta que alude a conocidos acontecimientos mundiales.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]LOBEZNO INMORTAL[/COLOR] (2013) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/k5z1dp2bwat9</link>
+<thumbnail>http://allcalidad.com/wp-content/uploads/2016/04/wolverine-inmortal.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-H7ktXsmCPxw/UfzMI120aFI/AAAAAAAACdQ/Lj7OgiVQNIY/s1600/wolverine-inmortal-primer-clip.jpg</fanart>
+<info>Secuela de "X-Men: la decisión final". El film se centra en la soledad del protagonista tras la desaparición definitiva de Jean Grey y otros compañeros.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR gray] [COLOR red]X-MEN: DÍAS DEL FUTURO PASADO[/COLOR] (2014) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/vqtn5300c7ii</link>
+<thumbnail>http://www.pelisplanet.com/wp-content/uploads/2016/09/xmen-dias-del-futuro-pasado.jpg</thumbnail>
+<fanart>http://www.anim-arte.com/wp-content/uploads/2014/04/x-men_dias-del-futuro-pasado.jpg</fanart>
+<info>Ambientada en la década de los 70, los miembros de la famosa Patrulla X tendrán que evitar un futuro apocalíptico en el que los mutantes luchan por sobrevivir en campos de concentración controlados por los temibles Centinelas.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]DEADPOOL[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/xpomwzd1dasa</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_SY1000_SX686_AL_.jpg</thumbnail>
+<fanart>https://www.aquilomire.com/wp-content/uploads/2017/08/sdededee.jpeg</fanart>
+<info>Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]X-MEN: APOCALIPSIS[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/udyeqg1z0ltn</link>
+<thumbnail>http://es.web.img3.acsta.net/pictures/16/04/14/11/28/136403.jpg</thumbnail>
+<fanart>http://cmonmurcia.com/wp-content/uploads/2016/06/1500x976xxmen-apocalipsisjpgpagespeedicx8tlxyx1df_mykz.jpg</fanart>
+<info>Desde los albores de la civilización, fue adorado como un dios. Apocalypse, el primer y más poderoso mutante del universo X-Men de Marvel, acumuló los poderes de muchos otros mutantes, convirtiéndose en inmortal e invencible.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR red] [COLOR red]X-MEN: APOCALIPSIS[/COLOR] (2016) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img3.acsta.net/pictures/16/04/14/11/28/136403.jpg</thumbnail>
+<fanart>http://cmonmurcia.com/wp-content/uploads/2016/06/1500x976xxmen-apocalipsisjpgpagespeedicx8tlxyx1df_mykz.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/x-men-apocalipsis-95548</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/x-men-apocalipsis-95548</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/pictures/16/04/14/11/28/136403.jpg</thumbnail>
+<fanart>http://cmonmurcia.com/wp-content/uploads/2016/06/1500x976xxmen-apocalipsisjpgpagespeedicx8tlxyx1df_mykz.jpg</fanart>
+<info>Desde los albores de la civilización, fue adorado como un dios. Apocalypse, el primer y más poderoso mutante del universo X-Men de Marvel, acumuló los poderes de muchos otros mutantes, convirtiéndose en inmortal e invencible.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]DEADPOOL[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/xpomwzd1dasa</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjQyODg5Njc4N15BMl5BanBnXkFtZTgwMzExMjE3NzE@._V1_SY1000_SX686_AL_.jpg</thumbnail>
+<fanart>https://www.aquilomire.com/wp-content/uploads/2017/08/sdededee.jpeg</fanart>
+<info>Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool.</info>
+</item>
+
+<item>
+<title>[B][COLOR lime] [COLOR red]HULK[/COLOR] (2003) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/nz32oacqe5wf</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNjcxMzZhZTEtMmEwYi00NDJmLWE5ZmUtOWJiMzRmMzEzMTY3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR6,0,182,268_AL_.jpg</thumbnail>
+<fanart>https://usercontent2.hubstatic.com/13153753_f520.jpg</fanart>
+<info>Bruce Banner un brillante investigador en el campo de la tecnología genética, oculta un pasado doloroso que lo ha dejado estigmatizado.</info>
+</item>
+
+<item>
+<title>[B][COLOR lime] [COLOR red]EL INCREÍBLE HULK[/COLOR] (2008) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/jo9c395ix26g/el_increible_hulk_dvdrip.night76.avi.html</link>
+<thumbnail>http://dreamers.com/indices/imagenes/advance.114.IMAGEN1.jpg</thumbnail>
+<fanart>http://www.elseptimoarte.net/imagenes/peliculas/3670.jpg</fanart>
+<info>El científico Bruce Banner (Edward Norton) recorre el mundo tratando de encontrar una cura a su problema, en busca de un antídoto que le permita librarse de su Alter Ego.</info>
+</item>
+
+<item>
+<title>[B][COLOR orange] [COLOR red]IRON MAN[/COLOR] (2008) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/dptfyns7c0eu</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/marvelcinematicuniverse/images/1/1e/Iron_Man_Official_Poster.jpg/revision/latest?cb=20120115035645</thumbnail>
+<fanart>https://1.bp.blogspot.com/-CtwRxzM6-v8/WhApy2fY-VI/AAAAAAAAGNs/CXuS1dEkHdUqpyrhK4hZuO-lYs5DtCWIgCLcBGAs/s1600/cine_20160318_3.jpg</fanart>
+<info>Tony Stark, playboy multimillonario, es el dueño de Stark Industries, una importante empresa de armamento.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR orange] [COLOR red]IRON MAN[/COLOR] (2008) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://vignette1.wikia.nocookie.net/marvelcinematicuniverse/images/1/1e/Iron_Man_Official_Poster.jpg/revision/latest?cb=20120115035645</thumbnail>
+        <fanart>https://1.bp.blogspot.com/-CtwRxzM6-v8/WhApy2fY-VI/AAAAAAAAGNs/CXuS1dEkHdUqpyrhK4hZuO-lYs5DtCWIgCLcBGAs/s1600/cine_20160318_3.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/iron-man-94262</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/iron-man-94262</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette1.wikia.nocookie.net/marvelcinematicuniverse/images/1/1e/Iron_Man_Official_Poster.jpg/revision/latest?cb=20120115035645</thumbnail>
+<fanart>https://1.bp.blogspot.com/-CtwRxzM6-v8/WhApy2fY-VI/AAAAAAAAGNs/CXuS1dEkHdUqpyrhK4hZuO-lYs5DtCWIgCLcBGAs/s1600/cine_20160318_3.jpg</fanart>
+<info>Tony Stark, playboy multimillonario, es el dueño de Stark Industries, una importante empresa de armamento.</info>
+</item>
+
+<item>
+<title>[B][COLOR orange] [COLOR red]IRON MAN 2[/COLOR] (2010) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/3z06eyzm1shl</link>
+<thumbnail>https://static.rogerebert.com/uploads/movie/movie_poster/iron-man-2-2010/large_zJ2eK7fehqFSQ2w5JlQIF0OJP9q.jpg</thumbnail>
+<fanart>http://www.casinovinnere.com/wp-content/uploads/2013/06/Iron-Man-2.jpg</fanart>
+<info>El mundo ya sabe que el multimillonario Tony Stark (Robert Downey Jr.) es Iron Man, el superhéroe enmascarado.</info>
+</item>
+
+<item>
+<title>[B][COLOR orange] [COLOR red]IRON MAN 2[/COLOR] (2010) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://static.rogerebert.com/uploads/movie/movie_poster/iron-man-2-2010/large_zJ2eK7fehqFSQ2w5JlQIF0OJP9q.jpg</thumbnail>
+        <fanart>http://www.casinovinnere.com/wp-content/uploads/2013/06/Iron-Man-2.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/iron-man-2-94283</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/iron-man-2-94283</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://static.rogerebert.com/uploads/movie/movie_poster/iron-man-2-2010/large_zJ2eK7fehqFSQ2w5JlQIF0OJP9q.jpg</thumbnail>
+ <fanart>http://www.casinovinnere.com/wp-content/uploads/2013/06/Iron-Man-2.jpg</fanart>
+<info>El mundo ya sabe que el multimillonario Tony Stark (Robert Downey Jr.) es Iron Man, el superhéroe enmascarado.</info>
+</item>
+
+<item>
+<title>[B][COLOR orange] [COLOR red]IRON MAN 3[/COLOR] (2013) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/i8iy51hl0t7e</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/d/d5/Iron_Man_3_theatrical_poster.jpg</thumbnail>
+<fanart>http://elvortex.com/wp-content/uploads/2014/01/Iron-Man-3.jpg</fanart>
+<info>En esta ocasión el imponente superhéroe Iron Man intentará mejorar su armadura mediante una nueva tecnología y, entre otros personajes, estará acompañado de su gran amiga Pepper Potts (Gwyneth Paltrow), su aliado de armas James Rhodes y su guardaespaldas Happy Hogan.</info>
+</item>
+
+<item>
+<title>[B][COLOR orange] [COLOR red]DOCTOR EXTRAÑO[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/tz3ug1r9szdc/Watchmen_.avi.html</link>
+<thumbnail>https://1.bp.blogspot.com/-DQCeOe5ngP4/WhrsOdYs3bI/AAAAAAAAGV0/XYWVAu9rWu0pj8G5M9jIchGOh80Ukgw5QCLcBGAs/s1600/doctor_strange-883697036-large.jpg</thumbnail>
+<fanart>https://i1.wp.com/teaser-trailer.com/wp-content/uploads/Benedict-Cumberbatch-Doctor-Strange-2016.jpg?ssl=1</fanart>
+<info>Basada en el personaje creado por Stan Lee y Steve Ditko de la casa Marvel, el Doctor Extraño apareció por primera vez en julio del año 1963.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR orange] [COLOR red]DOCTOR EXTRAÑO[/COLOR] (2016) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-DQCeOe5ngP4/WhrsOdYs3bI/AAAAAAAAGV0/XYWVAu9rWu0pj8G5M9jIchGOh80Ukgw5QCLcBGAs/s1600/doctor_strange-883697036-large.jpg</thumbnail>
+<fanart>https://i1.wp.com/teaser-trailer.com/wp-content/uploads/Benedict-Cumberbatch-Doctor-Strange-2016.jpg?ssl=1</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/doctor-extrano-95773</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/doctor-extrano-95773</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-DQCeOe5ngP4/WhrsOdYs3bI/AAAAAAAAGV0/XYWVAu9rWu0pj8G5M9jIchGOh80Ukgw5QCLcBGAs/s1600/doctor_strange-883697036-large.jpg</thumbnail>
+<fanart>https://i1.wp.com/teaser-trailer.com/wp-content/uploads/Benedict-Cumberbatch-Doctor-Strange-2016.jpg?ssl=1</fanart>
+<info>Basada en el personaje creado por Stan Lee y Steve Ditko de la casa Marvel, el Doctor Extraño apareció por primera vez en julio del año 1963.</info>
+</item>
+
+<item>
+<title>[B][COLOR purple] [COLOR red]GUARDIANES DE LA GALAXIA[/COLOR] (2014) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/un6hyeh8zj2v</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+<fanart>https://cdn.movieweb.com/img.news.tops/NEwRn6mWBqwMAy_1_a/James-Gunn-Reveals-Guardians-Of-The-Galaxy-Imax.jpg</fanart>
+<info>El temerario aventurero Peter Quill es objeto de un implacable cazarrecompensas después de robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuya ambición amenaza todo el universo. Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer. Pero cuando Quill descubre el verdadero poder de la esfera, deberá hacer todo lo posible para derrotar a sus extravagantes rivales en un intento desesperado de salvar el destino de la galaxia.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR purple] [COLOR red]GUARDIANES DE LA GALAXIA[/COLOR] (2014) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+        <fanart>https://cdn.movieweb.com/img.news.tops/NEwRn6mWBqwMAy_1_a/James-Gunn-Reveals-Guardians-Of-The-Galaxy-Imax.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/guardianes-de-la-galaxia-94970</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/guardianes-de-la-galaxia-94970</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SY1000_CR0,0,674,1000_AL_.jpg</thumbnail>
+<fanart>https://cdn.movieweb.com/img.news.tops/NEwRn6mWBqwMAy_1_a/James-Gunn-Reveals-Guardians-Of-The-Galaxy-Imax.jpg</fanart>
+<info>El temerario aventurero Peter Quill es objeto de un implacable cazarrecompensas después de robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuya ambición amenaza todo el universo. Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer. Pero cuando Quill descubre el verdadero poder de la esfera, deberá hacer todo lo posible para derrotar a sus extravagantes rivales en un intento desesperado de salvar el destino de la galaxia.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]ELEKTRA[/COLOR] (2005) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/scihijczrxx7</link>
+<thumbnail>https://image.tmdb.org/t/p/w396/dyvqAJs20UrqTJGOHtJ0tNbU54m.jpg</thumbnail>
+<fanart>https://i2.wp.com/frasesdelapelicula.com/wp-content/uploads/2011/01/elektra-1.jpg?fit=1005%2C528&ssl=1</fanart>
+<info>Elektra (Jennifer Garner), tras recuperarse de las mortales heridas sufridas en "Daredevil", se conviertre en la más peligrosa asesina del mundo. Una vez asignada su última misión, Elektra tomará una decisión que llevará su vida en una nueva dirección... o la destruirá para siempre.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]GHOST RIDER: EL MOTORISTA FANTASMA[/COLOR] (2007) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/k8oonr4hzp4k</link>
+<thumbnail>https://2.bp.blogspot.com/-c1cU3FIXAFs/Whr5EWn1NoI/AAAAAAAAGWE/6HkCkWXiIiUi28oeb6uyqy_ObczaSkXZQCLcBGAs/s1600/Cap_poster_grande.jpg</thumbnail>
+<fanart>http://filmfilicos.com/wp-content/uploads/2016/07/ghostrider1.jpg</fanart>
+<info>Adaptación del famoso cómic de la Marvel. Hace mucho tiempo, la superestrella de las acrobacias en moto, Johnny Blaze (Nicolas Cage) hizo un trato con el diablo para proteger a los que más quería: su padre y su novia de la juventud, Roxanne (Eva Mendes). Ahora, el diablo ha venido a cobrar su deuda.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR red] [COLOR red]GHOST RIDER: ESPÍRITU DE VENGANZA[/COLOR] (2012) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/lzot4o0a5l0s</link>
+<thumbnail>https://image.tmdb.org/t/p/w640/vlXWkaF9IYVvnZaiBAW6S5dyllL.jpg</thumbnail>
+<fanart>https://cinecutre.com/wp-content/uploads/2012/05/ghost.jpg</fanart>
+<info>Nueva adaptación del cómic "El motorista fantasma". Con el fin de controlar sus deseos de venganza, Johnny Blaze (Nicolas Cage), que ve sus poderes como una maldición, vive apartado del mundo y sin relacionarse con nadie, pero acaba siendo localizado por el monje Moreau, que necesita su ayuda para buscar a Nadya y a su hijo Danny antes de que los encuentre Roarke, un viejo conocido de Blaze.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]THE PUNISHER[/COLOR] (2004) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/z5efj9ma86p9</link>
+<thumbnail>https://img.hindilinks4u.to/2014/12/The-Punisher-2004-In-Hindi.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/VFjKi7Rs3OU/maxresdefault.jpg</fanart>
+<info>Frank Castle (Thomas Jane) es un agente secreto del FBI que hasta el momento ha logrado una carrera intachable. Frank también es un ex operativo de las Fuerzas Especiales.</info>
+</item>
+</items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]THE PUNISHER 2:  ZONA DE GUERRA[/COLOR] (2008) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/09y7c32fbydl</link>
+<thumbnail>https://1.bp.blogspot.com/-XOSEbO898CI/WhAgryaDmiI/AAAAAAAAGNE/6s53I9G1PWUquaNLOn-KerOsfMQ2wXkLACLcBGAs/s1600/punisher_war_zone-230941957-large.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/w1280/uVlJo7CsOdAL43kDoRFQC6WfQnQ.jpg</fanart>
+<info>Película basada en el anti-héroe de Marvel Frank Castle, también conocido como "El castigador". Continuando su cruzada para castigar a criminales violentos en América.</info>
+</item>
+</items>
+
+<item>
+<title>[B][COLOR white] [COLOR red]BLADE[/COLOR] (1998) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/bkkirfdrg1hl</link>
+<thumbnail>https://image.tmdb.org/t/p/w500/pfqhJWsj9EWzS77hgKrOA2WzwPM.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/kTvGzXv4lIoQAOU8hAvdZtnEqy0.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]BLADE 2[/COLOR] (2002) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/cs7d9sgxhoeq</link>
+<thumbnail>https://image.tmdb.org/t/p/w500/jlURNpXCMK830CsGRd939PJLh8c.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/2n0kjNEI3uF0ju9H5jiE3rBk5C0.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]BLADE TRINITY[/COLOR] (2004) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/91b8qpvrhu7x</link>
+<thumbnail>https://image.tmdb.org/t/p/w500/4WinsdHQBdh5aTt7Bd7T7dbUXbb.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/ikIjjgcJHS5Tei2vrsI117QugSq.jpg</fanart>
+<info></info>
+</item>
+
+<item>
+<title>[B][COLOR purple] [COLOR red]DAREDEVIL[/COLOR] (2003) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/vpfwfr1ozmx6/D4r3d3v1l_Hankror.avi.html</link>
+<thumbnail>http://cdn.20m.es/img2/recortes/2015/07/04/232214-800-1200.jpg</thumbnail>
+<fanart>http://thisorthatedition.com/wp-content/uploads/2016/04/daredevil-head-750x410.jpg</fanart>
+<info>Adaptación del legendario héroe de cómic de Marvel -conocido como el Hombre sin Miedo-. El abogado Matt Murdock es ciego a causa de un residuo radioactivo, pero sus otros cuatro sentidos están especialmente agudizados.</info>
+</item>
+
+<item>
+<title>[B][COLOR red] [COLOR red]ANT-MAN[/COLOR] (1990) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/4dsn8qthqq3r</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91fctc1mLrL._SY445_.jpg</thumbnail>
+<fanart>https://assets.wired.com/photos/w_1720/wp-content/uploads/2015/07/antman-ants-Featured.jpg</fanart>
+<info>Adaptación del cómic de MARVEL. 'Ant-Man' nos contará la historia de Hank Pym, un científico que a raíz de unos experimentos ve modificado su tamaño hasta el de un insecto. Posteriormente desarrollará un casco que le permitirá comunicarse con las hormigas.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR red] [COLOR red]ANT-MAN[/COLOR] (1990) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://images-na.ssl-images-amazon.com/images/I/91fctc1mLrL._SY445_.jpg</thumbnail>
+        <fanart>https://assets.wired.com/photos/w_1720/wp-content/uploads/2015/07/antman-ants-Featured.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/ant-man-94502</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/ant-man-94502</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91fctc1mLrL._SY445_.jpg</thumbnail>
+<fanart>https://assets.wired.com/photos/w_1720/wp-content/uploads/2015/07/antman-ants-Featured.jpg</fanart>
+<info>Adaptación del cómic de MARVEL. 'Ant-Man' nos contará la historia de Hank Pym, un científico que a raíz de unos experimentos ve modificado su tamaño hasta el de un insecto. Posteriormente desarrollará un casco que le permitirá comunicarse con las hormigas.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN BEGINS[/COLOR] (2005) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.batmania.com.ar/images/images_begins/begins_06.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-tXJ1x333E2Q/VtSlCYI3B2I/AAAAAAAAAfM/_Tnu5V0tKFs/s1600/batman-begins-the-end-of-the-evil1366x76857231.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-begins-2005-96195</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-begins-2005-96195</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.batmania.com.ar/images/images_begins/begins_06.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-tXJ1x333E2Q/VtSlCYI3B2I/AAAAAAAAAfM/_Tnu5V0tKFs/s1600/batman-begins-the-end-of-the-evil1366x76857231.png</fanart>
+<info>¿Cómo cambia un hombre el mundo? Es una pregunta que obsesiona a Bruce Wayne al igual que el fantasma de sus padres, muertos a tiros ante sus ojos en las calles de Gotham una noche que cambió su vida para siempre.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN BEGINS[/COLOR] (2005) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.batmania.com.ar/images/images_begins/begins_06.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-tXJ1x333E2Q/VtSlCYI3B2I/AAAAAAAAAfM/_Tnu5V0tKFs/s1600/batman-begins-the-end-of-the-evil1366x76857231.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-begins-2005-hd-96285</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-begins-2005-hd-96285</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.batmania.com.ar/images/images_begins/begins_06.jpg</thumbnail>
+<fanart>https://2.bp.blogspot.com/-tXJ1x333E2Q/VtSlCYI3B2I/AAAAAAAAAfM/_Tnu5V0tKFs/s1600/batman-begins-the-end-of-the-evil1366x76857231.png</fanart>
+<info>¿Cómo cambia un hombre el mundo? Es una pregunta que obsesiona a Bruce Wayne al igual que el fantasma de sus padres, muertos a tiros ante sus ojos en las calles de Gotham una noche que cambió su vida para siempre.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]EL CABALLERO OSCURO[/COLOR] (2008) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/t4l8x3rkqx44</link>
+<thumbnail>http://nomixto.com/wp-content/uploads/bfi_thumb/El-caballero-oscuro-2zo60udn70s1jejz0udslc.jpg</thumbnail>
+<fanart>https://4.bp.blogspot.com/-N1IClsuWWG4/WhASb4Kw2nI/AAAAAAAAGMA/ruK5YPwXpegIoX8DF2f5Kf1JP7weF91GACLcBGAs/s1600/caballero_oscuro1.jpg</fanart>
+<info>Batman regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon y el Fiscal del Distrito Harvey Dent, Batman tiene como objetivo destruir el crimen organizado en la ciudad de Gotham.</info>
+</item>
+</items>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]EL CABALLERO OSCURO: LA LEYENDA RENACE[/COLOR] (2012) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/po9c0cihmnsl/B.Ly.R3n4c3.Bdrip720p.mkv.html</link>
+<thumbnail>https://1.bp.blogspot.com/-Hc7I_jGFFtU/WhASvm_O6hI/AAAAAAAAGME/fdRu2DJA5Yc11kU_OvCyf3W8ba5DuSs2wCLcBGAs/s1600/the_dark_knight_rises-149544881-large.jpg</thumbnail>
+<fanart>http://www.diarioya.es/store/ElCaballeroOscuro.jpg</fanart>
+<info>Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo. Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió sacrificarlo todo.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN[/COLOR] (1989) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://static.adjaranet.com/moviecontent/2838/covers/157x236-2838.jpg</thumbnail>
+<fanart>http://www.lifewallpapers.net/data/out/34/3777142-batman-3d-wallpaper.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-1989-96179</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-1989-96179</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://static.adjaranet.com/moviecontent/2838/covers/157x236-2838.jpg</thumbnail>
+<fanart>http://www.lifewallpapers.net/data/out/34/3777142-batman-3d-wallpaper.png</fanart>
+<info>Atormentado por haber visto morir a sus padres delante suyo, Bruce Wayne se enfunda cada noche en el traje de Batman, adopta la terrorífica forma de un murciélago y surca los tejados de Gotham City combatiendo el crimen.</info>
+</item>
+
+
+ <item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN[/COLOR] (1989) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://static.adjaranet.com/moviecontent/2838/covers/157x236-2838.jpg</thumbnail>
+<fanart>http://www.lifewallpapers.net/data/out/34/3777142-batman-3d-wallpaper.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-1989-hd-96182</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-1989-hd-96182</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://static.adjaranet.com/moviecontent/2838/covers/157x236-2838.jpg</thumbnail>
+<fanart>http://www.lifewallpapers.net/data/out/34/3777142-batman-3d-wallpaper.png</fanart>
+<info>Atormentado por haber visto morir a sus padres delante suyo, Bruce Wayne se enfunda cada noche en el traje de Batman, adopta la terrorífica forma de un murciélago y surca los tejados de Gotham City combatiendo el crimen.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN RETURNS[/COLOR] (1992) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/as1zagbv91ja/B.vu3lv3.HDRip720p.mkv.html</link>
+<thumbnail>https://1.bp.blogspot.com/-ioLwC7ziO3g/WhARhQmeevI/AAAAAAAAGLw/yIv99XQ9njkAv32jyIQGmNEie55vp4RTgCLcBGAs/s1600/Batman_Returns_Poster.jpg</thumbnail>
+<fanart>http://i.newsarama.com/images/i/000/156/516/original/Batman-Returns-batman-returns-14752890-655-492.jpg?1444597431</fanart>
+<info>Gotham City se enfrenta a dos nuevos y peculiares criminales: el diabólico y siniestro Pingüino (Danny DeVito), una criatura solitaria y extrañamente deformada, y la hermosa y seductora -aunque letalmente peligrosa-.</info>
+</item>
+</items>
+
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN FOREVER[/COLOR] (1995) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://2.bp.blogspot.com/-uyvOEX-LIhI/WhAR4gv2goI/AAAAAAAAGL0/pU6fVF2Rcn4oTE5pnw2BzQQpnzdVD6cjACLcBGAs/s1600/MV5BNWY3M2I0YzItNzA1ZS00MzE3LThlYTEtMTg2YjNiOTYzODQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI%2540._V1_UX182_CR0%252C0%252C182%252C268_AL_.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/styles/main_element/public/media/image/2014/09/389240-cine-superheroes-critica-batman-forever.jpg?itok=89822iwo</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-forever-1995-96194</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-forever-1995-96194</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://2.bp.blogspot.com/-uyvOEX-LIhI/WhAR4gv2goI/AAAAAAAAGL0/pU6fVF2Rcn4oTE5pnw2BzQQpnzdVD6cjACLcBGAs/s1600/MV5BNWY3M2I0YzItNzA1ZS00MzE3LThlYTEtMTg2YjNiOTYzODQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI%2540._V1_UX182_CR0%252C0%252C182%252C268_AL_.jpg</thumbnail>
+<fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/styles/main_element/public/media/image/2014/09/389240-cine-superheroes-critica-batman-forever.jpg?itok=89822iwo</fanart>
+<info>La ciudad de Gotham está amenazada por un hombre que intenta vengarse de la Humanidad; su rostro está desfigurado por el ácido y se hace llamar El Caras. Por otra parte, un psicópata con intención de dominar el mundo.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN & ROBIN[/COLOR] (1997) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/ik7n1mz3y7z6/B.R0b1nHDRip720p.mkv.html</link>
+<thumbnail>https://boredanddangerousblog.files.wordpress.com/2013/11/batman-and-robin-1997.jpg</thumbnail>
+<fanart>http://s1.1zoom.me/big3/85/341012-blackangel.jpg</fanart>
+<info>Los experimentos del Dr. Victor Fries para conservar con vida a su esposa mediante el uso de técnicas criogénicas resultaron en un error fatal que le convirtió en Mister Frío, un villano que necesita mantener su cuerpo gélido.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]BATMAN[/COLOR] (1966) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/9euab0owpi4p/B4t.1966.BDrip720p.mkv.html</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5ODUwNjMyMV5BMl5BanBnXkFtZTYwNjc5MjM5._V1_.jpg</thumbnail>
+<fanart>https://zero.eu/content/uploads/2017/02/batmanserie07.jpg</fanart>
+<info>La serie gira en torno a las aventuras contra el crimen de Batman (Adam West) y su ayudante Robin (Burt Ward) en Gotham City. La identidad secreta de Batman es la del elegante «filántropo millonario» Bruce Wayne.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SUPERMAN[/COLOR] (1978) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/3lw3yyjt9hk8</link>
+<thumbnail>https://static.rogerebert.com/uploads/movie/movie_poster/superman-1978/large_rLTdj7oB9oxsYwuweeglWRzRng7.jpg</thumbnail>
+<fanart>http://media.virbcdn.com/cdn_images/resize_1024x1365/18/ae9a1121a1a06381-dc_comics_superman_christopher_reeve_desktop_1024x768_wallpaper1073650.png</fanart>
+<info>Desde una galaxia remota, un recién nacido es enviado por sus padres al espacio debido a la inminente destrucción del planeta donde viven.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SUPERMAN II: LA AVENTURA CONTINÚA[/COLOR] (1981) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/qoymrsasgdma</link>
+<thumbnail>https://static.rogerebert.com/uploads/movie/movie_poster/superman-ii-1981/large_6RKA3bqHsrzpiuIeBnXi2DlmQsn.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-nIWPiQMoaS8/UDEiskHxA9I/AAAAAAAAQNE/-T1BNOBc94g/s1600/superman11.jpg</fanart>
+<info>Tres criminales, procedentes del planeta Krypton, a los que el padre de Superman condenó a vagar por el espacio, eluden su condena y se dirigen a la Tierra para enfrentarse a Superman, en una batalla cósmica por la supremacía sobre el planeta.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SUPERMAN III[/COLOR] (1983) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/nafefypbm9bb</link>
+<thumbnail>https://2.bp.blogspot.com/-QnI-Ijqm5o4/UZ7tGcAmYnI/AAAAAAAACS8/fVmgKVBkA60/s275/superman-iii.jpg</thumbnail>
+<fanart>http://www.cine365static.com/assets/img/peliculas/1440/6/extra/d109c-superman33.jpg</fanart>
+<info>Superman se tiene que enfrentar con una máquina creada por un genio de los ordenadores llamado Gus Gorman, contra un magnate megalómano que pretende transformar la Tierra y lo que es mucho peor contra un desdoblamiento de personalidad.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SUPERMAN IV: EN BUSCA DE LA PAZ[/COLOR] (1987) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/bo0d1torv0e9</link>
+<thumbnail>http://static.cinepollo.com/wp-content/uploads/2013/06/superman_iv_1987-poster.jpg</thumbnail>
+<fanart>http://2.bp.blogspot.com/-0G3yvNIHR9o/TgtotK_Z2eI/AAAAAAAAAK4/R09-zBK32N0/s1600/superman.jpg</fanart>
+<info>Poco despues de que la cumbre USA-URSS para el desarme nuclear fracase, el mundo se ve al borde de la III guerra mundial.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]SUPERMAN RETURNS[/COLOR] (2006) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/c2np1spes3wz</link>
+<thumbnail>https://www.ecartelera.com/carteles/900/914/003_p.jpg</thumbnail>
+<fanart>http://lylesmoviefiles.com/wp-content/uploads/2013/06/superman-returns-poster-brandon-routh-as-superman.jpg</fanart>
+<info>Mientras uno de sus antiguos enemigos planea dejarle sin poderes para siempre, Superman (Brandon Routh), con el corazón roto, se enfrenta al hecho de que la mujer a la que ama está rehaciendo su vida.</info>
+</item>
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]EL HOMBRE DE ACERO[/COLOR] (2013) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/o8qk95bpebth</link>
+<thumbnail>http://www.warnerbroslatino.com/sites/default/files/Onesheetart%20Flying.jpg</thumbnail>
+<fanart>https://sm.ign.com/ign_es/screenshot/default/nedk5gzf3owkgk-2-a_2ptn.jpg</fanart>
+<info>Desde Krypton, un lejano planeta muy avanzado tecnológicamente, un bebé es enviado en una cápsula a través del espacio a la Tierra para que viva entre los humanos.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]EL HOMBRE DE ACERO[/COLOR] (2013) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.warnerbroslatino.com/sites/default/files/Onesheetart%20Flying.jpg</thumbnail>
+        <fanart>https://sm.ign.com/ign_es/screenshot/default/nedk5gzf3owkgk-2-a_2ptn.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/el-hombre-de-acero-94980</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/el-hombre-de-acero-94980</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.warnerbroslatino.com/sites/default/files/Onesheetart%20Flying.jpg</thumbnail>
+<fanart>https://sm.ign.com/ign_es/screenshot/default/nedk5gzf3owkgk-2-a_2ptn.jpg</fanart>
+<info>Desde Krypton, un lejano planeta muy avanzado tecnológicamente, un bebé es enviado en una cápsula a través del espacio a la Tierra para que viva entre los humanos.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR dodgerblue] [COLOR red]BATMAN V SUPERMAN: EL AMANECER DE LA JUSTICIA[/COLOR] (2016) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/qdj0rlopufph</link>
+<thumbnail>http://cimg.tvgcdn.net/i/2014/08/07/ff26de9c-90f7-4be8-b6d3-67a8e45c9775/05a67dc9e1965bca30f99e93326a7fa2/140807superman-batman1.jpg</thumbnail>
+<fanart>http://cinesfera.com/wp-content/uploads/2016/03/Batman-v-superman-el-amanecer-de-la-justicia.jpeg</fanart>
+<info>Temiendo las acciones de un superhéroe sin control que posee el poder de un dios y va por libre, el formidable y contundente vigilante de Gotham City se enfrenta al héroe más venerado de Metropolis, mientras el mundo intenta descubrir qué tipo de héroe necesita.</info>
+</item>
+
+<item>
+<title>[B][COLOR green] [COLOR red]LINTERNA VERDE[/COLOR] (2011) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/2jq1bull52vh</link>
+<thumbnail>https://1.bp.blogspot.com/-yXklcPsreJ0/WhdgQcWfQZI/AAAAAAAAGQ0/38g7AC8KXGsafpuD0CdGNJO_3mYoxLXoQCLcBGAs/s1600/green_lantern-386006142-large.jpg</thumbnail>
+<fanart>http://i2.esmas.com/2016/12/13/905199/ryan-reynolds-y-la-muerte-de-linterna-verde-1009x504.jpg</fanart>
+<info>En un universo tan vasto como misterioso, una pequeña pero misteriosa fuerza ha existido por siglos. Protectores de la paz y la justicia se hace llamar el Cuerpo de Linternas Verdes. una hermandad de guerreros que juraron mantener el orden intergaláctico donde cada Linterna Verde lleva un anillo que le da súper poderes.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]LINTERNA VERDE[/COLOR] (2011) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-yXklcPsreJ0/WhdgQcWfQZI/AAAAAAAAGQ0/38g7AC8KXGsafpuD0CdGNJO_3mYoxLXoQCLcBGAs/s1600/green_lantern-386006142-large.jpg</thumbnail>
+        <fanart>http://i2.esmas.com/2016/12/13/905199/ryan-reynolds-y-la-muerte-de-linterna-verde-1009x504.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/linterna-verde-94863</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/linterna-verde-94863</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-yXklcPsreJ0/WhdgQcWfQZI/AAAAAAAAGQ0/38g7AC8KXGsafpuD0CdGNJO_3mYoxLXoQCLcBGAs/s1600/green_lantern-386006142-large.jpg</thumbnail>
+<fanart>http://i2.esmas.com/2016/12/13/905199/ryan-reynolds-y-la-muerte-de-linterna-verde-1009x504.jpg</fanart>
+<info>En un universo tan vasto como misterioso, una pequeña pero misteriosa fuerza ha existido por siglos. Protectores de la paz y la justicia se hace llamar el Cuerpo de Linternas Verdes. una hermandad de guerreros que juraron mantener el orden intergaláctico donde cada Linterna Verde lleva un anillo que le da súper poderes.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]V DE VENDETTA[/COLOR] (2005) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/w62vtlfkj5vy</link>
+<thumbnail>http://iv1.lisimg.com/image/3544/648full-v-for-vendetta-poster.jpg</thumbnail>
+<fanart>https://www.ecartelera.com/images/sets/4900/4992.jpg</fanart>
+<info>En un futuro no muy lejano, Gran Bretaña es un país totalitario dirigido con mano de hierro por un tirano (John Hurt).</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]WATCHMEN[/COLOR] (2009) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/tz3ug1r9szdc/Watchmen_.avi.html</link>
+<thumbnail>http://www.neomanox.com/manoxfilms/carteles/Watchmen/WatchmenPosterDefinitivoIMAX.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-amkyooL3Fik/U1VI4fTc1NI/AAAAAAAAZng/qil70YAZfEA/s1600/533748_198815410254610_69581206_n.jpg</fanart>
+<info>Estados Unidos, años 80. La Guerra Fría está en su apogeo, y los superhéroes, que antes habían sido admirados, ahora son perseguidos por la ley. Un día aparece muerto uno de ellos, "El Comediante", que trabajaba para la CIA. Su amigo Rorschach, el único héroe enmascarado en activo, emprenderá la investigación de su muerte, tras la que se oculta algo muy importante. Esperadísima adaptación del cómic de Alan Moore y Dave Gibbons (1986).</info>
+</item>
+
+<item>
+<title>[B][COLOR green] [COLOR red]TORTUGAS NINJA[/COLOR] (1990) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://4.bp.blogspot.com/-lfvkRjNaKd4/U2vReEjioJI/AAAAAAAAROs/FhV9VhCJdO0/s1600/toni.jpg</thumbnail>
+<fanart>http://elvortex.com/wp-content/uploads/2014/08/TMNT.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/tortuga-ninja-1990-95667</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/tortuga-ninja-1990-95667</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-lfvkRjNaKd4/U2vReEjioJI/AAAAAAAAROs/FhV9VhCJdO0/s1600/toni.jpg</thumbnail>
+<fanart>http://elvortex.com/wp-content/uploads/2014/08/TMNT.jpg</fanart>
+<info>Una escalofriante ola de atracos está teniendo lugar en Nueva York. La policía no tiene sospechosos, y lo más misterioso de todo es que los criminales son invisibles y absolutamente silenciosos. Los únicos capaces de mantener el orden son unas simpáticas tortugas ninja mutantes que responden a los nombres de Donatello, Leonardo, Raphael y Michaelangelo. Viven en las alcantarillas de la ciudad y les encanta comer pizza.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]LAS TORTUGAS NINJA II: EL SECRETO DE LOS MOCOS VERDES[/COLOR] (1991) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img3.acsta.net/medias/nmedia/18/79/70/25/19514327.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/sR9f-OVeBZk/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-95683</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-95683</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/medias/nmedia/18/79/70/25/19514327.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/sR9f-OVeBZk/maxresdefault.jpg</fanart>
+<info>El malvado Shredder tiene un único y perverso plan: acabar con los cuatro superhéroes Tortugas Ninja Mutantes, Raphael, Leonardo, Michelangelo y Donatello.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]LAS TORTUGAS NINJA II: EL SECRETO DE LOS MOCOS VERDES[/COLOR] (1991) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img3.acsta.net/medias/nmedia/18/79/70/25/19514327.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/sR9f-OVeBZk/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-1991-hd-95826</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-1991-hd-95826</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img3.acsta.net/medias/nmedia/18/79/70/25/19514327.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/sR9f-OVeBZk/maxresdefault.jpg</fanart>
+<info>El malvado Shredder tiene un único y perverso plan: acabar con los cuatro superhéroes Tortugas Ninja Mutantes, Raphael, Leonardo, Michelangelo y Donatello.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]LAS TORTUGAS NINJA III[/COLOR] (1993) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/gallery_big/public/media/image/2016/12/tortugas-ninja-iii.jpg?itok=M2Hi0pIc</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/3Ws5ePyLJDLamVzWnkCM6kPBbgh.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-3-1993-95696</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-3-1993-95696</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/gallery_big/public/media/image/2016/12/tortugas-ninja-iii.jpg?itok=M2Hi0pIc</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/3Ws5ePyLJDLamVzWnkCM6kPBbgh.jpg</fanart>
+<info>Cuando un centro mágico transporta por accidente a April al Japón del siglo XVII, los chicos se lanzan en su busca y aparecen, a través de la alcantarilla, ¡en la tierra de los samuráis! Ahora deben enfrentarse a Nortaga, el malvado Señor de la guerra, y recuperar el cetro que los transportará de vuelta a lo más profundo del metro de Nueva York.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]LAS TORTUGAS NINJA III[/COLOR] (1993) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/gallery_big/public/media/image/2016/12/tortugas-ninja-iii.jpg?itok=M2Hi0pIc</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/3Ws5ePyLJDLamVzWnkCM6kPBbgh.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-3-1993-hd-95697</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-3-1993-hd-95697</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/gallery_big/public/media/image/2016/12/tortugas-ninja-iii.jpg?itok=M2Hi0pIc</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/3Ws5ePyLJDLamVzWnkCM6kPBbgh.jpg</fanart>
+<info>Cuando un centro mágico transporta por accidente a April al Japón del siglo XVII, los chicos se lanzan en su busca y aparecen, a través de la alcantarilla, ¡en la tierra de los samuráis! Ahora deben enfrentarse a Nortaga, el malvado Señor de la guerra, y recuperar el cetro que los transportará de vuelta a lo más profundo del metro de Nueva York.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]TORTUGAS NINJA[/COLOR] (2014) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i.ytimg.com/vi/QESzneA2dLI/movieposter.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/FeEJP2O8vtk/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-2014-95741</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-2014-95741</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://i.ytimg.com/vi/QESzneA2dLI/movieposter.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/FeEJP2O8vtk/maxresdefault.jpg</fanart>
+<info>Nueva York está en peligro debido a que Shredder y su compinche El Clan del Pie dominan la ciudad y ejercen un férreo control sobre todo, incluyendo policía y políticos. Pero cuatro héroes (Leonardo, Michelangelo, Donatello y Raphael) saldrán de las alcantarillas y con la ayuda de la reportera April y su compañero Vern Fenwick intentarán salvar la ciudad. Narra de nuevo el origen de estos personajes del cómic, que en este filme serán alienígenas.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]TORTUGAS NINJA[/COLOR] (2014) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://i.ytimg.com/vi/QESzneA2dLI/movieposter.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/FeEJP2O8vtk/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-2014-hd-95832</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-2014-hd-95832</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+ <thumbnail>https://i.ytimg.com/vi/QESzneA2dLI/movieposter.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/FeEJP2O8vtk/maxresdefault.jpg</fanart>
+<info>Nueva York está en peligro debido a que Shredder y su compinche El Clan del Pie dominan la ciudad y ejercen un férreo control sobre todo, incluyendo policía y políticos. Pero cuatro héroes (Leonardo, Michelangelo, Donatello y Raphael) saldrán de las alcantarillas y con la ayuda de la reportera April y su compañero Vern Fenwick intentarán salvar la ciudad. Narra de nuevo el origen de estos personajes del cómic, que en este filme serán alienígenas.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR green] [COLOR red]TORTUGAS NINJA 2: FUERA DE LAS SOMBRAS[/COLOR] (2016) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.paramountvideo.com.mx/hv_posters/889.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/z3IynOptMb0/maxresdefault.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-hd-95686</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/las-tortugas-ninja-ii-hd-95686</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.paramountvideo.com.mx/hv_posters/889.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/z3IynOptMb0/maxresdefault.jpg</fanart>
+<info>Cuando el malvado Shredder escapa de la muerte, regresa con un perverso plan: acabar con los cuatro superhéroes: Rapahel, Leonardo, Michelangelo y Donatello.</info>
+</item>
+
+<item>
+<title>[B][COLOR grey] [COLOR red]ROBOCOP[/COLOR] (1987) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/0qzfvqvv3cqz/A740_1987_Robocop_DVDRip_LiNkMaN_DUAL.avi.html</link>
+<thumbnail>https://i1.wp.com/www.reelworldtheology.com/wp-content/uploads/2015/03/RoboCop-Poster.jpg</thumbnail>
+<fanart>http://thatmomentin.com/wp-content/uploads/2017/05/robocop-1987.jpg</fanart>
+<info>Parte del cuerpo de un policía asesinado, es utilizado para crear un «superpolicía» con cuerpo mecánico y cerebro humano.</info>
+</item>
+
+<item>
+<title>[B][COLOR gray] [COLOR red]HELLBOY[/COLOR] (2004) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/scihijczrxx7</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTc1ZWY0ZTEtZTVmNi00MTg0LTg4NmQtZTI4OWNiMmQ0MWZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UY268_CR6,0,182,268_AL_.jpg</thumbnail>
+<fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/05/590156-hellboy-critica-primera-pelicula-guillermo-toro.jpeg</fanart>
+<info>Nacido de las llamas del infierno hace sesenta años durante la Segunda Guerra Mundial, Hell-boy (Ron Perlman) fue enviado a la Tierra por el loco diabólico Grigori Rasputín (Karel Ro-den) para hacer el mal.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR gray] [COLOR red]HELLBOY II: EL EJÉRCITO DORADO[/COLOR] (2008) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/vijzchydxwzy</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/5/51/Hellboy_2_poster.jpg</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/en/3/38/Hellboy_2_Shot_2.jpg</fanart>
+<info>Tras la ruptura de un acuerdo milenario entre la humanidad y los poderes invisibles de un mundo fantastico, el infierno en la Tierra esta cada vez mas cerca.</info>
+</item>
+
+<item>
+<title>[B][COLOR purple] [COLOR red]KICK-ASS: LISTO PARA MACHACAR[/COLOR] (2010) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/3v7w672w7798</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzNzEzMDYxM15BMl5BanBnXkFtZTcwMTc0NTMxMw@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+<fanart>https://natashastander.files.wordpress.com/2015/07/kick-ass-movie-poster.jpg</fanart>
+<info>‘Kick-Ass’ gira en torno a Dave Lizewski (Aaron Johnson), un estudiante de instituto que pasa desapercibido por todos, aficionado a los cómics, de donde saca un día la idea de convertirse en un superhéroe, aunque no tenga superpoderes, no haya seguido un duro entrenamiento y ni siquiera tenga una razón significativa para ello.</info>
+</item>
+
+<item>
+<title>[B][COLOR purple] [COLOR red]KICK-ASS II: CON UN PAR[/COLOR] (2013) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/37pgc3tqkdc7/Kick_Ass_2__www.CineFLV.me_.avi.html</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91CW1MAwSdL._SL1500_.jpg</thumbnail>
+<fanart>https://www.hijos-del-atomo.com/wp-content/uploads/2013/10/422817.jpg</fanart>
+<info>Secuela de la aclamada película Kick-Ass (2010), basada en el cómic de Mark Millar.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]EL CUERVO[/COLOR] (1994) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/npcljfygi4w6/El_Cuervo.avi.html</link>
+<thumbnail>https://4.bp.blogspot.com/-ZFSTOzgjaho/VzKGNPt8WlI/AAAAAAAAAE8/YDxiJUoiaScg15qgsHlFgvKRKJbthhV0wCLcB/s1600/El%2BCuervo%2Bthe%2Bcrow.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/w1280/terfn255waxUawAcyjxsDTnSFfY.jpg</fanart>
+<info>Eric Draven y Shelly Websyter están a punto de casarse, pero la noche antes del enlace son asesinados brutalmente. Un año después, el alma de Eric vuelve a la Tierra en forma de cuervo para vengarse.</info>
+</item>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]EL CUERVO: CIUDAD DE ÁNGELES[/COLOR] (1996) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/tgyg3t69y3ux/El_Cuervo_2__Ciudad_de_Angeles___DNATHARIX_.avi.html</link>
+<thumbnail>http://es.web.img3.acsta.net/r_1280_720/medias/nmedia/18/91/36/81/20141822.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-etLJv9Ru2nc/T8Oshy5sXEI/AAAAAAAAHFc/ijWb2EoHU1w/s1600/El+Cuervo+Ciudad+de+%25C3%2581ngeles+Tim+Pope+Vincent+Perez+1996+%25283%2529.jpg</fanart>
+<info>Nueva versión del popular cómic de los años ochenta, tras la protagonizada por el malogrado Brandon Lee. En el Día de los Difuntos, un padre y su hijo presencian un terrible crimen que les convierte en víctimas del asesino. Como venganza, el padre emerge de la muerte con los poderes misteriosos de un cuervo.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]EL CUERVO: SALVACIÓN[/COLOR] (2000) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/tgyg3t69y3ux/El_Cuervo_2__Ciudad_de_Angeles___DNATHARIX_.avi.html</link>
+<thumbnail>https://img.tviso.com/ES/poster/w430/af/8a/af8a9e6717eb48b47b0108b2413f18a5.jpg</thumbnail>
+<fanart>http://dreamers.com/indices/imagenes/peliculas.174.IMAGEN2.jpg</fanart>
+<info>La tercera entrega de la serie "El Cuervo", retoma al personaje Alex Corvis, encarcelado y ejecutado injustamente por la muerte de su novia. Un cuervo le rescata de la muerte, según la leyenda de que "el amor es más fuerte que la muerte".</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]SPAWN[/COLOR] (1997) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/rjlovv9kj8pa</link>
+<thumbnail>http://www.scifi-movies.com/images/contenu/data/0002210/affiche-spawn-1997-4.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/0NgcxAQnA9o/maxresdefault.jpg</fanart>
+<info>Un mercenario llamado Al Simmons es traicionado y asesinado por su diabólico jefe. Cuando baja a los infiernos hace un pacto con el diablo para volver a la tierra bajo la figura de Spawn, y así poder volver a ver a su mujer.</info>
+</item>
+
+<item>
+<title>[B][COLOR grey] [COLOR red]LA LIGA DE LOS HOMBRES EXTRAORDINARIOS[/COLOR] (2003) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/e6ma1rkanqec</link>
+<thumbnail>http://s3-eu-west-1.amazonaws.com/abandomedia/db/poster/db_posters_24540.jpg</thumbnail>
+<fanart>https://www.cultture.com/pics/2015/08/rebo01.jpg</fanart>
+<info>En la Inglaterra victoriana, un malvado comete sus fechorías con la intención de provocar una guerra mundial. Intentando evitarlo, las autoridades reclutarán a un grupo de valientes con una peculiaridad: todos son héroes literarios.</info>
+</item>
+
+<item>
+<title>[B][COLOR yellow] [COLOR red]CONDORMAN[/COLOR] (1981) (SD 576)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Condormanposter.jpg</thumbnail>
+        <fanart>http://www.craveonline.com/images/stories/2011/2012/October/Film/Condorman.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/condorman-95439</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/condorman-95439</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7a/Condormanposter.jpg</thumbnail>
+        <fanart>http://www.craveonline.com/images/stories/2011/2012/October/Film/Condorman.jpg</fanart>
+<info>Woody, un dibujante y guionista de cómics, debe realizar un simple encargo para su amigo Harry, agente de la CIA. A pesar de su ineptitud, logra vencer a un grupo de agentes enemigos; y así se gana la admiración de la hermosa Natalia que llega a pedirle que la proteja. Woody se aprovechará de esta situación para dar vida a un personaje de cómic, "Condorman", utilizando los recursos de la CIA.</info>
+</item>	
+ 
+ <item>
+<title>[B][COLOR lime] [COLOR red]LOS CAZAFANTASMAS[/COLOR] (1984) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://planvex.es/web/wp-content/uploads/2014/06/A-pesar-de-ser-cuatro-en-el-cartel-s%C3%B3lo-aparecen-tres.-Curiosamente-desapareci%C3%B3-el-de-color..jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-rTjNr4sj1vs/V6oIT9u4iwI/AAAAAAAAK8E/ervFhpoxIpQ4riG6XtRYaGAX0Z9rl1TTgCK4B/s1600/ghostbusters_promo1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-96443</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-96443</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://planvex.es/web/wp-content/uploads/2014/06/A-pesar-de-ser-cuatro-en-el-cartel-s%C3%B3lo-aparecen-tres.-Curiosamente-desapareci%C3%B3-el-de-color..jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-rTjNr4sj1vs/V6oIT9u4iwI/AAAAAAAAK8E/ervFhpoxIpQ4riG6XtRYaGAX0Z9rl1TTgCK4B/s1600/ghostbusters_promo1.jpg</fanart>
+<info>Los Drs. Venkman, Stantz y Epengler, son tres doctores en parapsicología que se quedan sin empleo tras quedar excluidos de una beca universitaria de investigación.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR lime] [COLOR red]LOS CAZAFANTASMAS[/COLOR] (1984) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://planvex.es/web/wp-content/uploads/2014/06/A-pesar-de-ser-cuatro-en-el-cartel-s%C3%B3lo-aparecen-tres.-Curiosamente-desapareci%C3%B3-el-de-color..jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-rTjNr4sj1vs/V6oIT9u4iwI/AAAAAAAAK8E/ervFhpoxIpQ4riG6XtRYaGAX0Z9rl1TTgCK4B/s1600/ghostbusters_promo1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-hd-96444</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-hd-96444</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://planvex.es/web/wp-content/uploads/2014/06/A-pesar-de-ser-cuatro-en-el-cartel-s%C3%B3lo-aparecen-tres.-Curiosamente-desapareci%C3%B3-el-de-color..jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-rTjNr4sj1vs/V6oIT9u4iwI/AAAAAAAAK8E/ervFhpoxIpQ4riG6XtRYaGAX0Z9rl1TTgCK4B/s1600/ghostbusters_promo1.jpg</fanart>
+<info>Los Drs. Venkman, Stantz y Epengler, son tres doctores en parapsicología que se quedan sin empleo tras quedar excluidos de una beca universitaria de investigación.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR lime] [COLOR red]LOS CAZAFANTASMAS 2[/COLOR] (1989) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.c1n3.org/r/reitman01i/Images/1989%20Ghostbusters%20II%20-%20Cazafantasmas%20II%20(ale)%2001.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-MQ_qNBk-b8I/U9DCNpv-niI/AAAAAAAABtQ/86Dkow-BGJU/s1600/VHS.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-caza-fantasmas-2-96445</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-caza-fantasmas-2-96445</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.c1n3.org/r/reitman01i/Images/1989%20Ghostbusters%20II%20-%20Cazafantasmas%20II%20(ale)%2001.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-MQ_qNBk-b8I/U9DCNpv-niI/AAAAAAAABtQ/86Dkow-BGJU/s1600/VHS.jpg</fanart>
+<info>Han pasado cinco años desde que los Cazafantasmas entraron por última vez en acción. El doctor Peter Venkman, notable parapsicólogo de persuasivos encantos, ha quedado relegado a maestro de ceremonias.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR lime] [COLOR red]LOS CAZAFANTASMAS 2[/COLOR] (1989) (HD 1080)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://www.c1n3.org/r/reitman01i/Images/1989%20Ghostbusters%20II%20-%20Cazafantasmas%20II%20(ale)%2001.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-MQ_qNBk-b8I/U9DCNpv-niI/AAAAAAAABtQ/86Dkow-BGJU/s1600/VHS.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-2-hd-96446</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-2-hd-96446</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.c1n3.org/r/reitman01i/Images/1989%20Ghostbusters%20II%20-%20Cazafantasmas%20II%20(ale)%2001.jpg</thumbnail>
+<fanart>http://4.bp.blogspot.com/-MQ_qNBk-b8I/U9DCNpv-niI/AAAAAAAABtQ/86Dkow-BGJU/s1600/VHS.jpg</fanart>
+<info>Han pasado cinco años desde que los Cazafantasmas entraron por última vez en acción. El doctor Peter Venkman, notable parapsicólogo de persuasivos encantos, ha quedado relegado a maestro de ceremonias.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR lime] [COLOR red]LOS CAZAFANTASMAS[/COLOR] (2016) (SD 480)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://es.web.img2.acsta.net/pictures/16/06/15/12/33/410898.jpg</thumbnail>
+<fanart>http://lareplica.es/wp-content/uploads/2016/08/cazafantasmas_2016_foto.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-2016-96454</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/los-cazafantasmas-2016-96454</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://es.web.img2.acsta.net/pictures/16/06/15/12/33/410898.jpg</thumbnail>
+<fanart>http://lareplica.es/wp-content/uploads/2016/08/cazafantasmas_2016_foto.jpg</fanart>
+<info>Manhattan, Nueva York. Después de casi treinta años sin saber de ellos, los fantasmas y demonios se han vuelto a escapar de los infiernos para destruir la ciudad.</info>
+</item>
+
+     <channel>
+    <name>          <<<<<<<<<ESTRENOS>>>>>>>></name>
+    <thumbnail></thumbnail>
+    <fanart></fanart>
+        <items>
+		
+		
+		
+		<item><title>                                                        [B][COLOR white]·[/COLOR][/B][B][COLOR red]S.J JusTicIa[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link>http://about.me/adryan</link>
+<thumbnail>https://1.bp.blogspot.com/-0JjLGwLIKaY/Wg_9e5WGh5I/AAAAAAAAGLA/jgWlBHtaE6gS4EeZbDshiSbq0zdlv-9QACLcBGAs/s1600/icon.png</thumbnail>
+<fanart>https://2.bp.blogspot.com/-C9GMCDShhYg/Wg_6EueNKSI/AAAAAAAAGK0/yUm6e9lTxCMHOeN_h0SDr-e4Zc92YF1swCLcBGAs/s1600/fanart.jpg</fanart>
+</item>
+               
+        <item><title>                                       [B][COLOR white]·[/COLOR][/B][B][COLOR red]CINE PELÍCULAS ESTRENOS[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link>http://about.me/adryan</link>
+<thumbnail>https://2.bp.blogspot.com/-7aBoyPS-WcA/WhAXo6nB0nI/AAAAAAAAGMk/NxGV0Zkk2M4U8aMB9amoO_PSzfDKWS4qACLcBGAs/s1600/ESTRENOS.png</thumbnail>
+<fanart>https://2.bp.blogspot.com/-C9GMCDShhYg/Wg_6EueNKSI/AAAAAAAAGK0/yUm6e9lTxCMHOeN_h0SDr-e4Zc92YF1swCLcBGAs/s1600/fanart.jpg</fanart>
+</item>
+         
+    <channel>
+    <name>[COLOR orange]•[/COLOR][COLOR aqua]►ESTRENOS[/COLOR]</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+	
+	
+<items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]LOGAN[/COLOR] (2017) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/tuclrouq0v2u/Logan__BluRay_Rip_-_AC3_5.1_.avi.html</link>
+<thumbnail>http://inyoumagazine.com/wp-content/uploads/2016/10/gyht.jpg</thumbnail>
+<fanart>http://inyoumagazine.com/wp-content/uploads/2016/10/gyht.jpg</fanart>
+<info>Sin sus poderes, por primera vez, Wolverine es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante. Tercera y última película protagonizada por Hugh Jackman en el papel de Lobezno.</info>
+</item>
+
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]GUARDIANES DE LA GALAXIA VOL.2[/COLOR] (2017) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/rncg5gad0jrh/Gvard1anes_de_la_gal4xia_Vol._2__2017___m720p_.mkv.html</link>
+<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
+<info>Ambientada en el nuevo contexto sonoro de “Awesome Mixtape #2”, continúa las aventuras del equipo en su travesía por los confines del cosmos.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]WONDER WOMAN[/COLOR] (2017) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/3v8kutz5wpus/w0nd3r.w0m4n.2017.hdrip.720p.castellano.mp4.html</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
+<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
+<info>Diana Prince es una princesa guerrera amazona que ha sido criada por su madre, la reina Hippolyta, y sus tías, la General Antíope y Menalippe, en una protegida y paradisíaca isla tropical.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (SD 480)[/B]</title>
+<link>http://streamcloud.eu/17xyccq95f33</link>
+<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
+</item>
+
+
+<item>
+<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (SD 480)[/B]</title>
+<link></link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+        <fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-sd-96397</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-sd-96397</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
+</item>
+
+
+
+<item>
+<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+        <fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
+</item>
+
+
+<items>
+ 
+<item>
+<title>[B][COLOR white] [COLOR red]THOR: RAGNAROK[/COLOR] (2017) (CALIDAD TS)[/B]</title>
+<link>http://streamcloud.eu/e2ok3m09dtf6</link>
+<thumbnail>https://2.bp.blogspot.com/-84NTdBWnpB0/WhAnGlHplzI/AAAAAAAAGNc/Et88yCqqN_wUzBfdGXu_uFsFwYoeUq93wCLcBGAs/s1600/thor_ragnarok-115636540-large.jpg</thumbnail>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/5/56/Thor_ragnarok_-_704x1024.jpg</fanart>
+<info>Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo.</info>
+</item>
+
