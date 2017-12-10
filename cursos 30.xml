@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Alphas[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Alphas[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -39,7 +39,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Agente [/COLOR][COLOR yellow]Carter[/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Agente [/COLOR][COLOR yellow]Carter[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -77,7 +77,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow] [/COLOR][COLOR  skyblue]Arrow[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow] [/COLOR][COLOR  skyblue]Arrow[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -115,7 +115,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Agentes of Shield[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Agentes of Shield[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -155,7 +155,7 @@
 </regex>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Bella y bestia[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Bella y bestia[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -193,7 +193,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Daredevil[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Daredevil[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -231,7 +231,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]DC Legens[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]DC Legens[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -269,7 +269,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Halfworlds[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Halfworlds[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -307,7 +307,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Heroes[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Heroes[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -345,7 +345,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Intobadlands[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Intobadlands[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -383,7 +383,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Iron fist[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Iron fist[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -421,7 +421,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Smallville[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Smallville[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -459,7 +459,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]Supergirl[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Supergirl[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -518,7 +518,7 @@
 
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>       [B][COLOR yellow][/COLOR][COLOR  skyblue]The flash[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -556,7 +556,7 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (SD 480)[/B]</title>
+<title>       [B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (SD 480)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -597,7 +597,7 @@
 
 	
 <item>
-<title>[B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (HD 720)[/B]</title>
+<title>       [B][COLOR yellow] [COLOR red]TEMPORADA 1[/COLOR] (HD 720)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -637,7 +637,7 @@
 
 
 <item>
-<title>[B][COLOR yellow] [COLOR red]TEMPORADA 2[/COLOR] (HD 1080)[/B]</title>
+<title>       [B][COLOR yellow] [COLOR red]TEMPORADA 2[/COLOR] (HD 1080)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -677,7 +677,7 @@
 
 
 <item>
-<title>[B][COLOR yellow] [COLOR red]TEMPORADA 3[/COLOR] (HD 720)[/B]</title>
+<title>       [B][COLOR yellow] [COLOR red]TEMPORADA 3[/COLOR] (HD 720)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -716,7 +716,7 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow] [COLOR red]TEMPORADA UNICA[/COLOR] (SD 480)[/B]</title>
+<title>       [B][COLOR yellow] [COLOR red]TEMPORADA UNICA[/COLOR] (SD 480)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>

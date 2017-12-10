@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>                 [COLOR blue]OFIMATICA[/COLOR]</title>
+<title>                 [B][COLOR blue]OFIMATICA[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
@@ -101,7 +101,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>                 [COLOR red]ARQUITETURA[/COLOR]</title>
+<title>                 [B][COLOR red]ARQUITETURA[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
@@ -219,7 +219,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>           [COLOR orange]IMAGEN Y VIDEO[/COLOR]</title>
+<title>           [B][COLOR orange]IMAGEN Y VIDEO[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
@@ -317,7 +317,7 @@
 </item>
 
  <item>
-<title>                    [COLOR ligthskyblue]MAS ENTRETENIMIENTO[/COLOR]</title>
+<title>                    [B][COLOR ligthskyblue]MAS ENTRETENIMIENTO[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>http://4.bp.blogspot.com/-jgYU13qxzOc/VKTya3A3lAI/AAAAAAAATk0/zB7xMENaYPk/s1600/spiderman%2Bin%2Bthe%2Bavengers%2Bmovie-you%2Bhad%2Bone%2Bjob-dante%2Bross-danterants-blogspot-com.jpg</fanart>
 <link>http://ignoreme</link>
@@ -325,7 +325,7 @@
 </item>
 
  <item>
-<title>[COLOR gold]Cine[/COLOR]</title>
+<title>[B][COLOR gold]Cine[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://estamosdecine.com/wp-content/uploads/2017/02/0.jpg</fanart>
 <link>http://ignoreme</link>
@@ -333,7 +333,7 @@
 </item>
 
  <item>
-<title>[COLOR gold]Series[/COLOR][COLOR lime] acción[/COLOR]</title>
+<title>[B][COLOR gold]Series[/COLOR][COLOR lime] acción[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
@@ -341,7 +341,7 @@
 </item>
 
  <item>
-<title>[COLOR gold]Series[/COLOR][COLOR lime] animaciòn[/COLOR]</title>
+<title>[B][COLOR gold]Series[/COLOR][COLOR lime] animaciòn[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
@@ -349,7 +349,7 @@
 </item>
 
  <item>
-<title>[B][COLOR gold]MONOLOGOS[/COLOR][COLOR lime][/COLOR][/B]</title>
+<title>[B][COLOR brown]MONOLOGOS[/COLOR][COLOR lime][/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
@@ -357,7 +357,7 @@
 </item>
 
  <item>
-<title>[B][COLOR gold]CONCIERTOS[/COLOR][COLOR lime][/COLOR][/B]</title>
+<title>[B][COLOR lime]CONCIERTOS[/COLOR][COLOR lime][/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
@@ -373,7 +373,7 @@
 </item>
 
  <item>
-<title>[COLOR white]Como[/COLOR][COLOR green] resolver[/COLOR][COLOR yellow] el cubo[/COLOR][COLOR red] mágico [/COLOR][COLOR orange](Cubo[/COLOR][COLOR blue] Rubik)[/COLOR]</title>
+<title>[B][COLOR white]Como[/COLOR][COLOR green] resolver[/COLOR][COLOR yellow] el cubo[/COLOR][COLOR red] mágico [/COLOR][COLOR orange](Cubo[/COLOR][COLOR blue] Rubik)[/COLOR][/B]</title>
 <thumbnail>http://minimalart.org/pics/2013-07-21/rubik_caras.png</thumbnail>
 <fanart>https://3dwarehouse.sketchup.com/warehouse/getpubliccontent?contentId=a67c490a-49e5-4c33-bafe-9d45169244de</fanart>
 <link>http://ignoreme</link>

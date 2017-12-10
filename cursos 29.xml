@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  gold] Peliculas 2016 [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  gold] Peliculas 2016 [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -39,7 +39,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  lime] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  lime] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -77,7 +77,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  gold] PELICULAS ACCION [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  gold] PELICULAS ACCION [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -115,7 +115,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  lime] PELICULAS ANIMACION [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  lime] PELICULAS ANIMACION [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -153,7 +153,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow] [/COLOR][COLOR  gold] PELICULAS ESPAÑOL [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow] [/COLOR][COLOR  gold] PELICULAS ESPAÑOL [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -191,7 +191,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  lime] PELICULAS DE AVENTURAS ESPAÑOL LATINO [/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  lime] PELICULAS DE AVENTURAS ESPAÑOL LATINO [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
