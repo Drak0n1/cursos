@@ -755,7 +755,7 @@
 </item>
 
 <item>
-<title>[B][COLOR white] [COLOR red]The punisher[/COLOR] (HD 720)[/B]</title>
+<title>[B][COLOR white] [COLOR blue]The punisher[/COLOR] (HD 720)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
