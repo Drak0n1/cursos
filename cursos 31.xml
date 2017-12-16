@@ -1,94 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-	<item>
-<title>[B][COLOR yellow] [COLOR red]BATMAN, EL REGRESO DE LOS CRUZADOS ENMASCARADOS[/COLOR] (2016) (HD 1080)[/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://4.bp.blogspot.com/-490NSFsxhPQ/WiVkKJK7tCI/AAAAAAAAGcM/1fFttYlxruoZ4hCdFhD-mH0buJ8q3JetQCLcBGAs/s1600/maxresdefault.jpg</thumbnail>
-        <fanart>https://homecine.net/wp-content/uploads/2017/11/batman-el-regreso-de-los-cruzados-enmascarados-6466-backdrop.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VerboscientosdonJota/batman-el-regreso-de-los-cruzados-enmascarados-96327</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VerboscientosdonJota/batman-el-regreso-de-los-cruzados-enmascarados-96327</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://4.bp.blogspot.com/-490NSFsxhPQ/WiVkKJK7tCI/AAAAAAAAGcM/1fFttYlxruoZ4hCdFhD-mH0buJ8q3JetQCLcBGAs/s1600/maxresdefault.jpg</thumbnail>
-<fanart>https://homecine.net/wp-content/uploads/2017/11/batman-el-regreso-de-los-cruzados-enmascarados-6466-backdrop.jpg</fanart>
-<info>Batman y Robin, el chico maravilla, entran en acción cuando la Tierra se ve amenazada por las más malévolas mentes-criminales de la ciudad de Gotham: El Guasón, Enigma, Pingüino y Gatúbela! El Dúo Dinámico tratará de salvar el día cuando Batman se transforma de bueno a malo. Ahora Gatúbela y Robin deben unirse para evitar que tome la ciudad de Gotham y, en definitiva, del mundo.</info>
-</item>
-
-<item>
-<title>[B][COLOR white] [COLOR red]PELÍCULA SAGA DE VENOM[/COLOR] (SD 480)[/B]</title>
-<link></link>
-<thumbnail>https://img.hindilinks4u.to/2014/12/The-Punisher-2004-In-Hindi.jpg</thumbnail>
-<fanart>https://i.ytimg.com/vi/VFjKi7Rs3OU/maxresdefault.jpg</fanart>
-<info>Saga de Venom</info>
-</item>
-
 	
-	
-	
-<item>
-<title>[B][COLOR blue] [COLOR red]SPIDER-MAN-QUIEN ES EL HOMBRE ARAÑA?[/COLOR] (2014) (SD 480)[/B]</title>
-<link></link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>http://3.bp.blogspot.com/-aFr-A2JX3tw/UUB2fKQaH8I/AAAAAAAACFc/Qgm6eW6SbB4/s1600/Spiderman+1977+poster.jpeg</thumbnail>
-        <fanart>https://s-media-cache-ak0.pinimg.com/originals/97/5b/23/975b2364d0af7ef3008d1435854d17b1.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VerboscientosdonJota/quien-es-el-hombre-arana-95028</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VerboscientosdonJota/quien-es-el-hombre-arana-95028</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://3.bp.blogspot.com/-aFr-A2JX3tw/UUB2fKQaH8I/AAAAAAAACFc/Qgm6eW6SbB4/s1600/Spiderman+1977+poster.jpeg</thumbnail>
-<fanart>https://s-media-cache-ak0.pinimg.com/originals/97/5b/23/975b2364d0af7ef3008d1435854d17b1.jpg</fanart>
-<info>Quien es el hombre araña?</info>
-</item>
-
 <item>
 		<title>[COLOR skyblue]DRAGON BALL[/COLOR]</title>
 		<link>$doregex[makelist]</link>
@@ -97,8 +8,8 @@
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBFanart.jpg?raw=true</fanart>
+			<thumbnail>http://img.kbhgames.com/2014/09/Dragon-Ball-Advanced-Adventure.jpg</thumbnail>
+			<fanart>http://anime.es/wp-content/uploads/2014/01/Anime-Dragon-Ball-50-0.jpg</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/db-74096/list,1,100</page>
@@ -135,8 +46,8 @@
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBZFanart.jpg?raw=true</fanart>
+			<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNGM5MTEyZDItZWNhOS00NzNkLTgwZTAtNWIzY2IzZmExOWMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR2,0,182,268_AL_.jpg</thumbnail>
+			<fanart>http://2.bp.blogspot.com/-5GpRq4zxP7s/VNpZJ_BSe8I/AAAAAAAAAfY/X58tVVz1t54/s1600/Dragon%2BBall%2BZ.jpg</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/dbz-74737/list,1,100</page>
@@ -173,8 +84,8 @@
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBGTFanart.jpg?raw=true</fanart>
+			<thumbnail>http://dreamers.com/indices/imagenes/series.476.IMAGEN1.jpg</thumbnail>
+			<fanart>https://www.supergoku.com/wp-content/uploads/2016/10/dragon_ball_gt_genzai__fan_made__by_legend_tony980-d78dn2u.png</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/dbgt-76726/list,1,100</page>
@@ -211,8 +122,8 @@
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBKFanart.jpg?raw=true</fanart>
+			<thumbnail>https://fanart.tv/detailpreview/fanart/tv/88031/tvposter/dragon-ball-kai-54a24fdad79a6.jpg</thumbnail>
+			<fanart>https://4.bp.blogspot.com/-vIyJ7QXhDZs/WLtugURmfxI/AAAAAAAADP0/48PuO2Y4F7MmJYlNzEdRkPvOzi-LaLcUQCLcB/s1600/dragon-ball-z-kai-vegeta-vs-goku-180273.jpg</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/dbk-1-77058/list,1,100</page>
@@ -249,8 +160,8 @@
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBK2Fanart.jpg?raw=true</fanart>
+			<thumbnail>https://fanart.tv/detailpreview/fanart/tv/88031/tvposter/dragon-ball-kai-54a24fdad79a6.jpg</thumbnail>
+			<fanart>http://ramenparados.com/wp-content/uploads/2016/11/dragon-ball-kai-saga-majin-boo.jpg</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/dbk-2-77765/list,1,100</page>
@@ -289,8 +200,8 @@
   <listrepeat><![CDATA[
         <title>[makelist.param2]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBSFanart.png?raw=true</fanart>
+        <thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+        <fanart>http://lanetadurango.com/wp-content/uploads/2017/08/3-dragon-ball-.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
 <page>http://kbagi.com/retrogames33/dbs-602162/list,1,100</page>
@@ -342,8 +253,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBPeliFanart.jpg?raw=true</fanart>
+			<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+			<fanart>http://media.vandal.net/i/1200x630/9-2017/201792011441_1.jpg</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/dbo-77047/list,1,100</page>
@@ -380,8 +291,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBCSFanart.jpg?raw=true</fanart>
+			<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+			<fanart>https://www.gratistodo.com/wp-content/uploads/2016/07/DragonBall-Super.png</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 			<page>http://diskokosmiko.mx/retrogames33/concierto-dbsa-82181/list,1,100</page>
@@ -498,8 +409,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://4.bp.blogspot.com/-A-JN8MMSpKM/WG3Iw5CPS2I/AAAAAAAABQE/vhjRs608IBA-v4sY-mxnRotZLQqh7JDNACLcB/s1600/inuyasha.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/inuyasha-97565</page>
@@ -536,8 +447,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://www.animeclick.it/immagini/anime/Kenka_Banchou_Otome_Girl_Beats_Boys/gallery_original/Kenka_Banchou_Otome_Girl_Beats_Boys-58f37873d9f5a.jpg</fanart>
+<thumbnail>https://i.pinimg.com/236x/fb/5b/32/fb5b3272056cef6035cc0da0d2ae9f3b--kenka-banchou-otome-news.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/kenka-banchou-otome-girl-beats-boys-98024</page>
@@ -574,8 +485,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://pm1.narvii.com/6502/cb7604152bd55772f1f72c1c3e73ed2012b4f51d_hq.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/610aWyLPFFL._SL1263_.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/hyakka-ryouran-samurai-girls-98126</page>

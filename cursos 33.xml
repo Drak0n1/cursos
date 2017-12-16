@@ -8,8 +8,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2016/03/21/rihanna-musicares-lionel-richie-2016-billboard-650.jpg?itok=0t46ody_</fanart>
+<thumbnail>https://static.vix.com/es/sites/default/files/styles/large/public/imj/alfombrarosa/r/rihanna-realiza-un-baile-erotico-en-un-concierto-2.jpg?itok=Ksum-iSM</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/chinchetas/concierto-rihanna-2008-47848</page>
@@ -34,8 +34,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://static-latercera-qa.s3.amazonaws.com/wp-content/uploads/sites/7/20150622/2138728.jpg</fanart>
+<thumbnail>https://cdn.expansion.mx/dims4/default/7e7871b/2147483647/resize/800x%3E/quality/75/?url=https%3A%2F%2Fcdn.expansion.mx%2F5b%2Fc7%2F936991844c749a6ba25cdb541a5f%2Fcaptura-de-pantalla-2017-12-10-a-la-s-14.52.41.png</thumbnail>
 </item>
 
 <item>
@@ -46,8 +46,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2017/02/02/britney-spears-show-kiis-fm-jingle-ball-los-angeles-2016.jpg?itok=2VO_Psbi</fanart>
+<thumbnail>http://los40es00.epimg.net/los40/imagenes/2016/11/13/musica/1479035781_878436_1479036391_noticia_normal.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/chinchetas/conciertos-britney-spears-47847</page>
@@ -72,8 +72,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://assets.metrolatam.com/gt/2015/10/19/gettyimages-2283205-master-1200x600.jpg</fanart>
+<thumbnail>http://d3cprjxvoejtmm.cloudfront.net/images/2011/12/britney2.jpg</thumbnail>
 </item>
 
 <item>
