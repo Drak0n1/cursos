@@ -123,8 +123,8 @@
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBFanart.jpg?raw=true</fanart>
+		<thumbnail>http://img.kbhgames.com/2014/09/Dragon-Ball-Advanced-Adventure.jpg</thumbnail>
+		<fanart>http://anime.es/wp-content/uploads/2014/01/Anime-Dragon-Ball-50-0.jpg</fanart>
 	</item>
 	
 	<item>
@@ -161,8 +161,8 @@
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBZFanart.jpg?raw=true</fanart>
+		<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNGM5MTEyZDItZWNhOS00NzNkLTgwZTAtNWIzY2IzZmExOWMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR2,0,182,268_AL_.jpg</thumbnail>
+		<fanart>http://2.bp.blogspot.com/-5GpRq4zxP7s/VNpZJ_BSe8I/AAAAAAAAAfY/X58tVVz1t54/s1600/Dragon%2BBall%2BZ.jpg</fanart>
 	</item>
 	
 	<item>
@@ -199,8 +199,8 @@
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBGTFanart.jpg?raw=true</fanart>
+		<thumbnail>http://dreamers.com/indices/imagenes/series.476.IMAGEN1.jpg</thumbnail>
+		<fanart>https://www.supergoku.com/wp-content/uploads/2016/10/dragon_ball_gt_genzai__fan_made__by_legend_tony980-d78dn2u.png</fanart>
 	</item>
 	
 	<item>
@@ -237,8 +237,8 @@
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBKFanart.jpg?raw=true</fanart>
+		<thumbnail>https://fanart.tv/detailpreview/fanart/tv/88031/tvposter/dragon-ball-kai-54a24fdad79a6.jpg</thumbnail>
+		<fanart>https://4.bp.blogspot.com/-vIyJ7QXhDZs/WLtugURmfxI/AAAAAAAADP0/48PuO2Y4F7MmJYlNzEdRkPvOzi-LaLcUQCLcB/s1600/dragon-ball-z-kai-vegeta-vs-goku-180273.jpg</fanart>
 	</item>
 	
 	<item>
@@ -275,8 +275,8 @@
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBK2Fanart.jpg?raw=true</fanart>
+		<thumbnail>https://fanart.tv/detailpreview/fanart/tv/88031/tvposter/dragon-ball-kai-54a24fdad79a6.jpg</thumbnail>
+		<fanart>http://ramenparados.com/wp-content/uploads/2016/11/dragon-ball-kai-saga-majin-boo.jpg</fanart>
 	</item>
 
 	 
@@ -330,8 +330,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBSFanart.png?raw=true</fanart>
+<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+<fanart>http://lanetadurango.com/wp-content/uploads/2017/08/3-dragon-ball-.jpg</fanart>
 </item>
 	
 	<item>
@@ -368,8 +368,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBPeliFanart.jpg?raw=true</fanart>
+		<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+		<fanart>http://media.vandal.net/i/1200x630/9-2017/201792011441_1.jpg</fanart>
 	</item>
 	
 	<item>
@@ -406,811 +406,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBCSFanart.jpg?raw=true</fanart>
+		<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
+		<fanart>https://www.gratistodo.com/wp-content/uploads/2016/07/DragonBall-Super.png</fanart>
 	</item>
-	
-	<item>
-		<title>[COLOR skyblue]YUYU HAKUSHO SERIE [CATALAN][/COLOR]</title>
-		<link>$doregex[makelist]</link>
-		<regex>
-			<name>makelist</name>
-			<listrepeat><![CDATA[
-			<title>[makelist.param3]</title>
-			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoYHFanart.jpg?raw=true</fanart>
-			]]></listrepeat>
-			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>http://diskokosmiko.mx/retrogames33/yyh-90488/list,1,100</page>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>getUrl</name>
-			<expres>DownloadUrl":"([^"]+)<expres>
-			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-			<connection>keep-alive</connection>
-			<accept>*/*</accept>
-			<X-Req>XMLHttpRequest</X-Req>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>tok</name>
-			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>http://diskokosmiko.mx/retrogames33/yyh-90488/list,1,100</referer>
-			<connection>keep-alive</connection>
-			<cookieJar></cookieJar>
-		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoYHFanart.jpg?raw=true</fanart>
-	</item>
-	
-	<item>
-		<title>[COLOR skyblue]YUYU HAKUSHO PELICULAS[/COLOR]</title>
-		<link>$doregex[makelist]</link>
-		<regex>
-			<name>makelist</name>
-			<listrepeat><![CDATA[
-			<title>[makelist.param3]</title>
-			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoYHPeliFanart.jpg?raw=true</fanart>
-			]]></listrepeat>
-			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>http://diskokosmiko.mx/retrogames33/yyho-90489/list,1,100</page>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>getUrl</name>
-			<expres>DownloadUrl":"([^"]+)<expres>
-			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-			<connection>keep-alive</connection>
-			<accept>*/*</accept>
-			<X-Req>XMLHttpRequest</X-Req>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>tok</name>
-			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>http://diskokosmiko.mx/retrogames33/yyho-90489/list,1,100</referer>
-			<connection>keep-alive</connection>
-			<cookieJar></cookieJar>
-		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoYHPeliFanart.jpg?raw=true</fanart>
-	</item>
-	
-	<item>
-		<title>[COLOR skyblue]ONE PUNCH MAN[/COLOR]</title>
-		<link>$doregex[makelist]</link>
-		<regex>
-			<name>makelist</name>
-			<listrepeat><![CDATA[
-			<title>[makelist.param3]</title>
-			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoOpmFanart.jpg?raw=true</fanart>
-			]]></listrepeat>
-			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>http://diskokosmiko.mx/retrogames33/opm-91782/list,1,100</page>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>getUrl</name>
-			<expres>DownloadUrl":"([^"]+)<expres>
-			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-			<connection>keep-alive</connection>
-			<accept>*/*</accept>
-			<X-Req>XMLHttpRequest</X-Req>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>tok</name>
-			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>http://diskokosmiko.mx/retrogames33/opm-91782/list,1,100</referer>
-			<connection>keep-alive</connection>
-			<cookieJar></cookieJar>
-		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoOpmFanart.jpg?raw=true</fanart>
-	</item>
-	
-	<item>
-		<title>[COLOR skyblue]ONE PUNCH MAN SPECIALS AND OVAS[/COLOR]</title>
-		<link>$doregex[makelist]</link>
-		<regex>
-			<name>makelist</name>
-			<listrepeat><![CDATA[
-			<title>[makelist.param3]</title>
-			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-			<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoOpmoFanart.jpg?raw=true</fanart>
-			]]></listrepeat>
-			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>http://diskokosmiko.mx/retrogames33/opmo-91917/list,1,100</page>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>getUrl</name>
-			<expres>DownloadUrl":"([^"]+)<expres>
-			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-			<connection>keep-alive</connection>
-			<accept>*/*</accept>
-			<X-Req>XMLHttpRequest</X-Req>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>tok</name>
-			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>http://diskokosmiko.mx/retrogames33/opmo-91917/list,1,100</referer>
-			<connection>keep-alive</connection>
-			<cookieJar></cookieJar>
-		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-		<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoOpmoFanart.jpg?raw=true</fanart>
-	</item>
-	
-</items>
-
-<item>
-<title>[COLOR skyblue]DEATH NOTE (CATALAN)[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDNFanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dn-cat-606354/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDNFanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 1[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT1Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-1-606991/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT1Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 2[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT2Fanart.png?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-2-607004/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT2Fanart.png?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 3[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT3Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-3-607019/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT3Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 4[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT4Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-4-607028/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT4Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 5[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT5Fanart.png?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-5-607037/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT5Fanart.png?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 6 [PARTE 1][/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-6-607045/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 6 [PARTE 2][/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6P2Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-6-parte-2-607303/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6P2Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 6 [PARTE 3][/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6P3Fanart.png?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-6-parte-3-final-607408/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT6P3Fanart.png?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 7[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT7Fanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-7-607482/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT7Fanart.jpg?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - TEMPORADA 8[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT8Fanart.png?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dt-8-607553/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDT8Fanart.png?raw=true</fanart>
-</item>
-
-<item>
-<title>[COLOR skyblue]DIGIMON - OVAS[/COLOR]</title>
-<link>$doregex[makelist]</link>
- 
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDOFanart.jpg?raw=true</fanart>
-]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/do-607663/list,1,100</page>
-<cookieJar></cookieJar>
-</regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDOFanart.jpg?raw=true</fanart>
-</item>
 
 <!---	
 	<item>
@@ -1221,11 +419,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<listrepeat><![CDATA[
 			<title>[makelist.param3]</title>
 			<link>$doregex[getUrl]</link>
-			<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
+			<thumbnail>MINIATURA</thumbnail>
 			<fanart>FANART</fanart>
 			]]></listrepeat>
 			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>PAGE/list,1,100</page>
+			<page>LINK PAGINA</page>
 			<cookieJar></cookieJar>
 		</regex>
 		<regex>
@@ -1243,74 +441,57 @@ def GetLSProData(page_data,Cookie_Jar,m):
 			<name>tok</name>
 			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>PAGE/list,1,100</referer>
+			<referer>LINK PAGINA</referer>
 			<connection>keep-alive</connection>
 			<cookieJar></cookieJar>
 		</regex>
-		<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
+		<thumbnail>MINIATURA</thumbnail>
 		<fanart>FANART</fanart>
 	</item>
-
-
-<item>
-<title>[COLOR skyblue]DRAGON BALL SUPER[/COLOR]</title>
+	
+	<item>
+<title>[COLOR yellow][/COLOR][COLOR  red]Iniyasha[/COLOR][COLOR lime][/COLOR][COLOR brown][/COLOR][COLOR blue][/COLOR][COLOR skyblue][/COLOR][COLOR lightskyblue][/COLOR][COLOR gold][/COLOR][COLOR orange][/COLOR]</title>
 <link>$doregex[makelist]</link>
- 
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[makelist.param2]</title>
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-        <fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBSFanart.png?raw=true</fanart>
+<fanart></fanart>
+<thumbnail></thumbnail>
 ]]></listrepeat>
-<expres><![CDATA[class="name[\w\W\s]{0,35}href="(.*?)"[\w\W\s]{0,50}preview">(.*?)<]]></expres>
-<page>http://kbagi.com/retrogames33/dbs-602162/list,1,100</page>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Drak0n/inuyasha-97565</page>
 <cookieJar></cookieJar>
 </regex>
- 
-<regex><name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re , requests ,json
-def GetLSProData(page_data,Cookie_Jar,m):
- 
- ref = 'http://kbagi.com/'
- url='http://kbagi.com[makelist.param1]'
- headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux i686; rv:42.0) Gecko/20100101 Firefox/42.0 Iceweasel/42.0', 'Referer': ref ,
-            'X-Requested-With' : 'XMLHttpRequest' , 'Accept' : '*/*'}
- session = requests.Session()
- r = session.get(url, headers=headers)
- rv1 = r.cookies
- 
- vfile , vtoken = re.findall('action/DownloadFile.*?fileId.*?value="(.*?)".*?Token".*?value="(.*?)"', r.text)[0]
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers,cookies=rv1 , data=data_a).text
- nrj=json.loads(nr)
- nr = nrj['Content']
- r2 = re.findall(r'(?s)value=\"(.*?)\"', nr)[0]
- data_a ={'__RequestVerificationToken': r2 , 'Username': 'Addonfesta' , 'Password' : 'addonfesta2017'}
- nr1 = requests.post('http://kbagi.com/action/Account/Login', headers=headers,cookies = rv1 , data=data_a)
- print nr1.headers['Set-Cookie']
- rasp = re.findall('ASPXAUTH_v2=(.*?);', nr1.headers['Set-Cookie'])[0]
- rv1['.ASPXAUTH_v2'] = rasp
- data_a ={'fileId': vfile , '__RequestVerificationToken': vtoken}
- nr3 = requests.post('http://kbagi.com/action/DownloadFile?location=fi&f=%s'%vfile , headers=headers, cookies = rv1 , data=data_a).text
- r3 = re.findall('DownloadUrl":"(.*?)"', nr3)[0]
- print r3
- return r3
-]]></expres>
-<page></page>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoThumnail.jpg?raw=true</thumbnail>
-<fanart>https://github.com/djliptv/DragonBallAddon/blob/master/Pics/DragonBallMundoDBSFanart.png?raw=true</fanart>
-</item>	
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Drak0n/inuyasha-97565</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://4.bp.blogspot.com/-A-JN8MMSpKM/WG3Iw5CPS2I/AAAAAAAABQE/vhjRs608IBA-v4sY-mxnRotZLQqh7JDNACLcB/s1600/inuyasha.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
+</item>
 	
 	
 	--->
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  red]Inuyasha[/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1321,7 +502,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>¿</page>
+<page>http://diskokosmiko.mx/Drak0n/inuyasha-97565</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -1339,16 +520,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>¿</referer>
+<referer>http://diskokosmiko.mx/Drak0n/inuyasha-97565</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://4.bp.blogspot.com/-A-JN8MMSpKM/WG3Iw5CPS2I/AAAAAAAABQE/vhjRs608IBA-v4sY-mxnRotZLQqh7JDNACLcB/s1600/inuyasha.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  red]Kenka Banchou Otome -[/COLOR][COLOR gold] Girl Beats Boys[/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1359,7 +540,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>¿</page>
+<page>http://diskokosmiko.mx/Drak0n/kenka-banchou-otome-girl-beats-boys-98024</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -1377,16 +558,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>¿</referer>
+<referer>http://diskokosmiko.mx/Drak0n/kenka-banchou-otome-girl-beats-boys-98024</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://www.animeclick.it/immagini/anime/Kenka_Banchou_Otome_Girl_Beats_Boys/gallery_original/Kenka_Banchou_Otome_Girl_Beats_Boys-58f37873d9f5a.jpg</fanart>
+<thumbnail>https://i.pinimg.com/236x/fb/5b/32/fb5b3272056cef6035cc0da0d2ae9f3b--kenka-banchou-otome-news.jpg</thumbnail>
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  red]Hyakka Ryōran [/COLOR][COLOR gold]Samurai Girls[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -1397,7 +578,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>¿</page>
+<page>http://diskokosmiko.mx/Drak0n/hyakka-ryouran-samurai-girls-98126</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -1415,12 +596,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>¿</referer>
+<referer>http://diskokosmiko.mx/Drak0n/hyakka-ryouran-samurai-girls-98126</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://pm1.narvii.com/6502/cb7604152bd55772f1f72c1c3e73ed2012b4f51d_hq.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/610aWyLPFFL._SL1263_.jpg</thumbnail>
 </item>
 
 <item>
