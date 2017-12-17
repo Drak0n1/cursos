@@ -269,7 +269,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>[COLOR orange]Movie maker[/COLOR]</title>
+https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png<title>[COLOR orange]Movie maker[/COLOR]</title>
 <thumbnail>http://3.bp.blogspot.com/-cELQU73dyT4/TrteevVhfhI/AAAAAAAAAac/ejL1Nn6m0I4/s1600/WinMovieMaker-WikiForU.png</thumbnail>
 <fanart>https://s1-ssl.dmcdn.net/XugoL.jpg</fanart>
 <link>http://ignoreme</link>
@@ -278,8 +278,8 @@
 
  <item>
 <title>[B][COLOR red]Tutoriales [/COLOR][COLOR blue]kodi[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20tutoriales.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2035.xml</externallink>
 </item>

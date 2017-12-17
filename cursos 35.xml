@@ -5,8 +5,8 @@
 <item>
 <title>                 [B][COLOR green]--[/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green]--[/COLOR][/B]</title>        
 <urlsolve></urlsolve>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20drak0n.png</thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg</fanart>
 </item>
 
 </channel>
@@ -14,49 +14,49 @@
 <item>
 <title>   [B][COLOR blue]Parte 1[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=dH8iNTSUtlg</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg</fanart>
 </item>
 
 <item>
 <title>   [B][COLOR blue]Parte 2[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=rjRZ4zytTsM</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg</fanart>
 </item>
 
 <item>
 <title>   [B][COLOR blue]Parte 3[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=5d_B6_Hg6-c</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR lime]Crear addon en 1 hora[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=-eOahMh8E1Y&t=1303s</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR lime]Crear Wizard[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=d_sPUi0hgtA</urlsolve>
 <urlsolve></urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20wizard.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20wizard.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR lime]Crear repositorio[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=A4ReD4UE01o</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20repositorio.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20repositorio.jpg</fanart>
 </item>
 
 <item>
 <title>[B][COLOR lime]Crear una fuente propia[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=sdUddw0Z844</urlsolve>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20fuente.png</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20fuente.jpg</fanart>
 </item>
