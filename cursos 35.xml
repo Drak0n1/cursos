@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<channel>
+
 <item>
 <title>                 [B][COLOR green]--[/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green]--[/COLOR][/B]</title>        
 <urlsolve></urlsolve>
-<thumbnail></thumbnail>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20drak0n.png</thumbnail>
 <fanart></fanart>
 </item>
+
+</channel>
 
 <item>
 <title>   [B][COLOR blue]Parte 1[/COLOR][/B]</title>        
