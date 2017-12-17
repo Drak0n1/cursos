@@ -8,8 +8,8 @@
  <items>
 
 <item>
-<title>                 [B][COLOR green]--[/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green]--[/COLOR][/B]</title>        
-<urlsolve></urlsolve>
+<title>                 [B][COLOR green]--[/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green]--[/COLOR][/B]</title> 
+<link>http://ignoreme</link>       
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg?raw=true</fanart>
 </item>
