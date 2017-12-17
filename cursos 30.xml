@@ -204,7 +204,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/trivianita/daredevil-completa-31743</page>
+<page>http://diskokosmiko.mx/trivianita/daredevil-completa-31743/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -222,7 +222,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/daredevil-completa-31743</referer>
+<referer>http://diskokosmiko.mx/trivianita/daredevil-completa-31743/list,1,2</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -242,7 +242,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/Drak0n/dc-legends-97019</page>
+<page>http://diskokosmiko.mx/Drak0n/dc-legends-97019/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -260,7 +260,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/Drak0n/dc-legends-97019</referer>
+<referer>http://diskokosmiko.mx/Drak0n/dc-legends-97019/list,1,2</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -432,7 +432,7 @@
 <thumbnail>http://www.seriespeelink.com/wp-content/uploads/2014/10/Ver-Smallville-2011-140x200.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439</page>
+<page>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439/list,1,8</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -450,7 +450,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439</referer>
+<referer>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439/list,1,8</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -529,7 +529,7 @@
 <thumbnail>http://es.web.img2.acsta.net/pictures/14/08/27/12/50/043690.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/garroteca/the-flash-47866</page>
+<page>http://diskokosmiko.mx/garroteca/the-flash-47866/list,1,3</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -547,7 +547,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/garroteca/the-flash-47866</referer>
+<referer>http://diskokosmiko.mx/garroteca/the-flash-47866/list,1,3</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -843,7 +843,7 @@
 <thumbnail>https://pmcdeadline2.files.wordpress.com/2011/05/chuck-levi-yvonne_20110513171500.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/MSRJ/chuck-86278</page>
+<page>http://diskokosmiko.mx/MSRJ/chuck-86278/list,1,4</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -861,7 +861,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/MSRJ/chuck-86278</referer>
+<referer>http://diskokosmiko.mx/MSRJ/chuck-86278/list,1,4</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
