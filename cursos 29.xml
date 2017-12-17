@@ -2517,26 +2517,54 @@
 <info>Ambientada en el nuevo contexto sonoro de “Awesome Mixtape #2”, continúa las aventuras del equipo en su travesía por los confines del cosmos.</info>
 </item>
 
-
-<items>
- 
 <item>
-<title>[B][COLOR white] [COLOR red]WONDER WOMAN[/COLOR] (2017) (SD 480)[/B]</title>
-<link>http://streamcloud.eu/3v8kutz5wpus/w0nd3r.w0m4n.2017.hdrip.720p.castellano.mp4.html</link>
+<title>[B][COLOR white] [COLOR red]Wonderwoman[/COLOR] (2017)[/B]</title>
+<link></link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+       <thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
+<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://s74.diskokosmiko.mx/preview?e=B_QSsVZAZGaDw7jz4i3O_M8HRg43JKatbn-iRy8NxK9V3BVPBuaJoFCS334b0THruXc-2sSNDuFF6Ui3GG3lRNzQsdQe4oLTAzjl-BORBN7cX-Uy8eRDRfO0CGrQ7qlINkoUxw-9PgaB5ekH5d_xanwp0jCWMCPFW8jSKeTO39g</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://s74.diskokosmiko.mx/preview?e=B_QSsVZAZGaDw7jz4i3O_M8HRg43JKatbn-iRy8NxK9V3BVPBuaJoFCS334b0THruXc-2sSNDuFF6Ui3GG3lRNzQsdQe4oLTAzjl-BORBN7cX-Uy8eRDRfO0CGrQ7qlINkoUxw-9PgaB5ekH5d_xanwp0jCWMCPFW8jSKeTO39g</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
 <fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
-<info>Diana Prince es una princesa guerrera amazona que ha sido criada por su madre, la reina Hippolyta, y sus tías, la General Antíope y Menalippe, en una protegida y paradisíaca isla tropical.</info>
+<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
 </item>
 
-
+<!---
 <items>
  
 <item>
-<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (SD 480)[/B]</title>
+<title>[B][COLOR white] [COLOR red]Wonderwoman[/COLOR] (2017)[/B]</title>
 <link>http://streamcloud.eu/17xyccq95f33</link>
 <link>https://streamix.cloud/j6elddnw7mrj</link>
-<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
-<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
+<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
 <info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
 </item>
 
@@ -2580,7 +2608,7 @@
 <info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
 </item>
 
-
+--->
 
 <item>
 <title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (HD 720)[/B]</title>
