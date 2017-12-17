@@ -402,7 +402,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	--->
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  red]Inuyasha[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]Inuyasha[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -413,7 +413,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/Drak0n/inuyasha-97565</page>
+<page>http://diskokosmiko.mx/Drak0n/inuyasha-97565/list,1,7</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -431,7 +431,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/Drak0n/inuyasha-97565</referer>
+<referer>http://diskokosmiko.mx/Drak0n/inuyasha-97565/list,1,7</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -440,7 +440,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  red]Kenka Banchou Otome -[/COLOR][COLOR gold] Girl Beats Boys[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]Kenka Banchou Otome -[/COLOR][COLOR gold] Girl Beats Boys[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -478,7 +478,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  red]Hyakka Ryōran [/COLOR][COLOR gold]Samurai Girls[/COLOR]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]Hyakka Ryōran [/COLOR][COLOR gold]Samurai Girls[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>

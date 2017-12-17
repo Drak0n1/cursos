@@ -155,7 +155,7 @@
 </regex>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]Bella y bestia[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]Bella y bestia[/COLOR][COLOR lime]Temporada 1[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -166,7 +166,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/trivianita/la-bella-y-la-bestia-1987-completa-88241/list,1,3</page>
+<page>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t1-39839</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -184,7 +184,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/la-bella-y-la-bestia-1987-completa-88241/list,1,3</referer>
+<referer>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t1-39839</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -200,11 +200,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
+<fanart>https://static5.gamespot.com/uploads/original/1444/14446008/3209448-6+defenders.jpg</fanart>
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/trivianita/daredevil-completa-31743/list,1,2</page>
+<page>http://diskokosmiko.mx/trivianita/daredevil-completa-31743</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -222,7 +222,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/trivianita/daredevil-completa-31743/list,1,2</referer>
+<referer>http://diskokosmiko.mx/trivianita/daredevil-completa-31743</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -390,8 +390,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://cine.netknowsl.netdna-cdn.com/cine/wp-content/uploads/2017/04/34-1.jpg</fanart>
+<thumbnail>https://www.justwatch.com/images/poster/6117629/s592/marvels-iron-fist</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/BenLC/iron-fist-castellano-63272</page>
@@ -416,8 +416,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://static5.gamespot.com/uploads/original/1444/14446008/3209448-6+defenders.jpg</fanart>
+<thumbnail>https://www.justwatch.com/images/poster/6117629/s592/marvels-iron-fist</thumbnail>
 </item>
 
 <item>
@@ -428,11 +428,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/main_element/public/media/image/2017/05/smallville-como-acabo-serie-tv-joven-superman.jpg?itok=2wqGeVvx</fanart>
+<thumbnail>http://www.seriespeelink.com/wp-content/uploads/2014/10/Ver-Smallville-2011-140x200.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439/list,1,8</page>
+<page>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -450,12 +450,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439/list,1,8</referer>
+<referer>http://diskokosmiko.mx/chinchetas/smallville-castellano-todas-temporadas-35439</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://vignette3.wikia.nocookie.net/smallville/images/4/47/31756_cast_promo_poster_565881_122_322lo.jpg/revision/latest?cb=20100706052049</fanart>
+<thumbnail>https://vignette.wikia.nocookie.net/superman/images/4/4a/S10poster.jpg/revision/latest?cb=20170403165404&path-prefix=es</thumbnail>
 </item>
 
 <item>
@@ -466,8 +466,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://cdn.warnerestrenos.com/res/series/supergirl2017/header/header_minisite_mid.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BOGM1M2NhMGMtZDMxNC00NGU1LWFmODMtOTRjMjdiYjVjN2MxXkEyXkFqcGdeQXVyNjYwMTg4NTg@._V1_UY268_CR16,0,182,268_AL_.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/seri5/supergirl-28632</page>
@@ -492,8 +492,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://media.comicbook.com/2017/07/supergirl-invasion-1012893-1280x0.jpg</fanart>
+<thumbnail>http://www.misterseries.com/assets/uploads/images/DQN2Ucwp9c.jpg</thumbnail>
 </item>
 
  <channel>
@@ -502,13 +502,13 @@
     <fanart></fanart>
         <items>
                
-                        <item><title>                                                        [B][COLOR white]·[/COLOR][/B][B][COLOR red]SERIE THE FL[COLOR yellow]ASH[/COLOR][/B][B][COLOR white]·[/COLOR][/B]</title>   <link>http://ignoreme</link>
+                        <item><title>                                                        [B][COLOR white][/COLOR][COLOR red]SERIE THE [COLOR gold]FLASH[/COLOR][COLOR white][/COLOR][/B]</title>   <link>http://ignoreme</link>
 <thumbnail>https://4.bp.blogspot.com/-1NBBYsgm2OA/Wic55d6NskI/AAAAAAAAGdU/NU6jNd0q4o4suvnOlOfyarQaLS7JAqniACLcBGAs/s1600/flash.png</thumbnail>
 <fanart>http://s2.glbimg.com/IcJPYeI8cs0BHuCdh56wwK3e5uU=/s.glbimg.com/og/rg/f/original/2015/06/25/flash606.jpg</fanart>
 </item>
          
     <channel>
-    <name>[COLOR orange]•[/COLOR][COLOR aqua]►CINE SERIES[/COLOR]</name>
+    <name>[B][COLOR orange][/COLOR][COLOR aqua]►CINE SERIES[/COLOR][/B]</name>
     <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
     <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
     <fanart>URL DE LA IMAGEN DE FONDO</fanart>
@@ -525,11 +525,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://cdn.warnerestrenos.com/res/series/flash2017/header/header_minisite_mid.jpg</fanart>
+<thumbnail>http://es.web.img2.acsta.net/pictures/14/08/27/12/50/043690.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/garroteca/the-flash-47866/list,1,3</page>
+<page>http://diskokosmiko.mx/garroteca/the-flash-47866</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -547,12 +547,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/garroteca/the-flash-47866/list,1,3</referer>
+<referer>http://diskokosmiko.mx/garroteca/the-flash-47866</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://cdn1.tvnz.co.nz/api/v1/web/image/content/dam/images/entertainment/shows/t/the-flash/theflash_showtile.png.2017-02-08T17:32:10+13:00.jpg</fanart>
+<thumbnail>https://i.pinimg.com/originals/e0/9a/7a/e09a7a886e9d8a8b04971c7aebb680df.jpg</thumbnail>
 </item>
 
 <item>
@@ -801,8 +801,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://cdn3-www.afterellen.com/assets/uploads/images/samgirl.jpg</fanart>
+<thumbnail>https://m.aceshowbiz.com/webimages/tv/poster/small/50000072.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/samurai-girl-97846</page>
@@ -831,6 +831,44 @@
 <thumbnail>https://o.aolcdn.com/images/dims?resize=270%2C400&quality=70&image_uri=http%3A%2F%2Faolx.tmsimg.com%2Fmovieposters%2Fv7%2FAllPhotos%2F188587%2Fp188587_b_v7_ac.jpg%3Fw%3D270&client=cbc79c14efcebee57402&signature=6c8b805d03f2c0b2fce759f16bd34638f235316a</thumbnail>
 </item>
 
+<item>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]Chuck[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://img-www.tf-cdn.com/show/2/chuck.jpeg?_v=20150909203729&fit=crop&crop=faces%20top&w=1200&h=630</fanart>
+<thumbnail>https://pmcdeadline2.files.wordpress.com/2011/05/chuck-levi-yvonne_20110513171500.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MSRJ/chuck-86278</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MSRJ/chuck-86278</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://upload.wikimedia.org/wikipedia/is/a/ad/Chuck_sarah.jpg</fanart>
+<thumbnail>http://www.formulatv.com/images/series/posters/200/217/1_m3.jpg</thumbnail>
+</item>
+
 <!----
 
 <item>
@@ -845,8 +883,8 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
-<cookieJar>?</cookieJar>
+<page>?</page>
+<cookieJar></cookieJar>
 </regex>
 <regex>
 <name>getUrl</name>
