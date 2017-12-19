@@ -50,7 +50,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/MSRJ/agente-carter-69831</page>
+<page>http://diskokosmiko.mx/spidersense/agente-carter-70777</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -68,7 +68,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/MSRJ/agente-carter-69831</referer>
+<referer>http://diskokosmiko.mx/spidersense/agente-carter-70777</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -766,7 +766,7 @@
         <fanart>https://capelesscrusader.org/wp-content/uploads/2017/09/Punisher_Netflix-e1506013890817.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-punisher-t1-2017-95042</page>
+<page>http://diskokosmiko.mx/gemma-valencia/the-punisher-t1-castellano-93963</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -784,7 +784,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VerboscientosdonJota/serie-the-punisher-t1-2017-95042</referer>
+<referer>http://diskokosmiko.mx/gemma-valencia/the-punisher-t1-castellano-93963</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -843,7 +843,7 @@
 <thumbnail>https://pmcdeadline2.files.wordpress.com/2011/05/chuck-levi-yvonne_20110513171500.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/MSRJ/chuck-86278/list,1,4</page>
+<page>http://diskokosmiko.mx/trivianita/chuck-serie-completa-el-rockero-40178/list,1,4</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -861,7 +861,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/MSRJ/chuck-86278/list,1,4</referer>
+<referer>http://diskokosmiko.mx/trivianita/chuck-serie-completa-el-rockero-40178/list,1,4</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
