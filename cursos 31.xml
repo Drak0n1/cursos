@@ -402,7 +402,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 	--->
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  red]Inuyasha[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]INUYASHA[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -440,7 +440,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  red]Kenka Banchou Otome -[/COLOR][COLOR gold] Girl Beats Boys[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]KENKA BANCHOU OTOME -[/COLOR][COLOR gold] GIRL BEATS BOYS[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -478,7 +478,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  red]Hyakka Ryōran [/COLOR][COLOR gold]Samurai Girls[/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]HYAKKA RYŌRAN [/COLOR][COLOR gold]SAMURAI GIRLS[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>

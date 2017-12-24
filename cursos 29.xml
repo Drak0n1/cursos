@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  gold] Peliculas 2016 [/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  gold] PELICULAS 2016 [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -39,7 +39,7 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  lime] Peliculas 2017 [/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  lime] PELICULAS 2017 [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -2477,7 +2477,7 @@
 
 <items>		
                
-        <item><title>                                       [B][COLOR white][/COLOR][COLOR red]CINE ESTRENOS[/COLOR][COLOR white][/COLOR][/B]</title>
+        <item><title>                                       [B][COLOR gold]-- [/COLOR][COLOR red]CINE ESTRENOS[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <link>http://ignoreme</link>		
 <thumbnail>https://2.bp.blogspot.com/-7aBoyPS-WcA/WhAXo6nB0nI/AAAAAAAAGMk/NxGV0Zkk2M4U8aMB9amoO_PSzfDKWS4qACLcBGAs/s1600/ESTRENOS.png</thumbnail>
 <fanart>https://2.bp.blogspot.com/-C9GMCDShhYg/Wg_6EueNKSI/AAAAAAAAGK0/yUm6e9lTxCMHOeN_h0SDr-e4Zc92YF1swCLcBGAs/s1600/fanart.jpg</fanart>
@@ -2550,7 +2550,7 @@
 <items>
  
 <item>
-<title>[B][COLOR white] [COLOR red]Wonderwoman[/COLOR] (2017)[/B]</title>
+<title>[B][COLOR white] [COLOR red]WONDERWOMAN[/COLOR] (2017)[/B]</title>
 <link>http://streamcloud.eu/17xyccq95f33</link>
 <link>https://streamix.cloud/j6elddnw7mrj</link>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
@@ -2559,7 +2559,7 @@
 </item>
 
 <item>
-<title>[B][COLOR white] [COLOR red]Wonderwoman[/COLOR] (2017)[/B]</title>
+<title>[B][COLOR white] [COLOR red]WONDERWOMAN[/COLOR] (2017)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -2570,7 +2570,7 @@
 <fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://s74.diskokosmiko.mx/preview?e=B_QSsVZAZGaDw7jz4i3O_M8HRg43JKatbn-iRy8NxK9V3BVPBuaJoFCS334b0THruXc-2sSNDuFF6Ui3GG3lRNzQsdQe4oLTAzjl-BORBN7cX-Uy8eRDRfO0CGrQ7qlINkoUxw-9PgaB5ekH5d_xanwp0jCWMCPFW8jSKeTO39g</page>
+<page>http://s74.diskokosmiko.mx/preview?e=YiVjx7dWb5cKa31oX1WOKMvjwqoTzje_HsWYBNTXAgaYdAWzbF-CMEzpNQXk965mJBHiVZ30uxgI2nF6S8bnLUqJNdSTvnZUv2YSxZ9gvVZflIYHso3Z5iVd_cG6PwjNwstr48kdyghRcxdm20F2L3QRppx0lSL3ddsnrkDSONI</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -2588,7 +2588,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://s74.diskokosmiko.mx/preview?e=B_QSsVZAZGaDw7jz4i3O_M8HRg43JKatbn-iRy8NxK9V3BVPBuaJoFCS334b0THruXc-2sSNDuFF6Ui3GG3lRNzQsdQe4oLTAzjl-BORBN7cX-Uy8eRDRfO0CGrQ7qlINkoUxw-9PgaB5ekH5d_xanwp0jCWMCPFW8jSKeTO39g</referer>
+<referer>http://s74.diskokosmiko.mx/preview?e=YiVjx7dWb5cKa31oX1WOKMvjwqoTzje_HsWYBNTXAgaYdAWzbF-CMEzpNQXk965mJBHiVZ30uxgI2nF6S8bnLUqJNdSTvnZUv2YSxZ9gvVZflIYHso3Z5iVd_cG6PwjNwstr48kdyghRcxdm20F2L3QRppx0lSL3ddsnrkDSONI</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -2598,7 +2598,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  red]Valerian y la [/COLOR][COLOR yellow]ciudad de los mil planetas[/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  red]VALERIAN Y LA [/COLOR][COLOR yellow]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -2731,7 +2731,7 @@
 <items>
  
 <item>
-<title>[B][COLOR white] [COLOR red]Liga de la gusticia[/COLOR] (2017)[/B]</title>
+<title>[B][COLOR white] [COLOR red]LIGA DE LA GUSTICIA[/COLOR] (2017)[/B]</title>
 <link>http://streamcloud.eu/d4l5c4mj4iu7/Liga_De_La_Justicia_Hdts-Screener_720p_2017_Castellano_BDrip_720p_X264.mkv.html</link>
 <thumbnail>https://i0.wp.com/elpalomitron.com/wp-content/uploads/2017/11/LA-LIGA-DE-LA-JUSTICIA.png?resize=640%2C359</thumbnail>
 <fanart>https://i.pinimg.com/originals/cc/7b/ed/cc7bedac0bafb506ed226517ae7058b5.jpg</fanart>

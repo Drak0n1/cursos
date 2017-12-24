@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]Christina [/COLOR][COLOR yellow]Aguilera[/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]CHRISTINA [/COLOR][COLOR yellow]AGUILERA[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.eluniversal.com.mx/sites/default/files/2017/10/30/christina_aguilera.jpg</fanart>
+<thumbnail>https://studiosol-a.akamaihd.net/letras/250x250/albuns/b/9/9/d/3535.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/rockori/christina-aguilera-stripped-album-72745</page>
@@ -34,20 +34,20 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://i.ytimg.com/vi/-hMC8pQkEmk/maxresdefault.jpg</fanart>
+<thumbnail>http://3.bp.blogspot.com/-yX-zjhXn5dY/TtHqMf7qY4I/AAAAAAAAAMM/nK8SEuYCn1U/s1600/christina-aguilera-photo122.jpg</thumbnail>
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]Thalia[/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]THALIA[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://i.cosmoenespanol.com/dam/celebs/cosmo-news/17/03/31/thalia-bella-1.jpg.imgw.1280.1280.jpeg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/ThaliaVisionExpo2007.jpg/220px-ThaliaVisionExpo2007.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/rockori/thalia-en-extasis-album-72742</page>
@@ -72,23 +72,23 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://images-na.ssl-images-amazon.com/images/I/B1K-lpu-9nS._SL1000_.png</fanart>
+<thumbnail>https://www.lafm.com.co/wp-content/uploads/Thal%C3%ADa.jpg</thumbnail>
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red]ALEJANDRO[/COLOR][COLOR yellow] SANZ[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://cnnespanol2.files.wordpress.com/2017/11/171116112747-cnnee-pkh-jacqueline-hurtado-grammy-alejandro-sanz-00031801-full-169.jpg?quality=100&strip=info&w=1200</fanart>
+<thumbnail>http://files.jenesaispop.com/wp-content/uploads/2008/12/alejandro-sanz.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/rockori/alejandro-sanz-la-musica-no-se-toca-album-64598</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -106,16 +106,16 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/rockori/alejandro-sanz-la-musica-no-se-toca-album-64598</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://as01.epimg.net/tikitakas/imagenes/2017/06/23/portada/1498243234_955579_1498243440_noticia_normal.jpg</fanart>
+<thumbnail>https://studiosol-a.akamaihd.net/letras/168x298/fotos/7/a/5/e/7a5edf18bfe14176ef6fa59fde65dd2d.jpg</thumbnail>
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold]VARIOS [/COLOR][COLOR red]ROCK [/COLOR][COLOR yellow]DE BARRIO[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -126,7 +126,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/miluneta/varios-rock-de-barrio-2017-93437/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -144,7 +144,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/miluneta/varios-rock-de-barrio-2017-93437/list,1,2</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -153,7 +153,7 @@
 </item>
 
 <item>
-<title>[B][COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR gold][/COLOR][COLOR red][/COLOR][COLOR yellow][/COLOR][/B]</title>
+<title>[B][COLOR yellow][/COLOR][COLOR  skyblue]LA [/COLOR][COLOR gold]MOVIDA[/COLOR][COLOR red] DE LOS 80[/COLOR][COLOR yellow][/COLOR]2016[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -164,7 +164,7 @@
 <thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/trivianita/la-movida-de-los-80-2016el-rockero-45885/list,1,5</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -182,7 +182,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
+<referer>http://diskokosmiko.mx/trivianita/la-movida-de-los-80-2016el-rockero-45885/list,1,5</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
