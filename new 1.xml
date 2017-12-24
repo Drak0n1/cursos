@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+ <items>
+
+<item>
+<title>               [B][COLOR green]-- [/COLOR][COLOR red]TITULO[/COLOR][COLOR green] --[/COLOR][/B]</title> 
+<link>http://ignoreme</link>       
+<thumbnail>MINIATURA</thumbnail>
+<fanart>IMAGEN DE FONDO</fanart>
+</item>
+
+        <items>
+		
+               
+        <item><title>                                       [B][COLOR white][/COLOR][COLOR red][/COLOR][COLOR white][/COLOR][/B]</title>
+<link>http://ignoreme</link>		
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+         
+    <channel>
+    <name>[COLOR orange][/COLOR][COLOR aqua][/COLOR]</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+	
+
+	
+        <items>
+               
+ <item><title>                                                        [B][COLOR white][/COLOR][COLOR red][COLOR gold][/COLOR][COLOR white][/COLOR][/B]</title>
+<link>http://ignoreme</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+         
+    <channel>
+    <name>[B][COLOR orange][/COLOR][COLOR aqua]►CINE SERIES[/COLOR][/B]</name>
+    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
+    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
+    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
+	
+	
+	<items>
+
+	
+	<channels>
+    <channels_info>
+      <title>[COLOR red]"TITULO"[/COLOR]</title>
+      <genre>"CINE,DEPORTES,MUSICA, ETC"</genre>
+      <description></description>
+      <thumbnail>MINIATURA</thumbnail>
+      <fanart>IMAGEN DE FONDO</fanart>
+      <date></date>
+      <credits></credits>
+    </channels_info>
+
+</channels>
+
+<channel>
+      <name>                                            [B][COLOR white][/COLOR][/B][B][COLOR red]"TITULO"[/COLOR][/B][B][COLOR white][/COLOR][/B]</name>
+  <thumbnail>"ICONO MINIATURA"</thumbnail>
+<fanart>"IMAGEN DE FONDO"</fanart>
+<link>"http://ignoreme"</link>
+   <externallink>"https://pastebin.com"</externallink>
+</channel>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  skyblue]"TITULO"[/COLOR][COLOR yellow][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>"IMAGEN DE FONDO"</fanart>
+<thumbnail>"MINIATURA"</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>"LINK DISKOKOSMIKO"</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>LINK DISKOKOSMIKO</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>"IMAGEN DE FONDO"</fanart>
+<thumbnail>"MINIATURA"</thumbnail>
+<info></info>
+</item>
+  

@@ -1,207 +1,167 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>                 [B][COLOR blue]OFIMATICA[/COLOR][/B]</title>
+<title>                [B][COLOR gold]-- [/COLOR][COLOR blue]OFIMATICA[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR green]Excel basico[/COLOR]</title>
+<title>[B][COLOR green]Excel basico[/COLOR][/B]</title>
 <thumbnail>http://yofxtrader.com/wp-content/uploads/2016/01/Blog-013-Imagen-05-Logo-Excel.png</thumbnail>
 <fanart>https://files.encuentra24.com/large/pa/96/00/77/9600779_3cb124.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/test1.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR green]Excel avanzado[/COLOR]</title>
+<title>[B][COLOR green]Excel avanzado[/COLOR][/B]</title>
 <thumbnail>http://yofxtrader.com/wp-content/uploads/2016/01/Blog-013-Imagen-05-Logo-Excel.png</thumbnail>
 <fanart>https://files.encuentra24.com/large/pa/96/00/77/9600779_3cb124.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2014.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR green]Tutoriales excel[/COLOR]</title>
+<title>[B][COLOR green]Tutoriales excel[/COLOR][/B]</title>
 <thumbnail>http://opavanzado.hol.es/wp-content/uploads/2017/08/Blog-013-Imagen-05-Logo-Excel.png</thumbnail>
 <fanart>https://files.encuentra24.com/large/pa/96/00/77/9600779_3cb124.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2015.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR blue]Word[/COLOR]</title>
+<title>[B][COLOR blue]Word[/COLOR][/B]</title>
 <thumbnail>http://www.ciberaula.com/imagenes/word_1.png</thumbnail>
 <fanart>http://www.comolohago.cl/wp-content/uploads/2008/06/word.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%202.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR brown]Powerpoint[/COLOR]</title>
+<title>[B][COLOR brown]Powerpoint[/COLOR][/B]</title>
 <thumbnail>https://articles-images.sftcdn.net/wp-content/uploads/sites/2/2011/10/powerpoint-2010-icon.png</thumbnail>
 <fanart>https://images.sftcdn.net/images/t_optimized,f_auto/p/54c2abb0-9b36-11e6-8c79-00163ed833e7/1171774511/microsoft-powerpoint-screenshot.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%203.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
-<title>[COLOR lime]LibreOffice Calc[/COLOR]</title>
+<title>[B][COLOR lime]LibreOffice Calc[/COLOR][/B]</title>
 <thumbnail>http://findicons.com/files/icons/2561/1st_mx_is_4c/256/libre_office.png</thumbnail>
 <fanart>http://www.pcactual.com/medio/2016/08/04/libreoffice-practico_960x486_86ef9624.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%207.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
-<title>[COLOR green]Project[/COLOR]</title>
+<title>[B][COLOR green]Project[/COLOR][/B]</title>
 <thumbnail>http://download.seaicons.com/icons/iconstoc/ms-office-2013/512/project-icon.png</thumbnail>
 <fanart>http://facilities.usask.ca/images/FMD-Project_Planning_Process-full_size.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%208.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
-<title>[COLOR blue]Publisher[/COLOR]</title>
+<title>[B][COLOR blue]Publisher[/COLOR][/B]</title>
 <thumbnail>http://4.bp.blogspot.com/-xt6w2hmB4RY/Ua1JsYfVeVI/AAAAAAAAAKU/7wmIO9a-dwM/s640/publisher_2003_2_01.png</thumbnail>
 <fanart>http://paraquesirven.com/wp-content/uploads/2014/09/Microsoft-Publisher.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%209.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
-<title>[COLOR red]Access[/COLOR]</title>
+<title>[B][COLOR red]Access[/COLOR][/B]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2015/11/Microsoft-Access-icon.png</thumbnail>
 <fanart>https://www.cediformacio.com/wp-content/uploads/2016/03/access.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2010.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>                 [B][COLOR red]ARQUITETURA[/COLOR][/B]</title>
+<title>                [B][COLOR gold]-- [/COLOR][COLOR red]ARQUITETURA[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
-<title>[COLOR red]Autocad 2D[/COLOR]</title>
+<title>[B][COLOR red]Autocad 2D[/COLOR][/B]</title>
 <thumbnail>http://es.seaicons.com/wp-content/uploads/2016/05/Autodesk-AutoCAD-icon.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/x41GLNgCG8Y/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%204.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR red]Autocad 2D 2[/COLOR]</title>
+<title>[B][COLOR red]Autocad 2D 2[/COLOR][/B]</title>
 <thumbnail>http://www.aulasmzapata.org/pluginfile.php/3519/course/overviewfiles/autocad.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/0l0wIq4PZiQ/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2016.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR red]Autocad 3D[/COLOR]</title>
+<title>[B][COLOR red]Autocad 3D[/COLOR][/B]</title>
 <thumbnail>http://www.aulasmzapata.org/pluginfile.php/3519/course/overviewfiles/autocad.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/0l0wIq4PZiQ/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2017.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR blue]Revit[/COLOR]</title>
+<title>[B][COLOR blue]Revit[/COLOR][/B]</title>
 <thumbnail>http://architektt.com/wp-content/uploads/Revit-380x250.png</thumbnail>
 <fanart>http://www.softgraf.com/_old/revit.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2018.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>               [COLOR yellow]DISEÑO WEB[/COLOR]</title>
+<title>                [B][COLOR gold]-- [/COLOR][COLOR yellow]DISEÑO WEB[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR orange]HTML[/COLOR]</title>
+<title>[B][COLOR orange]HTML[/COLOR][/B]</title>
 <thumbnail>http://www.alas.um.es/fatima/temarios/DisenaTuPropiaWeb/images/html-icon.png</thumbnail>
 <fanart>https://i1.wp.com/hipertextual.com/archivo/wp-content/uploads/2012/05/HTML.jpg?fit=800%2C340&ssl=1</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%205.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR pink]Joomla[/COLOR]</title>
+<title>[B][COLOR pink]Joomla[/COLOR][/B]</title>
 <thumbnail>https://docs.joomla.org/images/3/37/Joomla-3D-Vertical-logo-light-background-en.png</thumbnail>
 <fanart>http://cache1.expertosdecomputadoras.com/wp-content/uploads/2011/11/como%20aprobar%20una%20fuente%20xml%20en%20joomla.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2020.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR dodgerblue]PHP[/COLOR]</title>
+<title>[B][COLOR dodgerblue]PHP[/COLOR][/B]</title>
 <thumbnail>http://php.net/manual/es/images/c0d23d2d6769e53e24a1b3136c064577-php_logo.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/oATIz2Ozx9Y/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2021.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR orange]Pyt[/COLOR][COLOR dodgerblue]hon[/COLOR]</title>
+<title>[B][COLOR orange]Pyt[/COLOR][COLOR dodgerblue]hon[/COLOR][/B]</title>
 <thumbnail>http://valleyofthetetonslibrary.org/wp-content/uploads/sites/22/2017/01/SLPython.png</thumbnail>
 <fanart>https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/funciones-en-python-t1.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2026.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR white]Crear blog en minutos y sin codigos[/COLOR]</title>
+<title>[B][COLOR white]Crear blog en minutos y sin codigos[/COLOR][/B]</title>
 <thumbnail>http://www.solucionesim.net/blog/wp-content/uploads/2013/08/escribir_blog.png</thumbnail>
 <fanart>http://3.bp.blogspot.com/-KFZA3IcKmsI/Tt5zwd1jX-I/AAAAAAAAEys/5a2exsojEik/s1600/foto%20blog.jpg</fanart>
 <link>http://ignoreme</link>
@@ -209,71 +169,67 @@
 </item>
 
 <item>
-<title>[COLOR skyblue]Mi primera pagina web[/COLOR]</title>
+<title>[B][COLOR skyblue]Mi primera pagina web[/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2027.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>           [B][COLOR orange]IMAGEN Y VIDEO[/COLOR][/B]</title>
+<title>                [B][COLOR gold]-- [/COLOR][COLOR orange]IMAGEN Y VIDEO[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
 <item>
-<title>[COLOR dodgerblue]Photoshop[/COLOR]</title>
+<title>[B][COLOR dodgerblue]Photoshop[/COLOR][/B]</title>
 <thumbnail>http://www.freepngimg.com/thumb/photoshop_logo/11-2-photoshop-logo-png-pic-thumb.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/WxPWiPa_Pd0/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%206.xml</externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
  
  <item>
-<title>[COLOR violet]Cantasia[/COLOR]</title>
+<title>[B][COLOR violet]Cantasia[/COLOR][/B]</title>
 <thumbnail>http://www.tangunsoft.com/img/Upload/ProductFamily/20170221/20170221045733.png</thumbnail>
 <fanart>http://imag.malavida.com/mvimgbig/download-fs/camtasia-studio-3818-1.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2011.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR green]Illustrator[/COLOR]</title>
+<title>[B][COLOR green]Illustrator[/COLOR][/B]</title>
 <thumbnail>https://cdn.tutsplus.com/vector/uploads/2013/12/pre400.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/V7rTToA7RLc/maxresdefault.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2012.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR lime]Coreldraw[/COLOR]</title>
+<title>[B][COLOR lime]Coreldraw[/COLOR][/B]</title>
 <thumbnail>https://1.bp.blogspot.com/-LFAcfqvObZ0/VHvZC7p_Q9I/AAAAAAAAIhU/R2njJPOmXp0/s1600/corel2.png</thumbnail>
 <fanart>http://static.wixstatic.com/media/97bb97_7896579ddcd645c4bba8a97154de16e9.jpg_srz_960_540_85_22_0.50_1.20_0.00_jpg_srz</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2013.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png<title>[COLOR orange]Movie maker[/COLOR]</title>
+<title>[B][COLOR orange]Movie maker[/COLOR][/B]</title>
 <thumbnail>http://3.bp.blogspot.com/-cELQU73dyT4/TrteevVhfhI/AAAAAAAAAac/ejL1Nn6m0I4/s1600/WinMovieMaker-WikiForU.png</thumbnail>
 <fanart>https://s1-ssl.dmcdn.net/XugoL.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2019.xml</externallink>
+</item>
+
+ <item>
+<title>                [B][COLOR red]- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
 
  <item>
@@ -285,14 +241,12 @@ https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png<title>[COLOR
 </item>
 
  <item>
-<title>                       [B][COLOR yellow]PARA[/COLOR][COLOR orange] RELAJARSE[/COLOR][COLOR green] UN POCO, DESPUES[/COLOR][COLOR white] DE ESTUDIAR[/COLOR][/B]</title>
+<title>                [B][COLOR gold]-- [/COLOR][COLOR yellow]PARA[/COLOR][COLOR orange] RELAJARSE[/COLOR][COLOR green] UN POCO, DESPUES[/COLOR][COLOR white] DE ESTUDIAR[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.imgur.com/k2n5zTn.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
 <title>[B][COLOR dodgerblue]Peliculas[/COLOR][COLOR lime] en vivo[/COLOR][/B]</title>
@@ -302,20 +256,16 @@ https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png<title>[COLOR
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2022.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR yellow]Series en vivo[/COLOR]</title>
+<title>[B][COLOR yellow]Series en vivo[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.imgur.com/k2n5zTn.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2025.xml</externallink>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
  <item>
-<title>[COLOR white]Anime en vivo[/COLOR]</title>
+<title>[B][COLOR white]Anime en vivo[/COLOR][ç/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>https://i.imgur.com/k2n5zTn.jpg</fanart>
 <link>http://ignoreme</link>
@@ -323,7 +273,7 @@ https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png<title>[COLOR
 </item>
 
  <item>
-<title>                    [B][COLOR ligthskyblue]MAS ENTRETENIMIENTO[/COLOR][/B]</title>
+<title>                [B][COLOR ligthskyblue]MAS ENTRETENIMIENTO[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
 <fanart>http://4.bp.blogspot.com/-jgYU13qxzOc/VKTya3A3lAI/AAAAAAAATk0/zB7xMENaYPk/s1600/spiderman%2Bin%2Bthe%2Bavengers%2Bmovie-you%2Bhad%2Bone%2Bjob-dante%2Bross-danterants-blogspot-com.jpg</fanart>
 <link>http://ignoreme</link>

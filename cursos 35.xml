@@ -6,7 +6,7 @@
  <items>
 
 <item>
-<title>                 [B][COLOR green]--[/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green]--[/COLOR][/B]</title> 
+<title>               [B][COLOR green]-- [/COLOR][COLOR red]CREAR ADDON DESDE 0[/COLOR][COLOR green] --[/COLOR][/B]</title> 
 <link>http://ignoreme</link>       
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg?raw=true</fanart>
@@ -15,21 +15,21 @@
 </channel>
 
 <item>
-<title>   [B][COLOR blue]Parte 1[/COLOR][/B]</title>        
+<title>   [B][COLOR red].[/COLOR][COLOR blue]Parte 1[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=dH8iNTSUtlg</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg?raw=true</fanart>
 </item>
 
 <item>
-<title>   [B][COLOR blue]Parte 2[/COLOR][/B]</title>        
+<title>   [B][COLOR red].[/COLOR][COLOR blue]Parte 2[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=rjRZ4zytTsM</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg?raw=true</fanart>
 </item>
 
 <item>
-<title>   [B][COLOR blue]Parte 3[/COLOR][/B]</title>        
+<title>   [B][COLOR red].[/COLOR][COLOR blue]Parte 3[/COLOR][/B]</title>        
 <urlsolve>https://www.youtube.com/watch?v=5d_B6_Hg6-c</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20addon.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20addon.jpg?raw=true</fanart>

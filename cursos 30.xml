@@ -152,7 +152,6 @@
 <fanart>https://www.thefandomentals.com/wp-content/uploads/2016/12/aos.png</fanart>
 <info>Marvel's Agents of S.H.I.E.L.D., ​ o simplemente Agents of S.H.I.E.L.D., es una serie de televisión estadounidense, basada en la organización del mismo nombre que aparece en Marvel Comics.</info>
 </item>
-</regex>
 
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  red]Bella y bestia[/COLOR][COLOR lime]Temporada 1[/COLOR][/B]</title>
@@ -496,22 +495,13 @@
 <thumbnail>http://www.misterseries.com/assets/uploads/images/DQN2Ucwp9c.jpg</thumbnail>
 </item>
 
- <channel>
-    <name>          <<<<<<<<<CINE SERIES>>>>>>>></name>
-    <thumbnail></thumbnail>
-    <fanart></fanart>
         <items>
                
-                        <item><title>                                                        [B][COLOR white][/COLOR][COLOR red]SERIE THE [COLOR gold]FLASH[/COLOR][COLOR white][/COLOR][/B]</title>   <link>http://ignoreme</link>
+                        <item><title>                                                        [B][COLOR white][/COLOR][COLOR red]SERIE THE [COLOR gold]FLASH[/COLOR][COLOR white][/COLOR][/B]</title> 
+<link>http://ignoreme</link>						
 <thumbnail>https://4.bp.blogspot.com/-1NBBYsgm2OA/Wic55d6NskI/AAAAAAAAGdU/NU6jNd0q4o4suvnOlOfyarQaLS7JAqniACLcBGAs/s1600/flash.png</thumbnail>
 <fanart>http://s2.glbimg.com/IcJPYeI8cs0BHuCdh56wwK3e5uU=/s.glbimg.com/og/rg/f/original/2015/06/25/flash606.jpg</fanart>
 </item>
-         
-    <channel>
-    <name>[B][COLOR orange][/COLOR][COLOR aqua]►CINE SERIES[/COLOR][/B]</name>
-    <info>DESCRIPCIÓN DE LA CATEGORÍA</info>
-    <thumbnail>URL DE LA IMAGEN DEL ICONO</thumbnail>
-    <fanart>URL DE LA IMAGEN DE FONDO</fanart>
 	
 	
 	<items>
