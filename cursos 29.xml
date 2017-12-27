@@ -230,7 +230,7 @@
 
 <item>
 <title>[B][COLOR white] [COLOR red]CINE SUPER HÉROES[/COLOR][/B]</title>
-<link></link>
+<link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
@@ -2639,7 +2639,7 @@
 
 <item>
 <title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (SD 480)[/B]</title>
-<link></link>
+<link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
