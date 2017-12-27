@@ -2587,45 +2587,6 @@
 </item>
 
 <item>
-<title>[B][COLOR white] [COLOR red]WONDERWOMAN[/COLOR] (2017)[/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-       <thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
-<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://s74.diskokosmiko.mx/preview?e=bAraxMJb_a6mfjnHFK8YSrKu3B3q7TjYXVRDDp1gTMP3dwMOJ8j3H_VYlkdHsW2Ju-qrracQbxHLAIDcAlOxVdu2GJO3HwqQznV8AU7SvPuAGZLgEn_PP_i-GyVMtw4oisKa5tgEqv4hiLdeQAf8Py-ufUZjgY3O00oBSlCe0Ms</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://s74.diskokosmiko.mx/preview?e=bAraxMJb_a6mfjnHFK8YSrKu3B3q7TjYXVRDDp1gTMP3dwMOJ8j3H_VYlkdHsW2Ju-qrracQbxHLAIDcAlOxVdu2GJO3HwqQznV8AU7SvPuAGZLgEn_PP_i-GyVMtw4oisKa5tgEqv4hiLdeQAf8Py-ufUZjgY3O00oBSlCe0Ms</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
-<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
-<info>Antes de ser Wonder Woman (Gal Gadot) era Diana, princesa de las Amazonas, entrenada para ser una guerrera invencible. Diana fue criada en una isla paradisíaca protegida. Hasta que un día un piloto norteamericano (Chris Pine), que tiene un accidente y acaba en sus costas, le habla de un gran conflicto existente en el mundo [Primera Guerra Mundial]. Diana decide salir de la isla convencida de que puede detener la terrible amenaza. Mientras lucha junto a los hombres en la guerra que acabará con todas las guerras, Diana descubre todos sus poderes y su verdadero destino.</info>
-</item>
-
-<item>
 <title>[COLOR yellow][/COLOR][COLOR  red]VALERIAN Y LA [/COLOR][COLOR yellow]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
