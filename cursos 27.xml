@@ -29,102 +29,89 @@
 </item>
 
 <item>
-<title>Semántica</title>        
+<title>SEMÁNTICA</title>        
 <urlsolve>https://www.youtube.com/watch?v=xxD2H4Y9ooE</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>Estilo y presentación con CSS</title>        
+<title>ESTILO Y PRESENTACIÓN CON CSS</title>        
 <urlsolve>https://www.youtube.com/watch?v=YayRcClQjh0</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title>Imágenes y Links</title>        
+<title>IMÁGENES Y LINKS</title>        
 <urlsolve>https://www.youtube.com/watch?v=wq3hwqABIXk</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - COLORES</title>        
+<urlsolve>https://www.youtube.com/watch?v=LE6hTSGYIbk</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - SELECTORES Y ARCHIVOS CSS</title>        
+<urlsolve>https://www.youtube.com/watch?v=JFEJMsKyuTY</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB -SISTEMA DE GRID</title>        
+<urlsolve>https://www.youtube.com/watch?v=xBmzNRzke2c</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - FUENTES</title>        
+<urlsolve>https://www.youtube.com/watch?v=nieJWBaQbU0</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - LISTADO PRODUCTOS</title>        
+<urlsolve>https://www.youtube.com/watch?v=d9IHqC2dNRE</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - NAVEGACIÓN</title>        
+<urlsolve>https://www.youtube.com/watch?v=Bmi2CgFHlA0</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - SOMBRAS Y ANIMACIONES</title>        
+<urlsolve>https://www.youtube.com/watch?v=W8gr8d1-jT0</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title></title>        
-<urlsolve></urlsolve>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart></fanart>
-</item>
-
-<item>
-<title></title>        
-<urlsolve></urlsolve>
+<title>CÓMO CREAR UNA PÁGINA WEB - COLOCAR MAPA DE GOOGLEMAPS</title>        
+<urlsolve>https://www.youtube.com/watch?v=hHyvWiOnP6E</urlsolve>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart></fanart>
 </item>
 
 <!----
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title></title>        
-<urlsolve></urlsolve>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
-<fanart></fanart>
+<title>TITULO</title>        
+<urlsolve>DIRECCION DEL VIDEO</urlsolve>
+<thumbnail>MINIATURA</thumbnail>
+<fanart>IMAGEN DE FONDO</fanart>
 </item>
   ---->

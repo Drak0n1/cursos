@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
+<title>                [B][COLOR red]- - -  UN AGRACEDIMIENTO A TODOS LOS QUE PUSIERON LA INFORMACIÓN EN INTERNET DE FORMA GRATUITA  - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ <item>
+<title>                [B][COLOR red]- - - TODOS LOS ENLACES DE ESTE ADDON ESTAN EN INTERNET Y SON GRATUITOS - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+ <item>
+<title>                [B][COLOR red]- - - - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+
+ <item>
 <title>                [B][COLOR gold]-- [/COLOR][COLOR blue]OFIMATICA[/COLOR][COLOR gold] --[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo1.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart.jpg?raw=true</fanart>
@@ -232,6 +257,22 @@
 <externallink></externallink>
 </item>
 
+<item>
+<title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]PROGRAMACIÓN[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2036.xml</externallink>
+</item>
+
+ <item>
+<title>                [B][COLOR red]- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
  <item>
 <title>[B][COLOR red]TUTORIALES [/COLOR][COLOR blue]KODI[/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20tutoriales.png?raw=true</thumbnail>
@@ -337,13 +378,14 @@
 </item>
 
 <!---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
+<title>[B][COLOR white]TITULO[/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red][/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
 <thumbnail>MINIATURA.png</thumbnail>
-<fanart>IMAGEN .jpg</fanart>
+<fanart>IMAGEN DE FONDO .jpg</fanart>
 <link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2028.xml</externallink>
+<externallink>LINK.xml</externallink>
 </item>
 
 ----->
