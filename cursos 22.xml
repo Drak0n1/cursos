@@ -91,14 +91,16 @@
 <fanart>http://zerodollarmovies.com/wp/wp-content/uploads/2014/01/free-movies.jpg</fanart>
 </item>
 <!---
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <item>
-<title>Liga De La Justicia</title>
-<urlsolve>http://clipwatching.com/v5gvhsggn2cc/Liga_De_La_Justicia_[HDTS_Screener][www.newpct1.com].avi.html</urlsolve>
-<urlsolve>http://streamcloud.eu/3p3z06zjgj2n</urlsolve>
-<urlsolve></urlsolve>
-<thumbnail>https://i0.wp.com/elpalomitron.com/wp-content/uploads/2017/11/LA-LIGA-DE-LA-JUSTICIA.png?resize=640%2C359</thumbnail>
-<fanart>https://i.pinimg.com/originals/cc/7b/ed/cc7bedac0bafb506ed226517ae7058b5.jpg</fanart>
-<info>Alimentado por su restaurada fe en la humanidad e inspirado por el acto desinteresado de Superman, Bruce Wayne recluta la ayuda de su recién encontrada aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman trabajan deprisa para encontrar y reclutar un equipo de metahumanos para plantar cara a esta nueva amenaza creciente. Pero pese a la formación de esta liga de héroes sin precedentes - Batman, Wonder Woman, Aquaman, Cyborg y Flash, quizás sea demasiado tarde para salvar el planeta de un asalto de proporciones catastróficas. </info>
+<title>[COLOR red]TITULO[/COLOR][COLOR gold][/COLOR]</title>
+<urlsolve>LINK DEL VIDEO</urlsolve>
+<urlsolve>LINK DEL VIDEO</urlsolve>
+<urlsolve>LINK DEL VIDEO</urlsolve>
+<thumbnail>MINIATURA</thumbnail>
+<fanart>IMAGEN DE FONDO</fanart>
+<info>INFORMACION O COMENTARIO SOBRE EL TEMA</info>
 </item>
 --->
 <item>

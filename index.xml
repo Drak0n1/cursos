@@ -259,8 +259,8 @@
 
 <item>
 <title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]PROGRAMACIÓN[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20PROGRAMACION.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20PROGRAMACION.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2036.xml</externallink>
 </item>
