@@ -194,7 +194,6 @@
 <item>
 <title>[COLOR skyblue]DRAGON BALL SUPER[/COLOR]</title>
 <link>$doregex[makelist]</link>
- 
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
@@ -207,7 +206,6 @@
 <page>http://kbagi.com/retrogames33/dbs-602162/list,1,100</page>
 <cookieJar></cookieJar>
 </regex>
- 
 <regex><name>getUrl</name>
 <expres><![CDATA[#$pyFunction
 import re , requests ,json
@@ -358,47 +356,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		</regex>
 		<thumbnail>MINIATURA</thumbnail>
 		<fanart>FANART</fanart>
+		<info></info>
 	</item>
-	
-	<item>
-<title>[COLOR yellow][/COLOR][COLOR  red]Iniyasha[/COLOR][COLOR lime][/COLOR][COLOR brown][/COLOR][COLOR blue][/COLOR][COLOR skyblue][/COLOR][COLOR lightskyblue][/COLOR][COLOR gold][/COLOR][COLOR orange][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/Drak0n/inuyasha-97565</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/Drak0n/inuyasha-97565</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart>https://4.bp.blogspot.com/-A-JN8MMSpKM/WG3Iw5CPS2I/AAAAAAAABQE/vhjRs608IBA-v4sY-mxnRotZLQqh7JDNACLcB/s1600/inuyasha.jpg</fanart>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMGNmMWI4MGUtYmU0ZS00ZDkxLTgzMTAtZDU4YmQ1MDM3Y2IyXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY268_CR3,0,182,268_AL_.jpg</thumbnail>
-</item>
-	
-	
+
 	--->
 
 <item>

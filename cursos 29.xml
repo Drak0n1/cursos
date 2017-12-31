@@ -715,7 +715,7 @@
 </item>
 
 <item>
-<title>[B][COLOR skyblue] [COLOR red]LOS VENGADORES[/COLOR] (1998) (SD 480)[/B]</title>
+<title>[B][COLOR skyblue] [COLOR red]THE AVENGERS[/COLOR] (1998) (SD 480)[/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -2628,28 +2628,28 @@
 <items>
  
 <item>
-<title>[B][COLOR white] [COLOR red]SPIDER-MAN[/COLOR] (2017)[/B]</title>
-<link>http://streamcloud.eu/17xyccq95f33</link>
-<link>https://streamix.cloud/j6elddnw7mrj</link>
-<thumbnail>https://upload.wikimedia.org/wikipedia/en/e/ed/Wonder_Woman_%282017_film%29.jpg</thumbnail>
-<fanart>https://i0.wp.com/www.tiempolibredigital.com.mx/wp-content/uploads/2017/05/mujer-maravilla-1.jpg?fit=2300%2C1437</fanart>
-<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
+<title>[B][COLOR white] [COLOR red]TITULO[/COLOR][/B]</title>
+<link>LINK DEL VIDEO</link>
+<link>LINK DEL VIDEO</link>
+<thumbnail>MINIATURA</thumbnail>
+<fanart>IMAGEN DE FONDO</fanart>
+<info>INFORMACION</info>
 </item>
 
 
 <item>
-<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (SD 480)[/B]</title>
+<title>[B][COLOR white] [COLOR red]TITULO[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-        <thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
-        <fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+        <thumbnail>MINIATURA</thumbnail>
+        <fanart>IMAGEN DE FONDO</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-sd-96397</page>
+<page>LINK(ENLACE) DE LOS VIDEOS</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -2667,13 +2667,13 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-sd-96397</referer>
+<referer>LINK (ENLACE)DE LOS VIDEOS</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
-<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
-<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
+<thumbnail>MINIATURA</thumbnail>
+<fanart>IMAGEN DE FONDO</fanart>
+<info>INFORMACION O COMENTARIO SOBRE VIDEO</info>
 </item>
 
 --->
@@ -2734,7 +2734,7 @@
 <title>[B][COLOR white] [COLOR red][/COLOR][/B]</title>
 <link>http://streamcloud ........DIRECCION </link>
 <thumbnail>MINIATURA</thumbnail>
-<fanart>IMAGEN PELICULA</fanart>
+<fanart>IMAGEN DE FONDO</fanart>
 <info>COMENTARIO SOBRE LA PELICULA,SERIE ETC...</info>
 </item>
 

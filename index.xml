@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
  <item>
-<title>                [B][COLOR red]- - -  UN AGRACEDIMIENTO A TODOS LOS QUE PUSIERON LA INFORMACIÓN EN INTERNET DE FORMA GRATUITA  - - - [/COLOR][/B]</title>
+<title>                [B][COLOR gold]***[/COLOR][COLOR red]  UN AGRACEDIMIENTO A TODOS LOS QUE APORTARON LA INFORMACIÓN EN LA RED DE FORMA GRATUITA [/COLOR][COLOR gold] *** [/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -9,7 +9,7 @@
 </item>
 
  <item>
-<title>                [B][COLOR red]- - - TODOS LOS ENLACES DE ESTE ADDON ESTAN EN INTERNET Y SON GRATUITOS - - - [/COLOR][/B]</title>
+<title>                            [B][COLOR gold]***[/COLOR][COLOR red] TODOS LOS ENLACES DE ESTE ADDON ESTAN EN LA RED Y SON GRATUITOS[/COLOR][COLOR gold] *** [/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -17,7 +17,7 @@
 </item>
 
  <item>
-<title>                [B][COLOR red]- - - - - - [/COLOR][/B]</title>
+<title>                                                     [B][COLOR red]- - - - - - [/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -267,6 +267,22 @@
 
  <item>
 <title>                [B][COLOR red]- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+
+<item>
+<title>[B][COLOR green]ANDROID[/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2037.xml</externallink>
+</item>
+
+ <item>
+<title>                [B][COLOR red]**************************************************************** [/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
