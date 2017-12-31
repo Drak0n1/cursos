@@ -17,7 +17,7 @@
 </item>
 
  <item>
-<title>                                                     [B][COLOR red]- - - - - - [/COLOR][/B]</title>
+<title>                                                     [B][COLOR gold]************************************** [/COLOR][/B]</title>
 <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
@@ -185,6 +185,14 @@
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2026.xml</externallink>
 </item>
 
+<item>
+<title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]JAVA[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2038.xml</externallink>
+</item>
+
  <item>
 <title>[B][COLOR white]CREAR BLOG EN MINUTOS Y SIN CODIGOS[/COLOR][/B]</title>
 <thumbnail>http://www.solucionesim.net/blog/wp-content/uploads/2013/08/escribir_blog.png</thumbnail>
@@ -250,33 +258,25 @@
 </item>
 
  <item>
-<title>                [B][COLOR red]- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<title>                [B][COLOR red]PROGRAMACIÓN [/COLOR][/B]</title>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20PROGRAMACION.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20PROGRAMACION.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink></externallink>
 </item>
 
 <item>
-<title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]PROGRAMACIÓN[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
+<title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]WINDOWS[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
 <thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20PROGRAMACION.png?raw=true</thumbnail>
 <fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20PROGRAMACION.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2036.xml</externallink>
 </item>
 
- <item>
-<title>                [B][COLOR red]- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - [/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
 <item>
 <title>[B][COLOR green]ANDROID[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20PROGRAMACION.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20PROGRAMACION.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2037.xml</externallink>
 </item>

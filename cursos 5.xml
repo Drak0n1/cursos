@@ -1,35 +1,93 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>HTML 0 </title>        
+<title>CURSO DE DISEÑO WEB, CAPITULO 0 - INTRODUCCIÓN PARA PRINCIPIANTES </title>        
 <urlsolve>https://www.youtube.com/watch?v=3OjTOH-r2AA</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/3OjTOH-r2AA/hqdefault.jpg?sqp=-oaymwEWCMQBEG5IWvKriqkDCQgBFQAAiEIYAQ==&rs=AOn4CLAURn3AP6Zr5GjkEvjWFGWgYZreMg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
-<title>HTML 1 </title>        
+<title>CURSO DE DISEÑO WEB, CAPITULO 1 - ETIQUETAS BÁSICAS (HTML) </title>        
 <urlsolve>https://www.youtube.com/watch?v=Zv4h-h2lLoc</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/Zv4h-h2lLoc/maxresdefault.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
-<title>HTML 2 </title>        
+<title>CURSO DE DISEÑO WEB, CAPITULO 2 - ESTILOS DE TEXTOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=yJXfmgUBewA</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://i.ytimg.com/vi/yJXfmgUBewA/maxresdefault.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
-<title>HTML 3 </title>        
+<title>CURSO DE DISEÑO WEB, CAPITULO 3 - INSERTAR FONDOS E IMÁGENES</title>        
 <urlsolve>https://www.youtube.com/watch?v=o-GkKcTMkEQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/web/Capitulo3.jpg</fanart>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 4 - CREAR TABLAS</title>
+<urlsolve>https://www.youtube.com/watch?v=Caz2ZELHF8o</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 5 - CREAR BOTONES Y ENLACES</title>
+<urlsolve>https://www.youtube.com/watch?v=4qUphI-AUKY</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 6 - INICIANDO BOOTSTRAP (FRAMEWORKS)</title>
+<urlsolve>https://www.youtube.com/watch?v=pnJ_zbEYsJc</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 7 - CREANDO PAGINA WEB COMPLETA (1/2)</title>
+<urlsolve>https://www.youtube.com/watch?v=PEzSk7iGKKo</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 8 - SERVIDORES WEB (INTERNET)</title>
+<urlsolve>https://www.youtube.com/watch?v=ngkM8IG4E4s</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title>CURSO DE DISEÑO WEB, CAPITULO 9 - SUBIR PAGINA WEB A INTERNET</title>
+<urlsolve>https://www.youtube.com/watch?v=8FsAdMZmFNk</urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title></title>
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</item>
+
+<item>
+<title></title>
+<urlsolve></urlsolve>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
 </item>

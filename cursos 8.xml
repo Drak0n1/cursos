@@ -7,8 +7,6 @@
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/project/capitulo1.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>CALENDARIO LABORAL</title>        
 <urlsolve>https://www.youtube.com/watch?v=V4kUblOB4Ac</urlsolve>
@@ -16,16 +14,12 @@
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/project/capitulo2.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>DIAS FESTIVOS Y EXCEPCIONES</title>        
 <urlsolve>https://www.youtube.com/watch?v=jOu9-CgEIGQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/project/capitulo3.jpg</fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>CREAR Y ASIGNAR RECURSOS</title>        

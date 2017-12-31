@@ -7,16 +7,12 @@
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo1.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>LINEAS Y DESFASE</title>        
 <urlsolve>https://www.youtube.com/watch?v=hqveu81BVJQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo2.jpg</fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>CIRCULOS Y ELIPSES</title>        
@@ -25,16 +21,12 @@
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo3.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>EJERCICIO PRACTICO</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=5&v=7snJAy_zYvY</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo4.jpg</fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>EMPALME Y SIMETRIA</title>        
@@ -43,16 +35,12 @@
 <fanart>https://www.dostinhurtado.com/main/images/capitulos/autocad_2d/capitulo5.jpg</fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>MATRIZ RECTANGULAR Y POLAR</title>        
 <urlsolve>https://www.youtube.com/watch?v=SBSvlzoKNPo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>MANEJO DE CAPAS</title>        
@@ -61,8 +49,6 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>ACOTADOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=gqJ0IQ2LNNE</urlsolve>
@@ -70,16 +56,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>SOMBREADOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=4EwqkGa15mw</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>EXPORTAR A PDF</title>        

@@ -7,16 +7,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>CONTROL DE ERRORES</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=zcw1jHh3lyI</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>OCULTAR FUNCIONES</title>        
@@ -25,16 +21,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>COMO IMPRIMIR</title>        
 <urlsolve>https://www.youtube.com/watch?v=LaSKUArhHnE</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>EXTRAER TEXTOS</title>        
@@ -43,16 +35,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>EXTRAER TEXTOS; PROHIBIR DUPLICADOS</title>        
 <urlsolve>https://www.youtube.com/watch?v=mv-oD5h0sPk</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>AUTO-RRELLENO PERSONALIZADO</title>        
@@ -61,16 +49,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>FECHAS DE VENCIMIENTO</title>        
 <urlsolve>https://www.youtube.com/watch?v=UhWT3qRSW5A</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>EXTRAER DATOS ÚNICOS</title>        
@@ -79,16 +63,12 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>QUITAR ESPACIOS REPETIDOS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=1&v=tsHbYpEAHOk</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>CONVERTIR COLUMNAS A FILAS</title>        
@@ -97,8 +77,6 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>ELIMINAR FILAS O CELDAS VACIAS</title>        
 <urlsolve>https://www.youtube.com/watch?time_continue=2&v=gX-_6LLW9tg</urlsolve>
@@ -106,83 +84,65 @@
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>NUEVO ESTILO DE CELDA</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=F8U-SUgEY2g</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>PERSONALIZAR BOTONES</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?time_continue=16&v=AWgx0rNtu8c</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>CONCATENAR TEXTOS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=qxDko5P_j5I</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>OCULTAR DATOS EN CELDAS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=bWfwwBpSg84</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>CONVERTIR A MINÚSCULAS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=frCPrSDz-nI</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>PALABRAS INICIANDO CON = </title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=VZCSB3mPRYQ</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>FIJAR REFERENCIA (Ej. $A$1)</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=Bl0m__IBw08</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
 <title>FILTROS AVANZADOS</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=djY65FogQ4U</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
 <item>
 <title>VERIFICAR ORTOGRAFÍA</title>        
-<urlsolve></urlsolve>
+<urlsolve>https://www.youtube.com/watch?v=FgRsdr2DmVo</urlsolve>
 <thumbnail>https://dapencentroestudios.com/wp-content/uploads/2016/04/Cursos-Informatica-Valencia-1.png</thumbnail>
 <fanart></fanart>
 </item>
