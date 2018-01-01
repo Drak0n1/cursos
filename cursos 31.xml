@@ -1,4 +1,118 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR blue]AVATAR -[/COLOR][COLOR  red] LA LEYENDA DE KORRA[/COLOR][COLOR yellow][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-korra-13646/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-korra-13646/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR gold]AVATAR -[/COLOR][COLOR  red] LA LEYENDA DE AANG[/COLOR][COLOR yellow][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-aang-13581/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-aang-13581/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  gold]IRON[/COLOR][COLOR red]MAN[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://i.ytimg.com/vi/pN56bCLUt8A/maxresdefault.jpg</fanart>
+<thumbnail>http://www.funpub.net/poze/mare/IronMan-CivilWar_1265721750.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/kaos/ironman-anime-87916</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/kaos/ironman-anime-87916</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/10681.jpg</fanart>
+<thumbnail>http://images.yodibujo.es/_uploads/_tiny_galerie/20130624/vign-ironman-vwk_69c.jpg</thumbnail>
+</item>
 	
 <item>
 		<title>[COLOR skyblue]DRAGON BALL[/COLOR]</title>
@@ -476,6 +590,84 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
+<title>[COLOR yellow][/COLOR][COLOR  skyblue]DC[/COLOR][COLOR red]ANIME[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/plague_666/dc-peliculas-animadas-19574/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/plague_666/dc-peliculas-animadas-19574/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  skyblue]FULLMETAL[/COLOR][COLOR yellow] ALCHEMIST[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart></fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Lion/fullmetal-alchemist-latino-10474/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Lion/fullmetal-alchemist-latino-10474/list,1,3</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart></fanart>
+<thumbnail></thumbnail>
+</item>
+
+<!--
+
+<item>
 <title>[COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR yellow][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -512,3 +704,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart></fanart>
 <thumbnail></thumbnail>
 </item>
+
+-->
