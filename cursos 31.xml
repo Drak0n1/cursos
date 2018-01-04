@@ -8,8 +8,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://1.bp.blogspot.com/-0QqGeNZSifc/UpCiy12tuGI/AAAAAAAAEZY/XFI1WXB8__g/s1600/the-legend-of-korra.jpg</fanart>
+<thumbnail>http://3.bp.blogspot.com/-oQl4h6LWByY/T-jZ9qIE51I/AAAAAAAAAM4/MzRB7Q_dR9c/s400/tumblr_ly71ety0WY1qhsk2co1_500.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-korra-13646/list,1,2</page>
@@ -34,8 +34,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://image.tmdb.org/t/p/w1000/44wIWnwIE9hS1U58doM7VGiXocj.jpg</fanart>
+<thumbnail>https://www.animeado.net/wp-content/uploads/2015/08/La-leyenda-de-Korra.jpg</thumbnail>
 </item>
 
 <item>
@@ -46,8 +46,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://i.ytimg.com/vi/RFsf1xOPzuM/maxresdefault.jpg</fanart>
+<thumbnail>https://k31.kn3.net/40D8B8EEC.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/blusend/avatar-la-leyenda-de-aang-13581/list,1,3</page>
@@ -72,8 +72,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://static.vix.com/es/sites/default/files/styles/large/public/t/the-last-airbender.jpg?itok=I_LyIPuW</fanart>
+<thumbnail>http://img.animemovil.com/portadas/avatar-la-leyenda-de-aang-audio-espanol.jpg</thumbnail>
 </item>
 
 <item>
@@ -597,8 +597,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.webutilidad.com/wp-content/uploads/2013/04/DC_Universe_Online_jam_by_Xionice.jpg</fanart>
+<thumbnail>https://4.bp.blogspot.com/-OT4ynA94tx8/UfdsUNHEyXI/AAAAAAAAjKM/fYtwfxAg7dM/s640/villains+dc.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/plague_666/dc-peliculas-animadas-19574/list,1,2</page>
@@ -623,8 +623,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://vignette3.wikia.nocookie.net/comicdc/images/9/97/Guerra_de_la_Trinidad.jpg/revision/latest/scale-to-width-down/2000?cb=20131207025416&path-prefix=es</fanart>
+<thumbnail>https://i.pinimg.com/originals/6b/ff/75/6bff758606701e3579ec19ec08c996de.jpg</thumbnail>
 </item>
 
 <item>
@@ -635,8 +635,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://img1.meristation.as.com/files/imagenes/general/fma_brotherhood_by_link_leob-d5pv9m7.png</fanart>
+<thumbnail>https://myanimelist.cdn-dena.com/images/anime/10/75815.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Lion/fullmetal-alchemist-latino-10474/list,1,3</page>
@@ -661,8 +661,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://s4.thingpic.com/images/mg/NDbGYnzUGevQYZPn6ar6a8r2.png</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/9/9c/Fullmetal_Alchemist_Brotherhood.jpg</thumbnail>
 </item>
 
 <item>
@@ -673,8 +673,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://i1-news.softpedia-static.com/images/news2/street-fighter-v-out-on-pc-and-playstation-4-with-cross-platform-multiplayer-500469-2.jpg</fanart>
+<thumbnail>https://ugc.kn3.net/i/origin/http://media02.hongkiat.com/street-fighter-tribute/Street-Fighter-no-3-COVER-by-alvin-lee.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/naredo/street-fighter-serie-animada-68763/list,1,2</page>
@@ -699,8 +699,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://orig08.deviantart.net/cacf/f/2009/006/6/4/street_fighter_iv_chun_li_v2_by_neal2k.jpg</fanart>
+<thumbnail>https://www.tenvinilo.com/vinilos-decorativos/img/large/vinilo-infantil-dibujo-ken-street-fighter-3292.jpg</thumbnail>
 </item>
 
 <item>
@@ -711,8 +711,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://images4.alphacoders.com/115/115506.jpg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Virtua_Fighter_3_flyer.jpg/220px-Virtua_Fighter_3_flyer.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/naredo/virtua-fighter-serie-animada-68754/list,1,2</page>
@@ -737,8 +737,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://images4.alphacoders.com/115/115506.jpg</fanart>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Virtua_Fighter_3_flyer.jpg/220px-Virtua_Fighter_3_flyer.jpg</thumbnail>
 </item>
 
 <item>
@@ -749,8 +749,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://www.animenachrichten.de/wp-content/uploads/2017/12/tenjotenge.jpg</fanart>
+<thumbnail>https://vignette.wikia.nocookie.net/enanimanga/images/0/00/Tenjou_Tenge.jpg/revision/latest/scale-to-width-down/250?cb=20140205231546</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/naredo/tenjou-tenge-42209/list,1,2</page>
@@ -775,8 +775,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.1zoom.me/big/14/48011-hakufu.jpg</fanart>
+<thumbnail>http://images6.fanpop.com/image/polls/1340000/1340072_1391762978871_full.jpg?v=1391764127</thumbnail>
 </item>
 
 <!--
