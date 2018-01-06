@@ -2479,7 +2479,7 @@
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
 <fanart>https://www.range365.com/sites/range365.com/files/styles/2000_1x_/public/images/2017/07/robocophero.png?itok=Ph-afKJ6&fc=50,50</fanart>
-<thumbnail>https://pics.filmaffinity.com/robocop_2-771368040-mmed.jpg</thumbnail>
+<thumbnail>http://www.writeups.org/wp-content/uploads/Robocop-movie-Peter-Weller-Cyborg.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-2-hd-97528</page>
@@ -2505,7 +2505,7 @@
 <cookieJar></cookieJar>
 </regex>
 <fanart>https://www.range365.com/sites/range365.com/files/styles/2000_1x_/public/images/2017/07/robocophero.png?itok=Ph-afKJ6&fc=50,50</fanart>
-<thumbnail>https://pics.filmaffinity.com/robocop_2-771368040-mmed.jpg</thumbnail>
+<thumbnail>https://vignette.wikia.nocookie.net/vsbattles/images/4/45/RoboCop_Apro319.png/revision/latest?cb=20160402134346</thumbnail>
 </item>
 
 <item>
