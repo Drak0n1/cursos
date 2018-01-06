@@ -2441,11 +2441,11 @@
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
 <fanart>https://www.actuall.com/wp-content/uploads/2017/06/robocop.jpg</fanart>
-<thumbnail></thumbnail>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91IZIG74ZiL._SY445_.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-1-97518</page>
-<cookieJar>https://images-na.ssl-images-amazon.com/images/I/91IZIG74ZiL._SY445_.jpg</cookieJar>
+<cookieJar></cookieJar>
 </regex>
 <regex>
 <name>getUrl</name>
