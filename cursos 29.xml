@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR white] [COLOR red]CINE SUPER HÉROES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://pm1.narvii.com/6577/89f63cbd1d5089ae46952289eb0c351b93577eb3_hq.jpg</thumbnail>
+        <fanart>https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2014/08/07/calendario_1024_0.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SHIRKAM/super-heroes-76873/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SHIRKAM/super-heroes-76873/list,1,2</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.nolapeles.com/wp-content/uploads/2015/02/avengers-era-de-ultron-poster-2015.jpg</thumbnail>
+<fanart>http://www.bolsamania.com/cine/wp-content/uploads/2015/09/194.jpg</fanart>
+<info>Todo super héroes</info>
+</item>
+
+<item>
+<title>[COLOR yellow]HARRY[/COLOR][COLOR  skyblue] POTTER[/COLOR][COLOR yellow][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://i.espectaculos.televisa.com/2017/11/thumb_a3b453dc-89a3-4a0b-b7de-8c64f6595eae.jpg</fanart>
+<thumbnail>https://resizing.flixster.com/p2MiuYISEMUcVgQ1g0fIbcwgToE=/180x240/v1.bTsxMTMwNDIyNjtqOzE3NjM1OzEyMDA7MTUyMDsyMTUx</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/movies/harry-potter-hdripcompletaespanol-1184</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/movies/harry-potter-hdripcompletaespanol-1184</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://www.mujerhoy.com/multimedia/201709/30/media/Harry-Potter-experiencias/harry-potter-experiencia-1-kkCH--1459x900@MujerHoy.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+</item>
+
+
+<item>
 <title>[B][COLOR white] [COLOR red]JACKIE CHAN[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -78,43 +156,6 @@
 <thumbnail></thumbnail>
 </item>
 -->
-<item>
-<title>[COLOR yellow]HARRY[/COLOR][COLOR  skyblue] POTTER[/COLOR][COLOR yellow][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart>http://i.espectaculos.televisa.com/2017/11/thumb_a3b453dc-89a3-4a0b-b7de-8c64f6595eae.jpg</fanart>
-<thumbnail>https://resizing.flixster.com/p2MiuYISEMUcVgQ1g0fIbcwgToE=/180x240/v1.bTsxMTMwNDIyNjtqOzE3NjM1OzEyMDA7MTUyMDsyMTUx</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/movies/harry-potter-hdripcompletaespanol-1184</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/movies/harry-potter-hdripcompletaespanol-1184</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart>http://www.mujerhoy.com/multimedia/201709/30/media/Harry-Potter-experiencias/harry-potter-experiencia-1-kkCH--1459x900@MujerHoy.jpg</fanart>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
-</item>
 
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  gold] PELICULAS 2016 [/COLOR][COLOR yellow][/COLOR][/B]</title>
@@ -344,44 +385,6 @@
 <thumbnail>https://vhsrevival.files.wordpress.com/2017/10/vhs-collage-e1509024136243.jpg?w=470&h=294</thumbnail>
 </item>
 
-<item>
-<title>[B][COLOR white] [COLOR red]CINE SUPER HÉROES[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>http://pm1.narvii.com/6577/89f63cbd1d5089ae46952289eb0c351b93577eb3_hq.jpg</thumbnail>
-        <fanart>https://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2014/08/07/calendario_1024_0.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/SHIRKAM/super-heroes-76873/list,1,2</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/SHIRKAM/super-heroes-76873/list,1,2</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://www.nolapeles.com/wp-content/uploads/2015/02/avengers-era-de-ultron-poster-2015.jpg</thumbnail>
-<fanart>http://www.bolsamania.com/cine/wp-content/uploads/2015/09/194.jpg</fanart>
-<info>Todo super héroes</info>
-</item>
 
 <item>
 <title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN[/COLOR] (2002) (SD 480)[/B]</title>
@@ -624,13 +627,6 @@
 <info>Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia.</info>
 </item>
 
-
-
-
-
-
-
-
 <item>
 <title>[B][COLOR dodgerblue] [COLOR red]SPIDER-MAN 3[/COLOR] (2007) (HD 1080)[/B]</title>
 <link>$doregex[makelist]</link>
@@ -828,6 +824,45 @@
 <thumbnail>https://2.bp.blogspot.com/-vDtkSM-MtXo/WhAc_lC2bQI/AAAAAAAAGM4/G1JWVdfiI9QoLeUC0ORLHl_H7ksqTUajACLcBGAs/s1600/the_amazing_spider_man_2_rise_of_electro-715327272-large.jpg</thumbnail>
 <fanart>http://www.hobbyconsolas.com/sites/hobbyconsolas.com/public/media/image/2014/04/313560-amazing-spider-man-poder-electro-critica-doble.jpg</fanart>
 <info>Peter Parker lleva una vida muy ocupada, compaginando su tiempo entre su papel como Spider-Man, acabando con los malos, y en el instituto con la persona a la que quiere, Gwen. Peter no ve el momento de graduarse.</info>
+</item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (HD 720)[/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+        <fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
+<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
+<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
 </item>
 
 <item>
@@ -1135,6 +1170,45 @@
 <fanart>http://4.bp.blogspot.com/-xvT5n8dftaw/VLZvxPN9mLI/AAAAAAABEj4/7Q21lw5L5eU/s1600/fantastic-four-2005.jpg</fanart>
 <info>La primera familia de superhéroes de Marvel, los Cuatro Fantásticos, se enfrentan a su mayor reto hasta la fecha cuando un enigmático heraldo intergaláctico, Estela Plateada, llega a la Tierra para prepararla para su destrucción.</info>
 </item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  red]4 FANTASTICOS[/COLOR][COLOR yellow] 2015[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://i.ytimg.com/vi/J1fQgaM38yQ/maxresdefault.jpg</fanart>
+<thumbnail>https://1.bp.blogspot.com/-EoFte4OhSoE/VUXVkrQUx7I/AAAAAAAABxQ/kkXhHlVdr_4/s275/los-4-fantasticos.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/4-fantasticos-2015-97588</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/4-fantasticos-2015-97588</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://i.ytimg.com/vi/3HzuSEWWfgI/maxresdefault.jpg</fanart>
+<thumbnail>https://1.bp.blogspot.com/-EoFte4OhSoE/VUXVkrQUx7I/AAAAAAAABxQ/kkXhHlVdr_4/s275/los-4-fantasticos.jpg</thumbnail>
+</item>
+
 
 <item>
 <title>[B][COLOR gray] [COLOR red]X-MEN[/COLOR] (2000) (SD 480)[/B]</title>
@@ -1927,6 +2001,45 @@
 </item>
 
 <item>
+<title>[B][COLOR white] [COLOR redSUPERGIRL]TITULO[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://3.bp.blogspot.com/-I-HZ-fpmF4k/UWW935YDPaI/AAAAAAAAADU/uyvREyKvV9Y/s1600/supergirl-helen.jpg</thumbnail>
+        <fanart>https://im.ziffdavisinternational.com/ign_es/screenshot/a/aparecera-supergirl-en-el-hombre-de-acero/aparecera-supergirl-en-el-hombre-de-acero_5u2j.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/supergirls-97808</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/supergirls-97808</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://3.bp.blogspot.com/-v5EittlJwms/V6ZK200BNCI/AAAAAAAArFo/WtS4XvbVxdoDHTMiMh5gvdSG0trxmCU7ACLcB/s1600/Supergirl%2B3.jpg</thumbnail>
+<fanart>https://image.tmdb.org/t/p/w1000/7lmeSFL9PD7GqKBXp7PLfKwUrG5.jpg</fanart>
+<info></info>
+</item>
+
+<item>
 <title>[B][COLOR green] [COLOR red]LINTERNA VERDE[/COLOR] (2011) (SD 480)[/B]</title>
 <link>http://streamcloud.eu/2jq1bull52vh</link>
 <thumbnail>https://1.bp.blogspot.com/-yXklcPsreJ0/WhdgQcWfQZI/AAAAAAAAGQ0/38g7AC8KXGsafpuD0CdGNJO_3mYoxLXoQCLcBGAs/s1600/green_lantern-386006142-large.jpg</thumbnail>
@@ -2320,6 +2433,158 @@
 </item>
 
 <item>
+<title>[COLOR yellow][/COLOR][COLOR  red]ROBOCOP[/COLOR][COLOR yellow] 1987[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://www.actuall.com/wp-content/uploads/2017/06/robocop.jpg</fanart>
+<thumbnail></thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-1-97518</page>
+<cookieJar>https://images-na.ssl-images-amazon.com/images/I/91IZIG74ZiL._SY445_.jpg</cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/robocop-1-97518</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://www.actuall.com/wp-content/uploads/2017/06/robocop.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91IZIG74ZiL._SY445_.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  red]ROBOCOP 2[/COLOR][COLOR yellow] 1990[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://www.range365.com/sites/range365.com/files/styles/2000_1x_/public/images/2017/07/robocophero.png?itok=Ph-afKJ6&fc=50,50</fanart>
+<thumbnail>https://pics.filmaffinity.com/robocop_2-771368040-mmed.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-2-hd-97528</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/robocop-2-hd-97528</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://www.range365.com/sites/range365.com/files/styles/2000_1x_/public/images/2017/07/robocophero.png?itok=Ph-afKJ6&fc=50,50</fanart>
+<thumbnail>https://pics.filmaffinity.com/robocop_2-771368040-mmed.jpg</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  red]ROBOCOP 3[/COLOR][COLOR yellow] 1993[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://elabrelata.com/wp-content/uploads/2017/03/rdw9v1y__1486912765.jpeg</fanart>
+<thumbnail>https://vignette.wikia.nocookie.net/robocop/images/1/15/Richard_Eden_as_RoboCop.jpg/revision/latest/scale-to-width-down/250?cb=20151108142633</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-3-hd-1080p-97578</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/robocop-3-hd-1080p-97578</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://elabrelata.com/wp-content/uploads/2017/03/rdw9v1y__1486912765.jpeg</fanart>
+<thumbnail>https://vignette.wikia.nocookie.net/robocop/images/1/15/Richard_Eden_as_RoboCop.jpg/revision/latest/scale-to-width-down/250?cb=20151108142633</thumbnail>
+</item>
+
+<item>
+<title>[COLOR yellow][/COLOR][COLOR  red]ROBOCOP[/COLOR][COLOR yellow] 2014[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>https://vignette.wikia.nocookie.net/video151/images/d/d9/Robocop_OmniCorp%27s_CES_2027_Presentation/revision/latest?cb=20140108162354</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyOTUzMTcxN15BMl5BanBnXkFtZTgwMjkyOTc1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/VerboscientosdonJota/robocop-2014-hd-720p-97576</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/VerboscientosdonJota/robocop-2014-hd-720p-97576</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>https://vignette.wikia.nocookie.net/video151/images/d/d9/Robocop_OmniCorp%27s_CES_2027_Presentation/revision/latest?cb=20140108162354</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyOTUzMTcxN15BMl5BanBnXkFtZTgwMjkyOTc1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
+</item>
+
+<item>
 <title>[B][COLOR gray] [COLOR red]HELLBOY[/COLOR] (2004) (SD 480)[/B]</title>
 <link>http://streamcloud.eu/scihijczrxx7</link>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTc1ZWY0ZTEtZTVmNi00MTg0LTg4NmQtZTI4OWNiMmQ0MWZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UY268_CR6,0,182,268_AL_.jpg</thumbnail>
@@ -2631,15 +2896,15 @@
 </item>
 
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]MUCHAS PELICULAS[/COLOR][COLOR yellow][/COLOR]</title>
+<title>[COLOR yellow][/COLOR][COLOR  skyblue]PELICULAS[/COLOR][COLOR yellow] DE ACCION[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://www.eluniverso.com/sites/default/files/fotos/2017/10/fotonoticia_20171003190019_1920.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/936999729711534081/xW5ryF6x_400x400.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Popo5757/m-62417/list,1,31</page>
@@ -2664,8 +2929,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://images.eonline.com/eol_images/Entire_Site/2017418//rs_1024x575-170518205111-superher.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/profile_images/936999729711534081/xW5ryF6x_400x400.jpg</thumbnail>
 </item>
 
 <items>		
@@ -2826,45 +3091,6 @@
 </item>
 
 --->
-
-<item>
-<title>[B][COLOR white] [COLOR red]SPIDER-MAN: HOMECOMING[/COLOR] (2017) (HD 720)[/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
-        <fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VerboscientosdonJota/spider-man-homecoming-95429</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://1.bp.blogspot.com/-q1tzj2EXzu0/Wgby4QLtsaI/AAAAAAAAGDg/PheXeH7jlTYsyCZBd68J4Qgr5NX-WomAgCLcBGAs/s1600/Spider-Man%2BHomecoming_poster3-thumb-430xauto-67291.jpg</thumbnail>
-<fanart>http://www.comingsoon.net/assets/uploads/2017/01/look-its-spiderman.jpg</fanart>
-<info>Peter (Tom Holland) vuelve a casa emocionado después de su experiencia con los Vengadores en Capitán América: Civil War.</info>
-</item>
 
 <items>
  
