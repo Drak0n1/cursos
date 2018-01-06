@@ -379,24 +379,24 @@
 
  <item>
 <title>[B][COLOR brown]MONOLOGOS[/COLOR][COLOR lime][/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20monologos.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20monologos.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2032.xml</externallink>
 </item>
 
  <item>
 <title>[B][COLOR lime]CONCIERTOS[/COLOR][COLOR lime][/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20conciertos.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20conciertos.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2033.xml</externallink>
 </item>
 
  <item>
 <title>[B][COLOR gold][/COLOR][COLOR lime]MUSICA[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://github.com/Drak0n1/cursos/blob/master/icon%20musica.png?raw=true</thumbnail>
+<fanart>https://github.com/Drak0n1/cursos/blob/master/fanart%20musica.jpg?raw=true</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2034.xml</externallink>
 </item>
