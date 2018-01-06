@@ -187,8 +187,8 @@
 
 <item>
 <title>[B][COLOR white][/COLOR][COLOR green][/COLOR][COLOR yellow][/COLOR][COLOR red]JAVA[/COLOR][COLOR orange][/COLOR][COLOR blue][/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://ignite.apache.org/images/java.png</thumbnail>
+<fanart>http://programacion.net/files/article/20151008061012_java.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2038.xml</externallink>
 </item>
@@ -203,8 +203,8 @@
 
 <item>
 <title>[B][COLOR skyblue]MI PRIMERA PAGINA WEB[/COLOR][/B]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>https://thumbs.dreamstime.com/x/world-wide-web-internet-concept-21962706.jpg</thumbnail>
+<fanart>https://www.solomarketing.es/wp-content/uploads/2017/08/confeccion-y-publicacion-paginas-web.jpg</fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2027.xml</externallink>
 </item>
@@ -379,24 +379,24 @@
 
  <item>
 <title>[B][COLOR brown]MONOLOGOS[/COLOR][COLOR lime][/COLOR][/B]</title>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
-<fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2032.xml</externallink>
 </item>
 
  <item>
 <title>[B][COLOR lime]CONCIERTOS[/COLOR][COLOR lime][/COLOR][/B]</title>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
-<fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2033.xml</externallink>
 </item>
 
  <item>
 <title>[B][COLOR gold][/COLOR][COLOR lime]MUSICA[/COLOR][/B]</title>
-<thumbnail>https://github.com/Drak0n1/cursos/blob/master/logo.png?raw=true</thumbnail>
-<fanart>https://i.ytimg.com/vi/U7pZT4-1Irs/maxresdefault.jpg</fanart>
+<thumbnail></thumbnail>
+<fanart></fanart>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/Drak0n1/cursos/master/cursos%2034.xml</externallink>
 </item>
