@@ -8,8 +8,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://vignette4.wikia.nocookie.net/bigbangtheory/images/b/b5/Alphas-50716bf9b2f33.jpg/revision/latest?cb=20130914213522</fanart>
+<thumbnailhttps://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NTIyODQ4N15BMl5BanBnXkFtZTcwNTA2MzQxOA@@._V1_UY268_CR9,0,182,268_AL_.jpg></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/chicho306/alphas-24401</page>
@@ -34,8 +34,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://mdsrwdassets-a.akamaihd.net/eimg/2017/02/27/1L87AcRmLLzbDEiIDT3FO.jpg?w=1024</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/91O7OI5xhOL._AC_UL320_SR214,320_.jpg</thumbnail>
 </item>
 
 <item>
@@ -46,8 +46,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.todomarvel.cabezascortadas.com/wp-content/uploads/2014/08/AgentCarter.png</fanart>
+<thumbnail>http://www.abc.es/media/series/000/004/015/agente-carter-1.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/spidersense/agente-carter-70777</page>
@@ -72,8 +72,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://okdiario.com/series/img/2016/08/10/original.jpg</fanart>
+<thumbnail>http://e02-elmundo.uecdn.es/television/programacion-tv/img/programas/85/1408901.png</thumbnail>
 </item>
 
 <item>
@@ -122,8 +122,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.tomosygrapas.com/wp-content/uploads/2016/07/agentes_shield_cover.jpg</fanart>
+<thumbnail>http://www.seriespapaya.com/uploads/Agents-of-Shield93.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/trivianita/agents-of-shield-completa-71001/list,1,4</page>
@@ -161,8 +161,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t1-39839</page>
@@ -187,8 +187,122 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]BELLA Y BESTIA[/COLOR][COLOR lime] TEMPORADA 2[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t2-39862</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t2-39862</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]BELLA Y BESTIA[/COLOR][COLOR lime] TEMPORADA 3[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t3-39891</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/bella-y-bestia-t3-39891</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow][/COLOR][COLOR  red]BELLA Y BESTIA[/COLOR][COLOR lime] TEMPORADA 4[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chicho306/bella-y-bestia-t4-33414</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chicho306/bella-y-bestia-t4-33414</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<fanart>http://img.muz1.tv/img/2016-11-21/fmt_94_24_krachud7.jpg</fanart>
+<thumbnail>https://www.ecured.cu/images/thumb/3/3b/Bella_bestia_20284443.jpg/260px-Bella_bestia_20284443.jpg</thumbnail>
 </item>
 
 <item>
@@ -200,7 +314,7 @@
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
 <fanart>https://static5.gamespot.com/uploads/original/1444/14446008/3209448-6+defenders.jpg</fanart>
-<thumbnail></thumbnail>
+<thumbnail>https://i.pinimg.com/736x/07/68/1c/07681cff52c7f4acfd30f5fc188c1481--marvels-daredevil-daredevil-artwork.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/trivianita/daredevil-completa-31743/list,1,2</page>
@@ -225,8 +339,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://media.comicbook.com/2016/07/daredevil-netflix-190285-1280x0.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjYwZDNhMTgtNjEwNS00Y2Y0LTkxYjMtY2MyYTM0NDE1N2ZlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
 </item>
 
 <item>
@@ -237,8 +351,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://okdiario.com/series/img/2016/01/dcs-legends-of-tomorrow.png</fanart>
+<thumbnail>http://olivec.info/uploads/images/default/dcs_legends_of_tomorrow_season_1_poster_-_biggest__battle__ever.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/dc-legends-97019/list,1,2</page>
@@ -263,8 +377,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.dccomics.com/sites/default/files/GalleryTV_1920x1080_LOT_02_569053ec626533.73419395.jpg</fanart>
+<thumbnail>https://vignette.wikia.nocookie.net/arrow/images/2/22/DC%27s_Legends_of_Tomorow_season_3_poster_-_Time...You_Break_It%2C_You_Fix_It.png/revision/latest?cb=20171002223738</thumbnail>
 </item>
 
 <item>
@@ -275,8 +389,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://pbs.twimg.com/media/DC8CT_OWAAA7L6k.jpg</fanart>
+<thumbnail>http://serialfreakers.com/wp-content/uploads/2017/02/halfworlds-02.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/SeriesHD/halfworlds-t1-45709</page>
@@ -301,8 +415,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://2.bp.blogspot.com/-u9qvkez6p78/V1pQ0Fmp1-I/AAAAAAAAOJI/qXBuFJAw9K8we01-zIKEZ1kAFnC8wuAmACLcB/s1600/Halfworlds%2BS2%2Btitle%2Bart.jpg</fanart>
+<thumbnail>https://pbs.twimg.com/media/CWHNhjDUkAE7X4_.jpg</thumbnail>
 </item>
 
 <item>
@@ -313,8 +427,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://www.quienganaria.com/wp-content/uploads/2015/10/Heroes.jpg</fanart>
+<thumbnail>https://pics.filmaffinity.com/heroes_tv_series-207223829-large.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/chinchetas/heroes-castellano-todas-temporadas-39379/list,1,4</page>
@@ -339,8 +453,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/25011.jpg</fanart>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BMjI3ODU0OTQ1MV5BMl5BanBnXkFtZTgwNzI0MTQ2MzE@._V1_UX182_CR0,0,182,268_AL_.jpg</thumbnail>
 </item>
 
 <item>
@@ -351,8 +465,8 @@
   <listrepeat><![CDATA[
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>http://elpalomitron.com/wp-content/uploads/2017/01/Into-the-Badlands-cast_article_story_large.jpg</fanart>
+<thumbnail>http://www.cityonfire.com/wp-content/uploads/2015/07/badlands1.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/trivianita/into-the-badlands-80790</page>
@@ -377,8 +491,8 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://i2.wp.com/images.amcnetworks.com/amc.com/wp-content/uploads/2015/12/into-the-badlands-mk-knight-sunny-wu-quinn-csokas-104-Post-1600x600.jpg?resize=1600%2C600</fanart>
+<thumbnail>http://i66.tinypic.com/2quutfn.jpg</thumbnail>
 </item>
 
 <item>
