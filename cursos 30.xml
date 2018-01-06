@@ -906,7 +906,7 @@
         <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
         <link>$doregex[getUrl]</link>
 <fanart>http://cdn3-www.afterellen.com/assets/uploads/images/samgirl.jpg</fanart>
-<thumbnail>https://m.aceshowbiz.com/webimages/tv/poster/small/50000072.jpg</thumbnail>
+<thumbnail>http://fr.web.img6.acsta.net/medias/nmedia/18/67/07/67/18971171.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/Drak0n/samurai-girl-97846</page>
@@ -932,7 +932,7 @@
 <cookieJar></cookieJar>
 </regex>
 <fanart>http://es.web.img2.acsta.net/medias/nmedia/18/74/08/74/19236909.jpg</fanart>
-<thumbnail>https://o.aolcdn.com/images/dims?resize=270%2C400&quality=70&image_uri=http%3A%2F%2Faolx.tmsimg.com%2Fmovieposters%2Fv7%2FAllPhotos%2F188587%2Fp188587_b_v7_ac.jpg%3Fw%3D270&client=cbc79c14efcebee57402&signature=6c8b805d03f2c0b2fce759f16bd34638f235316a</thumbnail>
+<thumbnail>http://es.web.img3.acsta.net/r_640_600/b_1_d6d6d6/medias/nmedia/18/67/07/67/18971166.jpg</thumbnail>
 </item>
 
 <item>
