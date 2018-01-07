@@ -3017,9 +3017,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
     ret = dialog.select('Ver via:', ['Quasar', 'Torrenter', 'Por defecto'])
-	channels = ['plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 
-	'plugin://plugin.video.torrenter/?action=playSTRM&url=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 
-	'plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent']
+	channels = ['plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.torrenter/?action=playSTRM&url=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent']
     return channels[ret]
 ]]></expres>
 <page></page>
