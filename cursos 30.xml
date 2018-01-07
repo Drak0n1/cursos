@@ -1093,4 +1093,54 @@
 <fanart></fanart>
 </item>
 
+<item>
+<title>[COLOR orange][B][/B] [/COLOR][COLOR white][/COLOR]</title>
+<thumbnail></thumbnail> 
+<fanart></fanart>
+<info></info>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import urlresolver
+    url = '?'
+    try:
+        u = urlresolver.resolve(url)
+    except:
+        u = 'ignore'
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail> 
+<fanart></fanart>
+<page></page>
+</item>
+
+<item>
+<SetViewMode>500</SetViewMode>
+<title>[COLOR orange] [/COLOR][COLOR white][/COLOR]</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info>
+</info>
+<link>$doregex[select]</link>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Ver via:', ['Quasar', 'Torrenter', 'Por defecto'])
+    channels = ['plugin://plugin.video.quasar/play?uri=?', 'plugin://plugin.video.torrenter/?action=playSTRM&url=?', 'plugin://plugin.video.quasar/play?uri=?']
+    return channels[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
 --->

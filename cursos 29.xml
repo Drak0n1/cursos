@@ -3001,6 +3001,30 @@
 </item>
 
 <item>
+<SetViewMode>500</SetViewMode>
+<title>[COLOR red]VALERIAN Y LA [/COLOR][COLOR white]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61JQbpTPa7L._SY445_.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/mV0K3arxvrQ/maxresdefault.jpg</fanart>
+<info>
+</info>
+<link>$doregex[select]</link>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Ver via:', ['Quasar', 'Torrenter', 'Por defecto'])
+    channels = ['plugin://plugin.video.quasar/play?uri=https://files.grantorrent.com/torrents/peliculas/VAlerian_MicroHD.torrent', 'plugin://plugin.video.torrenter/?action=playSTRM&url=https://files.grantorrent.com/torrents/peliculas/VAlerian_MicroHD.torrent', 'plugin://plugin.video.quasar/play?uri=https://files.grantorrent.com/torrents/peliculas/VAlerian_MicroHD.torrent']
+    return channels[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg<</thumbnail>
+<fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
+</item>
+
+<item>
 <title>[COLOR yellow][/COLOR][COLOR  red]VALERIAN Y LA [/COLOR][COLOR yellow]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -3096,10 +3120,21 @@
  
 <item>
 <title>[B][COLOR white] [COLOR red]LIGA DE LA GUSTICIA[/COLOR] (2017)[/B]</title>
+<link>http://streamcloud.eu/a2psqlfs781e</link>
 <link>http://streamcloud.eu/d4l5c4mj4iu7/Liga_De_La_Justicia_Hdts-Screener_720p_2017_Castellano_BDrip_720p_X264.mkv.html</link>
 <thumbnail>https://i0.wp.com/elpalomitron.com/wp-content/uploads/2017/11/LA-LIGA-DE-LA-JUSTICIA.png?resize=640%2C359</thumbnail>
 <fanart>https://i.pinimg.com/originals/cc/7b/ed/cc7bedac0bafb506ed226517ae7058b5.jpg</fanart>
 <info>Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes</info>
+</item>
+<!--
+<items>
+ 
+<item>
+<title>[B][COLOR white]WONDER [COLOR red]WOMAN[/COLOR][/B]</title>
+<link>https://streamango.com/f/cklmecpsddnnmkol/Wonder_woman_2017_1080p-dual-cast_mp4 </link>
+<thumbnail>http://www.mubis.es/media/users/12828/180422/wonder-woman-es-prohibida-en-el-libano-por-la-procedencia-israeli-de-gal-gadot-original.jpg</thumbnail>
+<fanart>https://noescinetodoloquereluce.com/wp-content/uploads/2017/11/wonder-woman-2.jpg</fanart>
+<info></info>
 </item>
 
 <!----
