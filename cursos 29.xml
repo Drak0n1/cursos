@@ -3001,7 +3001,7 @@
 </item>
 
 --->
-
+<!---
  <item>
 <SetViewMode>500</SetViewMode>
 <title>[B][COLOR red]LOS GUARDIANES DE LA GALAXIA[/COLOR][COLOR gold] 2[/COLOR][/B]</title>
@@ -3023,6 +3023,30 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
+</item>
+--->
+<item>
+<SetViewMode>500</SetViewMode>
+<title>[B][COLOR red]LOS GUARDIANES DE LA GALAXIA[/COLOR][COLOR gold] 2[/COLOR][/B]</title>
+<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
+<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
+<info>
+</info>
+<link>$doregex[select]</link>
+<regex>
+<name>select</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    ret = dialog.select('Ver via:', ['Quasar', 'Torrenter', 'Por defecto'])
+    channels = ['plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.torrenter/?action=playSTRM&url=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent']
+    return channels[ret]
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg<</thumbnail>
 <fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
 </item>
 
