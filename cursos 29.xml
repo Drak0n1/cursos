@@ -117,46 +117,6 @@
 <info>Filmografía de Jackie Chan </info>
 </item>
 
-<!---
-<item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue]ARTES MARCIALES[/COLOR][COLOR yellow][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/naredo/artes-marciales-21356/list,1,2</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/naredo/artes-marciales-21356/list,1,2</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<fanart></fanart>
-<thumbnail></thumbnail>
-</item>
--->
-
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  gold] PELICULAS 2016 [/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
@@ -2950,82 +2910,7 @@
 <fanart>http://inyoumagazine.com/wp-content/uploads/2016/10/gyht.jpg</fanart>
 <info>Sin sus poderes, por primera vez, Wolverine es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante. Tercera y última película protagonizada por Hugh Jackman en el papel de Lobezno.</info>
 </item>
-<!--
-<items>
- 
-<item>
-<title>[B][COLOR white] [COLOR red]GUARDIANES DE LA GALAXIA VOL.2[/COLOR] (2017) (SD 480)[/B]</title>
-<link></link>
-<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
-<info>Ambientada en el nuevo contexto sonoro de “Awesome Mixtape #2”, continúa las aventuras del equipo en su travesía por los confines del cosmos.</info>
-</item>
 
-<item>
-<title>[B][COLOR white] [COLOR red]GUARDIANES DE LA GALAXIA VOL.2[/COLOR] (2017) (SD 480)[/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-       <thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer></referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
-<info>Ambientada en el nuevo contexto sonoro de “Awesome Mixtape #2”, continúa las aventuras del equipo en su travesía por los confines del cosmos</info>
-</item>
-
---->
-<!---
- <item>
-<SetViewMode>500</SetViewMode>
-<title>[B][COLOR red]LOS GUARDIANES DE LA GALAXIA[/COLOR][COLOR gold] 2[/COLOR][/B]</title>
-    <thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
-    <info>
-</info>
-<link>$doregex[select]</link>
-<regex>
-<name>select</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui
-    dialog = xbmcgui.Dialog()
-    ret = dialog.select('Ver via:', ['Quasar', 'Torrenter', 'Por defecto'])
-	channels = ['plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.torrenter/?action=playSTRM&url=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent', 'plugin://plugin.video.quasar/play?uri=http://torrentrapid.com/download/98005_guardianes-de-la-galaxia-vol2-bluray-screener-espaa-ol-castellano-2017.torrent']
-    return channels[ret]
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
-<fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
-</item>
---->
 <item>
 <SetViewMode>500</SetViewMode>
 <title>[B][COLOR red]LOS GUARDIANES DE LA GALAXIA[/COLOR][COLOR gold] 2[/COLOR][/B]</title>
@@ -3046,7 +2931,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg<</thumbnail>
+<thumbnail>https://4.bp.blogspot.com/--p6k2EOMPgs/WhAj2DN1cbI/AAAAAAAAGNQ/6DXj9R8sg5watQIlk1C6q7NxTTxa3_HmwCLcBGAs/s1600/36131.jpg</thumbnail>
 <fanart>http://mundokodi.com/wp-content/uploads/2016/10/guardianes.jpg</fanart>
 </item>
 
@@ -3071,7 +2956,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg<</thumbnail>
+<thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
 <fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
 </item>
 
@@ -3113,60 +2998,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
 </item>
 
-<!---
-<items>
- 
-<item>
-<title>[B][COLOR white] [COLOR red]TITULO[/COLOR][/B]</title>
-<link>LINK DEL VIDEO</link>
-<link>LINK DEL VIDEO</link>
-<thumbnail>MINIATURA</thumbnail>
-<fanart>IMAGEN DE FONDO</fanart>
-<info>INFORMACION</info>
-</item>
-
-
-<item>
-<title>[B][COLOR white] [COLOR red]TITULO[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[makelist.param3]</title>
-        <link>$doregex[getUrl]</link>
-        <thumbnail>MINIATURA</thumbnail>
-        <fanart>IMAGEN DE FONDO</fanart>
-]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>LINK(ENLACE) DE LOS VIDEOS</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>LINK (ENLACE)DE LOS VIDEOS</referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>MINIATURA</thumbnail>
-<fanart>IMAGEN DE FONDO</fanart>
-<info>INFORMACION O COMENTARIO SOBRE VIDEO</info>
-</item>
-
---->
-
 <items>
  
 <item>
@@ -3177,26 +3008,3 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.pinimg.com/originals/cc/7b/ed/cc7bedac0bafb506ed226517ae7058b5.jpg</fanart>
 <info>Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes</info>
 </item>
-<!--
-<items>
- 
-<item>
-<title>[B][COLOR white]WONDER [COLOR red]WOMAN[/COLOR][/B]</title>
-<link>https://streamango.com/f/cklmecpsddnnmkol/Wonder_woman_2017_1080p-dual-cast_mp4 </link>
-<thumbnail>http://www.mubis.es/media/users/12828/180422/wonder-woman-es-prohibida-en-el-libano-por-la-procedencia-israeli-de-gal-gadot-original.jpg</thumbnail>
-<fanart>https://noescinetodoloquereluce.com/wp-content/uploads/2017/11/wonder-woman-2.jpg</fanart>
-<info></info>
-</item>
-
-<!----
-<items>
- 
-<item>
-<title>[B][COLOR white] [COLOR red][/COLOR][/B]</title>
-<link>http://streamcloud ........DIRECCION </link>
-<thumbnail>MINIATURA</thumbnail>
-<fanart>IMAGEN DE FONDO</fanart>
-<info>COMENTARIO SOBRE LA PELICULA,SERIE ETC...</info>
-</item>
-
----->
