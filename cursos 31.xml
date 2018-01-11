@@ -818,15 +818,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[B] [COLOR red]LA ESPADA SAGRADA[/COLOR][COLOR white][/COLOR] [/B]</title>
+<title>[B][COLOR red]LA ESPADA SAGRADA [COLOR red][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
-<thumbnail>http://vignette1.wikia.nocookie.net/doblaje/images/6/69/Laespadasagrada.png/revision/latest?cb=20140712195441&path-prefix=es</thumbnail>
-<fanart>http://3.bp.blogspot.com/-ImfBLTk18h0/VLCyWbehA0I/AAAAAAAAB-M/925zW4-tU0g/s1600/Seiken.no.Blacksmith.full.1043366.jpg</fanart>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[makelist.param3]</title> 
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
+        <thumbnail>https://upload.wikimedia.org/wikipedia/en/archive/b/b1/20180104064340%21The_Testament_of_Sister_New_Devil_Vol.1_Blu-Ray.jpg</thumbnail>
+        <fanart>http://3.bp.blogspot.com/-ImfBLTk18h0/VLCyWbehA0I/AAAAAAAAB-M/925zW4-tU0g/s1600/Seiken.no.Blacksmith.full.1043366.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
 <page>http://diskokosmiko.mx/naredo/la-espada-sagrada-35537/list,1,1</page>
@@ -835,7 +835,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>getUrl</name>
 <expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
 <rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
 <referer>http://diskokosmiko.mx/[makelist.param2]</referer>
 <connection>keep-alive</connection>
@@ -847,10 +847,11 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx</referer>
+<referer>http://diskokosmiko.mx/naredo/la-espada-sagrada-35537/list,1,1</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://justdubs.org/sites/default/files/The_Sacred_Blacksmith_Dubbed.png</thumbnail>
+<fanart>http://i.imgur.com/adidyDx.jpg</fanart>
+<info></info>
 </item>	
