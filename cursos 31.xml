@@ -817,21 +817,19 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://www.swordart-onlineusa.com/img/top/main_sao3.jpg</thumbnail>
 </item>
 
-<!--
-
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  skyblue][/COLOR][COLOR yellow][/COLOR]</title>
+<title>[B] [COLOR red]LA ESPADA SAGRADA[/COLOR][COLOR white][/COLOR] [/B]</title>
 <link>$doregex[makelist]</link>
+<thumbnail>http://vignette1.wikia.nocookie.net/doblaje/images/6/69/Laespadasagrada.png/revision/latest?cb=20140712195441&path-prefix=es</thumbnail>
+<fanart>http://3.bp.blogspot.com/-ImfBLTk18h0/VLCyWbehA0I/AAAAAAAAB-M/925zW4-tU0g/s1600/Seiken.no.Blacksmith.full.1043366.jpg</fanart>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <title>[makelist.param3]</title> 
         <link>$doregex[getUrl]</link>
-<fanart></fanart>
-<thumbnail></thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>?</page>
+<page>http://diskokosmiko.mx/naredo/la-espada-sagrada-35537/list,1,1</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -849,12 +847,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>?</referer>
+<referer>http://diskokosmiko.mx</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart></fanart>
 <thumbnail></thumbnail>
-</item>
-
--->
+<fanart></fanart>
+</item>	
