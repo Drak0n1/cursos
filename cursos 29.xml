@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR white]CINE [COLOR red]ARTES MARCIALES[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://4.bp.blogspot.com/-fWI3iSs7lQo/T7PlMK7iwrI/AAAAAAAAKh4/MR30xyOGr6s/s1600/cine+marcial.jpg</thumbnail>
+        <fanart>https://dragonz.es/wp-content/uploads/2016/05/banner-cine-marcial-3.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Drak0n/coleccion-artes-marciales-100775</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Drak0n/coleccion-artes-marciales-100775</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-700vjht8nnQ/TdacdhHHmtI/AAAAAAAAErM/yNv8DuxFnzI/s1600/rachel%2B-grant.JPG</thumbnail>
+<fanart>http://cl.buscafs.com/www.tomatazos.com/public/uploads/images/150027.jpg</fanart>
+<info></info>
+</item>	
+
+<item>
 <title>[B][COLOR white] [COLOR red]CINE SUPER HÉROES[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -383,6 +422,45 @@
 <fanart>https://i2.wp.com/hipertextual.com/files/2014/03/posters-de-peliculas.jpg?resize=670%2C413&ssl=1</fanart>
 <thumbnail>https://vhsrevival.files.wordpress.com/2017/10/vhs-collage-e1509024136243.jpg?w=470&h=294</thumbnail>
 </item>
+
+<item>
+<title>[B][COLOR red]MAS PELICULAS [COLOR red][/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://uscdn02.mundotkm.com/2016/06/Back-To-Back.jpg</thumbnail>
+        <fanart>https://www.ecestaticos.com/imagestatic/clipping/3fc/b99/3fcb997a286c1a907b5317caa9935644/las-mejores-webs-para-descargar-peliculas-musica-y-libros-gratis-y-legal.jpg?mtime=1486144195</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/INTERALIOS/peliculas-4976/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/INTERALIOS/peliculas-4976/list,1,4</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://uscdn02.mundotkm.com/2016/06/Back-To-Back.jpg</thumbnail>
+<fanart>https://www.ecestaticos.com/imagestatic/clipping/3fc/b99/3fcb997a286c1a907b5317caa9935644/las-mejores-webs-para-descargar-peliculas-musica-y-libros-gratis-y-legal.jpg?mtime=1486144195</fanart>
+<info></info>
+</item>	
 
 
 <item>
