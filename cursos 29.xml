@@ -2078,7 +2078,7 @@
 </item>
 
 <item>
-<title>[B][COLOR white] [COLOR redSUPERGIRL]TITULO[/COLOR][/B]</title>
+<title>[B][COLOR white] [COLOR red]SUPERGIRL[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
@@ -3076,7 +3076,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
 <fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
 </item>
-
+<!--
 <item>
 <title>[COLOR yellow][/COLOR][COLOR  red]VALERIAN Y LA [/COLOR][COLOR yellow]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -3114,6 +3114,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
 <thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
 </item>
+-->
 
 <items>
  
