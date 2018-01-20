@@ -265,3 +265,32 @@
 <fanart></fanart>
 <thumbnail></thumbnail>
 </item>
+
+
+<sources>
+    <music>
+        <default pathversion="1"></default>
+        <source>
+            <name>[B][COLOR orange]SALSA[/COLOR][/B]</name>
+            <path pathversion="1">http://www.coreybarksdale.com/Music/Salsa/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>[B][COLOR deepskyblue]PODCAST[/COLOR][/B]</name>
+            <path pathversion="1">http://superstarsgroup.com.ec/podcast/audios/</path>
+            <thumbnail pathversion="1">C:\Users\Victor\AppData\Roaming\Kodi\userdata\backgrounds\121.jpg</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>[B][COLOR pink]HOUSE MIX[/COLOR][/B]</name>
+            <path pathversion="1">http://djmarat.rubyx.eu/mixmp3/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>[B][COLOR crimson]ARTIST[/COLOR][/B]</name>
+            <path pathversion="1">http://27.webmusic.in/music/english/artist/</path>
+            <thumbnail pathversion="1">C:\Users\Victor\AppData\Roaming\Kodi\userdata\backgrounds\45667.jpg</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+    </music>
+</sources>
