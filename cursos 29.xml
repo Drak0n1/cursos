@@ -3076,26 +3076,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
 <fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
 </item>
-<!--
+
 <item>
-<title>[COLOR yellow][/COLOR][COLOR  red]VALERIAN Y LA [/COLOR][COLOR yellow]CIUDAD DE LOS MIL PLANETAS[/COLOR]</title>
+<title>[B][COLOR white] [COLOR red]THOR RAGNAROK[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR yellow] [makelist.param3] [/COLOR]</title>
+        <title>[makelist.param3]</title>
         <link>$doregex[getUrl]</link>
-<fanart>https://i.ytimg.com/vi/mV0K3arxvrQ/maxresdefault.jpg</fanart>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/I/61JQbpTPa7L._SY445_.jpg</thumbnail>
+        <thumbnail>http://s3.foreveryoungadult.com.s3.amazonaws.com/_uploads/images/35098/thordarkworld-poster__span.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/ue80QwXMRHg/maxresdefault.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/Drak0n/valerian-y-la-ciudad-de-los-mil-planetas-100093</page>
+<page>http://diskokosmiko.mx/reymidas/thorthedarkworld-29828</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
 <name>getUrl</name>
 <expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&f=[makelist.param1]</page>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
 <rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
 <referer>http://diskokosmiko.mx/[makelist.param2]</referer>
 <connection>keep-alive</connection>
@@ -3107,14 +3107,14 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/Drak0n/valerian-y-la-ciudad-de-los-mil-planetas-100093</referer>
+<referer>http://diskokosmiko.mx/reymidas/thorthedarkworld-29828</referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<fanart>https://i0.wp.com/hipertextual.com/files/2017/08/valerian_y_la_ciudad_de_los_mil_planetas_luc_besson_1.jpg?resize=1000%2C500&ssl=1</fanart>
-<thumbnail>http://static.hellofriki.com/wp-content/uploads/2017/08/valerian-y-la-ciudad-de-los-mil-planetas-poster-1.jpg</thumbnail>
-</item>
--->
+<thumbnail>https://www.eyecinema.ie/thumb.php?src=/images/thumbs/thor-ragnarok-27.jpg&w=300&h=430&zc=1</thumbnail>
+<fanart>http://www.lascosasquenoshacenfelices.com/wp-content/uploads/2017/07/thor-ragnarok.jpg</fanart>
+<info></info>
+</item>	
 
 <items>
  

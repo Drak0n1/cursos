@@ -432,49 +432,46 @@ def GetLSProData(page_data,Cookie_Jar,m):
 		<thumbnail>https://artfiles.alphacoders.com/887/88742.png</thumbnail>
 		<fanart>https://www.gratistodo.com/wp-content/uploads/2016/07/DragonBall-Super.png</fanart>
 	</item>
-
-<!---	
+	
 	<item>
-		<title>TITULO</title>
-		<link>$doregex[makelist]</link>
-		<regex>
-			<name>makelist</name>
-			<listrepeat><![CDATA[
-			<title>[makelist.param3]</title>
-			<link>$doregex[getUrl]</link>
-			<thumbnail>MINIATURA</thumbnail>
-			<fanart>FANART</fanart>
-			]]></listrepeat>
-			<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-			<page>LINK PAGINA</page>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>getUrl</name>
-			<expres>DownloadUrl":"([^"]+)<expres>
-			<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-			<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-			<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-			<connection>keep-alive</connection>
-			<accept>*/*</accept>
-			<X-Req>XMLHttpRequest</X-Req>
-			<cookieJar></cookieJar>
-		</regex>
-		<regex>
-			<name>tok</name>
-			<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-			<page>http://diskokosmiko.mx/[makelist.param2]</page>
-			<referer>LINK PAGINA</referer>
-			<connection>keep-alive</connection>
-			<cookieJar></cookieJar>
-		</regex>
-		<thumbnail>MINIATURA</thumbnail>
-		<fanart>FANART</fanart>
-		<info></info>
-	</item>
-
-	--->
-
+<title>[B][COLOR white] [COLOR red]GUARDIANES DE LA GALAXIA[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>http://i.imgur.com/C3SWk2c.jpg</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-El3qdC3Kdvk/VoTTlZT15xI/AAAAAAAAq-c/Q8YFvBL8q8g/s1600/guardianes-de-la-galaxia-1.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Nightwing/guardianes-de-la-galaxia-origenes-latino-22701</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Nightwing/guardianes-de-la-galaxia-origenes-latino-22701</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.espaciomarvelita.com/wp-content/uploads/2015/07/poster-guardianes-de-la-galaxia-animada.jpg</thumbnail>
+<fanart>https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/35449.jpg</fanart>
+<info></info>
+</item>	
+	
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  red]INUYASHA[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
