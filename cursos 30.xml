@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
+<title>[B][COLOR white] [COLOR red]ALTERED CARBON[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://lugarnenhum.net/wp-content/uploads/2017/12/altered-carbon-320x320.jpg</thumbnail>
+        <fanart>https://pogd.es/assets/bg/Altered-Carbon.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/altered-carbon-serie-102908</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/altered-carbon-serie-102908</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://lugarnenhum.net/wp-content/uploads/2017/12/altered-carbon-320x320.jpg</thumbnail>
+<fanart>https://seriesblanco.com/files/noticias/5650.jpg</fanart>
+<info></info>
+</item>	
+
+<item>
 <title>[B][COLOR yellow][/COLOR][COLOR  skyblue]ALPHAS[/COLOR][COLOR yellow][/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -532,6 +571,45 @@
 <fanart>https://static5.gamespot.com/uploads/original/1444/14446008/3209448-6+defenders.jpg</fanart>
 <thumbnail>https://www.justwatch.com/images/poster/6117629/s592/marvels-iron-fist</thumbnail>
 </item>
+
+<item>
+<title>[B][COLOR white] [COLOR red]BLACK LIGHTNING[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[makelist.param3]</title>
+        <link>$doregex[getUrl]</link>
+        <thumbnail>https://www.bleedingcool.com/wp-content/uploads/2017/04/BlackLightning.jpg</thumbnail>
+        <fanart>https://i.imgur.com/D8wuFE3.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/Drak0n/black-lightning-103510</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/Drak0n/black-lightning-103510</referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pdjeliclark.files.wordpress.com/2018/01/mv5bmjzizdrjmwytnzdkyy00ywvjltk3mjktnddjndgyngm3yzi3xkeyxkfqcgdeqxvynjm0mdy3mjy-_v1_sy1000_cr006661000_al_.jpg?w=345&h=518</thumbnail>
+<fanart>http://blacklightningpodcast.com/wp-content/uploads/2017/11/Black-Lightning-10104.jpg</fanart>
+<info></info>
+</item>	
 
 <item>
 <title>[B][COLOR yellow][/COLOR][COLOR  skyblue]SMALLVILLE[/COLOR][COLOR yellow][/COLOR][/B]</title>
